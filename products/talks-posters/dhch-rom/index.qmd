@@ -1,0 +1,45 @@
+---
+title: Research Data Management in (Public) History
+author:
+  - name: Moritz Mähr
+    email: moritz.maehr@gmail.com
+    orcid: 0000-0002-1367-1618
+    affiliation: Universität Basel, Universität Bern
+date: 2022-06-15
+categories: Vortrag
+event: Istituto Svizzero di Roma, DHCH@ISR
+lang: de
+bibliography: references.bib
+nocite: |
+  @*
+doi: 10.5281/zenodo.6637118
+citation:
+  type: standard
+  container-title: 'DHCH@ISR: Digital Humanities Methodologies, Istituto Svizzero di Roma'
+appendix-cite-as: display
+other-links:
+  - text: Veranstaltungswebseite
+    icon: house
+    href: 'https://dh-ch.ch/dhch-isr/22/speakers.html'
+  - text: Slides (Zenodo)
+    icon: filetype-pdf
+    href: 'https://doi.org/10.5281/zenodo.6637118'
+---
+
+## Vortrag
+
+Der Vortrag fand im Rahmen der Veranstaltung [DHCH@ISR: Digital Humanities Methodologies](https://dh-ch.ch/dhch-isr/22/speakers.html) am Istituto Svizzero di Roma, ist auf Zenodo archiviert und [als PDF-Datei abrufbar](https://doi.org/10.5281/zenodo.6637118).
+
+::: {.callout-tip title="Präsentation anzeigen" icon="false" collapse="true"}
+
+<iframe src="/assets/files/20220615-Moritz_Mähr-RDM_in_public_history.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Research Data Management in (Public) History">
+
+This browser does not support PDFs. Please download the PDF <a href="/assets/files/20220615-Moritz_Mähr-RDM_in_public_history.pdf">download the PDF</a> to view it.
+
+</iframe>
+:::
+
+
+## Abstract
+
+The production of a comprehensive history of the city of Basel has been underway at the University of Basel since 2018. More than 70 authors are investigating the past 2200 years and preparing 10 volumes for print. In 2017, the Stadt.Geschichte.Basel Foundation, which is carrying out the project, made a commitment to the canton of Basel-Stadt to make the research data available to the public via an online portal. We interpret this commitment as meaning that the research data will be collected, processed and secured for later use and long-term archiving in a first step, before being made available to the general public in a second step. This raises the question - and this is a general problem in historical research - of what research data are and, following on from this, how they can be made accessible. A field report striving to think about epistemological and methodological consequences.

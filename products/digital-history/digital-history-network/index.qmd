@@ -1,0 +1,25 @@
+---
+title: Digital History Network Switzerland
+categories: 'Other'
+date-modified: last-modified
+lang: de
+citation:
+  type: standard
+other-links:
+  - text: Website
+    icon: house
+    href: 'https://www.digitalhistorynetwork.ch/'
+  - text: Mailing List
+    icon: envelope-at
+    href: 'https://www.digitalhistorynetwork.ch/en/subscription'
+---
+
+## Network
+
+Das [Digital History Network Switzerland](https://www.digitalhistorynetwork.ch/) wurde im Frühling 2023 gegründet, um die Sichtbarkeit der digitalen Geschichtsforschung zu erhöhen und den Austausch zwischen akademischen Institutionen, Gedächtnisorganisationen und weiteren Akteuren in diesem Bereich zu fördern. Das Netzwerk bietet eine Plattform für den fachlichen Austausch und stellt Informationen für alle Interessierten bereit. Das Team von **Stadt.Geschichte.Basel** hat aktiv an der Gründung und Entwicklung dieses Netzwerks mitgewirkt.
+
+Ein zentrales Element des Netzwerks ist die [Mailingliste](https://www.digitalhistorynetwork.ch/en/mailinglist), über die regelmässig Neuigkeiten und Informationen aus dem Bereich der digitalen Geschichtsforschung verbreitet werden. Interessierte können sich auf der Webseite für die Mailingliste anmelden und so am laufenden Diskurs teilnehmen.
+
+Das Netzwerk trifft sich ein- bis dreimal jährlich, um Aktivitäten zu planen und zu organisieren. Diese Treffen dienen dem Austausch von Ideen, der Diskussion über Best Practices und der Förderung gemeinsamer Projekte im Bereich der digitalen Geschichtsforschung.
+
+Durch die Zusammenarbeit von **Stadt.Geschichte.Basel** und anderen Partnern trägt das **Digital History Network Switzerland** dazu bei, die digitale Geschichtsforschung in der Schweiz voranzutreiben und eine lebendige Community von Fachleuten und Interessierten zu etablieren. 

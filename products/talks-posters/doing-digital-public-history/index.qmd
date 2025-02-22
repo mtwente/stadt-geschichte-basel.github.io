@@ -1,0 +1,51 @@
+---
+title: Mit Forschungsdaten Public History schreiben
+subtitle: Die Geschichte von Basel ins Netz stellen
+author:
+  - name: Moritz Mähr
+    email: moritz.maehr@gmail.com
+    orcid: 0000-0002-1367-1618
+    affiliation: Universität Basel
+date: 2024-02-02
+categories: Vortrag
+event: 'ZB Zürich, Doing Digital Public History: Forschung und Praxis'
+lang: de
+bibliography: references.bib
+nocite: |
+  @*
+doi: 10.5281/zenodo.10602603
+citation:
+  type: standard
+  container-title: 'ETH Zürich, RSE Meetup'
+appendix-cite-as: display
+other-links:
+  - text: Veranstaltungswebseite
+    icon: house
+    href: 'https://www.zb.uzh.ch/de/events/doing-digital-public-history-forschung-und-praxis?date=662/'
+  - text: Slides (Zenodo)
+    icon: filetype-pdf
+    href: 'https://doi.org/10.5281/zenodo.10602603'
+---
+
+## Vortrag
+
+Die Präsentation fand im Rahmen des Workshops ["Doing Digital Public History": Forschung und Praxis](https://www.zb.uzh.ch/de/events/doing-digital-public-history-forschung-und-praxis?date=662) an der Zentralbibliothek Zürich statt, ist auf Zenodo archiviert und [als PDF-Datei abrufbar](https://doi.org/10.5281/zenodo.10602603).
+
+::: {.callout-tip title="Präsentation anzeigen" icon="false" collapse="true"}
+
+<iframe src="/assets/files/20240202-Moritz_Maehr-Die_Geschichte_von_Basel_ins_Netz_stellen.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Mit Forschungsdaten Public History schreiben: Die Geschichte von Basel ins Netz stellen">
+
+This browser does not support PDFs. Please download the PDF <a href="/assets/files/20240202-Moritz_Maehr-Die_Geschichte_von_Basel_ins_Netz_stellen.pdf">download the PDF</a> to view it.
+
+</iframe>
+:::
+
+## Abstract
+
+Der Vortrag von Dr. sc. Moritz Mähr mit dem Titel "Die Geschichte von Basel ins Netz stellen" befasst sich mit dem digitalen Projekt "Stadt.Geschichte.Basel", das von 2017 bis 2025 an der Universität Basel durchgeführt wird. Es geht darum, die Geschichte Basels von den ersten Siedlungen bis heute umfassend zu erforschen und digital aufzubereiten. Das Projekt wird mit über 9 Millionen Franken finanziert und umfasst ein großes Team, das sich mit Forschungsdatenmanagement und Public History befasst. Ziel ist es, ein Online-Portal zu schaffen, das breiten öffentlichen Zugang zu einer Vielzahl von Daten zur Basler Geschichte bietet. 
+
+Im Fokus stehen dabei verschiedene Arbeitspakete: Die Sicherung der Forschungsdaten, die Entwicklung von showcases zur Darstellung der Daten und die Integration von Suchfunktionen sowie die Vernetzung mit externen Inhalten. Der Vortrag betont die Bedeutung von Research Data Management (RDM) für die Effizienz und Wirkung der Forschung, wobei die Daten nach den FAIR-Prinzipien (Findable, Accessible, Interoperable, Reusable) organisiert werden sollen. 
+
+Besonderes Augenmerk wird auf die Art der genutzten Forschungsdaten (hauptsächlich Text, Bilder und Tabellen) und die verwendeten Werkzeuge und Methoden gelegt. Es wird dargestellt, wie Forschungsdaten für die Öffentlichkeit aufbereitet und als Teil eines Datenökosystems genutzt werden können, wobei Redundanzen vermieden werden sollen.
+
+Zu den aktuellen Projekten gehören eine Plattform für Forschungsdaten, Data Stories, wissenschaftliche Illustrationen, ein Handbuch zur Annotation historischer Quellen und Workflows für offene Forschungsdaten. Abschließend werden einige praktische Aspekte und Best Practices für die Umsetzung des Projekts aufgeführt.

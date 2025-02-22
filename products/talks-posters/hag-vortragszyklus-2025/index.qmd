@@ -1,0 +1,57 @@
+---
+title: Werkstattbericht
+subtitle: Die neue Forschungsdatenplattform der Stadtgeschichte
+author:
+  - name: Moritz Mähr
+    email: moritz.maehr@gmail.com
+    orcid: 0000-0002-1367-1618
+    affiliations:
+      - Universität Basel
+      - Universität Bern
+date: 2025-02-10
+categories: Vortrag
+event: HAG Basel, Vortragszyklus 2024/2025
+lang: de
+bibliography: references.bib
+nocite: |
+  @*
+doi: 10.5281/zenodo.14845483
+citation:
+  type: standard
+  title: "Werkstattbericht. Die neue Forschungsdatenplattform der Stadtgeschichte."
+  container-title: 'Vortragszyklus 2024/2025 der Historisch Antiquarischen Gesellschaft Basel (HAG), Naturhistorisches Museum Basel'
+appendix-cite-as: display
+other-links:
+  - text: 'Veranstalter (Historische Antiquarische Gesellschaft Basel)'
+    icon: house
+    href: 'https://hag-basel.ch/vortragszyklus/'
+  - text: Slides (Zenodo)
+    icon: filetype-pdf
+    href: 'https://doi.org/10.5281/zenodo.14845483'
+---
+
+## Vortrag
+
+Der Vortrag fand im Rahmen des [Vortragszyklus 2024/2025](https://hag-basel.ch/archiv) der Historischen und Antiquarischen Gesellschaft zu Basel statt, ist auf Zenodo archiviert und [als PDF-Datei abrufbar](https://doi.org/10.5281/zenodo.14845483).
+
+::: {.callout-tip title="Präsentation anzeigen" icon="false" collapse="true"}
+
+<iframe src="/assets/files/20250210-Moritz_Maehr-Werkstattbericht.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Werkstattbericht: Die neue Forschungsdatenplattform der Stadtgeschichte">
+
+This browser does not support PDFs. Please download the PDF <a href="/assets/files/20250210-Moritz_Maehr-Werkstattbericht.pdf">download the PDF</a> to view it.
+
+</iframe>
+:::
+
+## Abstract
+
+Die Präsentation „Die Geschichte von Basel ins Netz stellen“ gibt einen Überblick über die neue Forschungsdatenplattform Stadt.Geschichte.Basel. Dieses digitale Projekt basiert auf einem gross angelegten historischen Forschungsprojekt, das 2011 vom Verein Basler Geschichte initiiert und ab 2017 an der Universität Basel umgesetzt wurde. Mit über 70 Forschenden und einer Finanzierung von über neun Millionen Franken untersucht es die Geschichte Basels von den ersten Siedlungsspuren bis in die Gegenwart.
+
+Ein zentrales Ziel des Projekts ist die Schaffung eines Online-Portals, das als langfristig nutzbarer virtueller Speicher für historische Daten dient. Die Plattform ermöglicht eine breite öffentliche Zugänglichkeit und fördert den Dialog mit Geschichtsinteressierten, Forschenden und Studierenden. Dabei wird zwischen zwei Hauptbereichen unterschieden:
+
+* Das Online-Portal für eine breite Öffentlichkeit mit direktem Zugang zu GLAM-Institutionen, Publikationen und narrativen Inhalten.
+* Die Forschungsdatenplattform als nachhaltige Infrastruktur für akademische Forschung, die historische Quellen, Daten und Forschungsergebnisse langfristig verfügbar macht.
+
+Ein interaktiver Walkthrough der Plattform demonstriert zentrale Funktionen, darunter Sammlungsdaten, Bibliographien, Visualisierungen und Geodaten. Die abschliessende Zukunftsperspektive hebt hervor, dass bis Ende 2025 alle Forschungsdaten aufbereitet und publiziert werden sollen, inklusive einer Open-Access-Veröffentlichung der Bände 1 bis 9 in Zusammenarbeit mit der Universitätsbibliothek Basel. Zudem wird die Plattform durch eine langfristige Archivierung der Forschungsdaten im DaSCH und auf ZENODO gesichert.
+
+Diese Initiative verbindet Digital Humanities, Open Access und Public History, um die Stadtgeschichte Basels nachhaltig zugänglich zu machen.

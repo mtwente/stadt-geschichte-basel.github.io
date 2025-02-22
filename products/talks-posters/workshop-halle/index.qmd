@@ -1,0 +1,54 @@
+---
+title: Accessible Public History
+subtitle: 'Digitale Sammlungen mit CollectionBuilder selbst erstellen'
+author:
+  - name: Moritz Mähr
+    email: moritz.maehr@gmail.com
+    orcid: 0000-0002-1367-1618
+    affiliation: Universität Basel
+  - name: Nico Görlich
+    orcid: 0000-0003-3860-1488
+    affiliation: Universität Basel
+  - name: Moritz Twente
+    email: mtwente@protonmail.com
+    orcid: 0009-0005-7187-9774
+    affiliation: Universität Basel
+  - name: Cristina Wildisen-Münch
+    orcid: 0000-0003-3885-248X
+    affiliation: Universität Basel
+date: 2024-09-21
+categories: Workshop
+event: Martin-Luther-Universität Halle-Wittenberg, Tagung Digital History & Citizen Science
+lang: de
+citation:
+  type: standard
+  container-title: 'Tagung Digital History & Citizen Science an der Martin-Luther-Universität Halle-Wittenberg'
+appendix-cite-as: display
+other-links:
+  - text: Veranstaltungswebseite
+    icon: house
+    href: 'https://www.geschichte.uni-halle.de/struktur/hist-data/dh_cs/'
+---
+
+## Workshop
+
+Der Workshop fand im Rahmen der Tagung [Digital History & Citizen Science](https://www.geschichte.uni-halle.de/struktur/hist-data/dh_cs) an der Martin-Luther-Universität Halle-Wittenberg statt.
+
+## Abstract
+
+In diesem Workshop lernen die Teilnehmer:innen CollectionBuilder kennen. CollectionBuilder ist eine benutzerfreundliche Open Source Software zur einfachen Erstellung und Verwaltung von digitalen Sammlungen und Ausstellungen. Mit seinem minimalistischen Ansatz demokratisiert CollectionBuilder Public History. Es gibt Forscher:innen, akademischen und GLAM Institutionen die Möglichkeit, eine übersichtliche Website zur Vermittlung digitaler Ressourcen zu erstellen und zu pflegen, ohne über umfangreiche technische Kenntnisse oder eine entsprechende Infrastruktur verfügen zu müssen.
+
+Das Team von Stadt.Geschichte.Basel nutzt das Tool, um Forschungsdaten des historischen Forschungsprojekts öffentlich zugänglich zu machen. Die Teilnehmenden des Workshops können daher einen umfassenden Einblick in die direkte Anwendung des Tools anhand einer aktuellen Fallstudie erwarten.
+
+### Workshop-Ziele
+
+Die Teilnehmenden werden lernen:
+
+* CollectionBuilder einzurichten und seine Funktionen zu nutzen.
+* Digitale Exponate mit ihren eigenen Forschungsdaten zu erstellen und zu verwalten.
+* Das Potenzial von Open-Source-Tools in der Public History und den Digital Humanities zu verstehen.
+
+### Zielpublikum
+
+Dieser Workshop ist ideal für Historiker:innen, Bibliothekar:innen, Archivar:innen, Studierende der Geisteswissenschaften und Citizen Scientists, die daran interessiert sind, historische Daten online aufzubereiten und zu präsentieren.
+

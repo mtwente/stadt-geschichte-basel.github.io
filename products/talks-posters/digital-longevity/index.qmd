@@ -1,0 +1,41 @@
+---
+title: Digital Longevity
+subtitle: Learnings from the (Digital) History Project Stadt.Geschichte.Basel
+author:
+  - name: Moritz Mähr
+    email: moritz.maehr@gmail.com
+    orcid: 0000-0002-1367-1618
+    affiliation: Universität Basel, Universität Bern
+date: 2023-12-12
+categories: Vortrag
+event: Max-Planck-Institut für Rechtsgeschichte und Rechtstheorie, Legal History Meets Digital Humanities
+lang: de
+bibliography: references.bib
+nocite: |
+  @*
+doi: 10.5281/zenodo.10368874
+citation:
+  type: standard
+appendix-cite-as: display
+other-links:
+  - text: 'Veranstaltungswebsite'
+    icon: house
+    href: 'https://www.lhlt.mpg.de/events/36152/3251077/'
+---
+
+## Vortrag
+
+Der Vortrag fand im Rahmen des Seminars [Legal History Meets Digital Humanities](https://www.lhlt.mpg.de/events/36152/3251077/) des Max-Planck-Instituts für Rechtsgeschichte und Rechtstheorie statt, ist auf Zenodo archiviert und [als PDF-Datei abrufbar](https://doi.org/10.5281/zenodo.10368874).
+
+::: {.callout-tip title="Präsentation anzeigen" icon="false" collapse="true"}
+
+<iframe src="/assets/files/20231212-Moritz_Maehr-Digital_Longevity.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Digital Longevity: Learnings from the (Digital) History Project Stadt.Geschichte.Basel">
+
+This browser does not support PDFs. Please download the PDF <a href="/assets/files/20231212-Moritz_Maehr-Digital_Longevity.pdf">download the PDF</a> to view it.
+
+</iframe>
+:::
+
+## Abstract
+
+This session explores the critical challenge of digital longevity in the field of digital history, with a focus on the public history project Stadt.Geschichte.Basel. It highlights the Endings Project at the University of Victoria, which proposes a comprehensive framework of principles to ensure the sustainability of digital projects. These principles emphasize the importance of open data formats, detailed documentation, rigorous editing, user-centric product design without server-side dependencies, and a strategic release management protocol to mitigate the risks associated with a potential "digital dark age". The Stadt.Geschichte.Basel project exemplifies the application of these principles and demonstrates how a publicly funded digital history initiative can achieve long-term preservation and openness. The project emphasizes the need for ongoing stakeholder engagement, interdisciplinary collaboration, and the application of user-centered design for inclusive and effective user participation. It emphasizes the importance of iterative refinement in the development process to address the technical and organizational complexities inherent in multi-stakeholder settings. By extracting best practices from the Stadt.Geschichte.Basel experience, this session contributes to the discourse on project management in digital history and serves as a guide for creating resilient, user-centered, and sustainably managed digital resources.

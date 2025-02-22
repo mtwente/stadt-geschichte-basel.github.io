@@ -1,0 +1,53 @@
+---
+title: How to Tell a Data Story
+author:
+  - name: Cristina Wildisen-Münch
+    orcid: 0000-0003-3885-248X
+    affiliation: Universität Basel
+  - name: Nico Görlich
+    orcid: 0000-0003-3860-1488
+    affiliation: Universität Basel
+  - name: Moritz Mähr
+    email: moritz.maehr@gmail.com
+    orcid: 0000-0002-1367-1618
+    affiliation: Universität Basel
+date: 2022-10-20
+categories: Poster
+event: Università della Svizzera Italiana, DARIAH-CH Study Day
+lang: de
+doi: 10.5281/zenodo.7193613
+citation:
+  type: standard
+  container-title: "DARIAH-CH Study Day 2022, Università della Svizzera Italiana"
+appendix-cite-as: display
+other-links:
+  - text: 'Veranstaltungswebsite'
+    icon: house
+    href: 'https://www.dariah.eu/2022/06/30/dariah-ch-study-day/'
+  - text: Slides (Zenodo)
+    icon: filetype-pdf
+    href: 'https://doi.org/10.5281/zenodo.7198056'
+  - text: Poster (Zenodo)
+    icon: filetype-pdf
+    href: 'https://doi.org/10.5281/zenodo.7193613'
+
+---
+
+## Poster
+
+Das Poster wurde im Rahmen des [Study Days 2022](https://www.dariah.ch/study-day-2023/) von DARIAH-CH an der Università della Svizzera Italiana in Mendrisio gezeigt, ist auf Zenodo archiviert und [als PDF-Datei abrufbar](https://doi.org/10.5281/zenodo.7198056).
+
+::: {.callout-tip title="Poster anzeigen" icon="false" collapse="true"}
+
+<iframe src="/assets/files/20221020-MuenchWildisen_Goerlich_Maehr-How_to_data_story.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="How to tell a Data Story">
+
+This browser does not support PDFs. Please download the PDF <a href="/assets/files/20221020-MuenchWildisen_Goerlich_Maehr-How_to_data_story.pdf">download the PDF</a> to view it.
+
+</iframe>
+:::
+
+## Abstract
+
+At Stadt.Geschichte.Basel, more than 70 historians research the history of Basel from the Celts to the present. The focus is on current and little-researched topics such as the industrial and commercial history of the 19th and 20th centuries or the history of migration. The city's history is not viewed in isolation, but is interwoven regionally and internationally at the economic, political and cultural levels. It is published in 10 printed volumes. In addition, selected historical aspects are presented in the form of data stories.
+
+To facilitate this process, the Stadt.Geschichte.Basel research data management team has developed a guide. It walks through the questions that led to the development, production and publication of the data story.

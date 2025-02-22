@@ -1,0 +1,46 @@
+---
+title: Research Data Management and Public History
+author:
+  - name: Moritz Mähr
+    email: moritz.maehr@gmail.com
+    orcid: 0000-0002-1367-1618
+    affiliation: Universität Basel
+date: 2023-06-21
+categories: Vortrag
+event: Universität Basel, RISE Internal Lecture Series
+lang: de
+bibliography: references.bib
+nocite: |
+  @*
+doi: 10.5281/zenodo.11106921
+citation:
+  type: standard
+appendix-cite-as: display
+other-links:
+  - text: 'Veranstalter (RISE)'
+    icon: house
+    href: 'https://rise.unibas.ch/'
+---
+
+## Vortrag
+
+Der Vortrag fand im Rahmen der Internal Lecture Series vom Research and Infrastructure Support (RISE) der Universität Basel statt, ist auf Zenodo archiviert und [als PDF-Datei abrufbar](https://doi.org/10.5281/zenodo.11106921).
+
+::: {.callout-tip title="Präsentation anzeigen" icon="false" collapse="true"}
+
+<iframe src="/assets/files/230621-Moritz_Mähr-RISE_internal_lecture.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Research Data Management and Public History">
+
+This browser does not support PDFs. Please download the PDF <a href="/assets/files/230621-Moritz_Mähr-RISE_internal_lecture.pdf">download the PDF</a> to view it.
+
+</iframe>
+:::
+
+## Abstract
+
+The Stadt.Geschichte.Basel project exemplifies an innovative approach to public history through its robust Research Data Management (RDM) strategies and public engagement via digital platforms. This presentation outlines the creation of an online portal, designed as a virtual repository, to make Basel's historical data publicly accessible. It emphasizes the project's mission to maintain continuous public visibility and dialogue with future users even during the project's development.
+
+The presentation discusses specific work packages, including securing the city's historical research data and developing showcases for data presentation. It emphasizes the critical role of RDM in ensuring reproducibility of research through FAIR principles and addresses the gaps in discipline-specific RDM guidelines within the historical sciences.
+
+In addition, the Stadt.Geschichte.Basel initiative incorporates innovative tools and platforms, such as CollectionBuilder and SvelteKit, to facilitate the management and dissemination of research data. The project's efforts in public history will be highlighted through its engagement strategies, which include working with memory institutions and other intermediaries to translate research data into publicly digestible formats.
+
+This talk demonstrates the potential of digital tools and collaborative frameworks to transform urban history research into a dynamic resource for public education and engagement, and sets a precedent for future digital humanities initiatives.

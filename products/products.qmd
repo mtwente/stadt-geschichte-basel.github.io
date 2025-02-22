@@ -1,0 +1,73 @@
+---
+title: "Forschungsdatenmanagement und Public History"
+lang: de
+listing:
+  - id: talks-posters
+    type: table
+    categories: true
+    contents:
+      - talks-posters/*/index.qmd
+    sort: "date desc"
+    sort-ui: false
+    filter-ui: false
+    fields: [date, title, event, categories]
+    field-display-names: 
+      categories: 'Typ'
+      title: 'Titel'
+      event: 'Veranstaltung'
+  - id: digital-history
+    type: grid
+    categories: true
+    contents: digital-history/*/index.qmd
+    fields: [title]
+  - id: coding
+    type: grid
+    contents: coding/*/index.qmd
+    sort: "title desc"
+    fields: [title, subtitle]
+    grid-columns: 2
+  - id: research-data
+    type: grid
+    contents: [research-data/*/index.qmd]
+    fields: [title]
+    grid-columns: 2
+date-modified: last-modified
+---
+
+```{=html}
+<!-- TO DO 
+noch in Produktkategorien einsortieren:
+
+- Data Stories
+- Zotero
+- DMP
+- SGB-Wiki
+- Fails dokumentieren
+
+-->
+```
+
+::: {#frontrow}
+:::
+
+## Coding
+
+::: {#coding}
+:::
+
+## Forschungsdaten
+
+::: {#research-data}
+:::
+
+## Vorträge, Poster und Workshops
+
+Wissenschaftliche Veröffentlichungen, die im Zusammenhang mit dem Forschungsprojekt stehen, sind [auf Zenodo archiviert](https://zenodo.org/communities/stadt-geschichte-basel). Die im Rahmen von Konferenzen und Workshops publizierten Beiträge des Teams für Forschungsdatenmanagement und Public History befassen sich mit der Entwicklung der digitalen Angebote von Stadt.Geschichte.Basel und übergreifend mit (digitalem) Forschungsdatenmanagement und Public History in den Geschichtswissenschaften.
+
+::: {#talks-posters}
+:::
+
+## Community Building
+
+::: {#digital-history}
+:::

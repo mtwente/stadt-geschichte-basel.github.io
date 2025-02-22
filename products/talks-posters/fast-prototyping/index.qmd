@@ -1,0 +1,42 @@
+---
+title: Fast Prototyping
+subtitle: CollectionBuilder's Minimal Computing Approach to Open-Source Collections and Exhibits
+author:
+  - name: Moritz Mähr
+    email: moritz.maehr@gmail.com
+    orcid: 0000-0002-1367-1618
+    affiliation: Universität Basel
+date: 2024-06-04
+categories: Vortrag
+event: ETH Zürich, RSE Meetup
+lang: de
+doi: 10.5281/zenodo.11190199
+citation:
+  type: standard
+  container-title: 'ETH Zürich, RSE Meetup'
+appendix-cite-as: display
+other-links:
+  - text: Veranstaltungswebseite
+    icon: house
+    href: 'https://rse.ethz.ch/events/2024_06_04_meetup_pasc/'
+  - text: Slides (Zenodo)
+    icon: filetype-pdf
+    href: 'https://doi.org/10.5281/zenodo.11190199'
+---
+
+## Vortrag
+
+Der Lightning Talk fand im Rahmen eines [RSE Meetups](https://rse.ethz.ch/) an der ETH Zürich statt, ist auf Zenodo archiviert und [als PDF-Datei abrufbar](https://doi.org/10.5281/zenodo.11190199).
+
+::: {.callout-tip title="Präsentation anzeigen" icon="false" collapse="true"}
+
+<iframe src="/assets/files/20240604-Moritz_Mähr-RSE_Meetup_Lighting_Talk.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Fast Prototyping: CollectionBuilder's Minimal Computing Approach to Open-Source Collections and Exhibits">
+
+This browser does not support PDFs. Please download the PDF <a href="/assets/files/20240604-Moritz_Mähr-RSE_Meetup_Lighting_Talk.pdf">download the PDF</a> to view it.
+
+</iframe>
+:::
+
+## Abstract
+
+In the digital humanities, researchers frequently aspire to create online collections or exhibits but often face challenges in defining their precise needs. This presentation explores CollectionBuilder, a Jekyll-based static site generator, as a solution for these challenges. By leveraging minimal computing principles, CollectionBuilder facilitates rapid prototyping of digital collections while maintaining essential features such as digital longevity, adherence to FAIR principles (findability, accessibility, interoperability, and reusability), enhanced accessibility for diverse audiences, and comprehensive metadata support. The talk will illustrate how CollectionBuilder's simplicity and efficiency, along with its extensive documentation and supportive open-source community, make it an ideal tool for developing sustainable, user-friendly digital humanities projects. Practical examples, including a case study of a project on the history of Basel, will demonstrate the platform's capabilities and effectiveness.

@@ -1,0 +1,46 @@
+---
+title: Werkstattbericht
+subtitle: Das neue Portal der Stadtgeschichte
+author:
+  - name: Moritz Mähr
+    email: moritz.maehr@gmail.com
+    orcid: 0000-0002-1367-1618
+    affiliation: Universität Basel
+date: 2024-03-04
+categories: Vortrag
+event: HAG Basel, Vortragszyklus 2023/2024
+lang: de
+bibliography: references.bib
+nocite: |
+  @*
+doi: 10.5281/zenodo.10780215
+citation:
+  type: standard
+  title: "Werkstattbericht. Das neue Portal der Stadtgeschichte"
+  container-title: 'Vortragszyklus 2023/2024 der Historisch Antiquarischen Gesellschaft Basel (HAG), Naturhistorisches Museum Basel'
+appendix-cite-as: display
+other-links:
+  - text: 'Veranstalter (Historische Antiquarische Gesellschaft Basel)'
+    icon: house
+    href: 'https://hag-basel.ch/archiv/'
+  - text: Slides (Zenodo)
+    icon: filetype-pdf
+    href: 'https://doi.org/10.5281/zenodo.10780215'
+---
+
+## Vortrag
+
+Der Vortrag fand im Rahmen des [Vortragszyklus 2023/2024](https://hag-basel.ch/archiv) der Historischen und Antiquarischen Gesellschaft zu Basel statt, ist auf Zenodo archiviert und [als PDF-Datei abrufbar](https://doi.org/10.5281/zenodo.10780215).
+
+::: {.callout-tip title="Präsentation anzeigen" icon="false" collapse="true"}
+
+<iframe src="/assets/files/20240304-Moritz_Maehr-Werkstattbericht.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Werkstattbericht: Das neue Portal der Stadtgeschichte">
+
+This browser does not support PDFs. Please download the PDF <a href="/assets/files/20240304-Moritz_Maehr-Werkstattbericht.pdf">download the PDF</a> to view it.
+
+</iframe>
+:::
+
+## Abstract
+
+Dr. sc. Moritz Mährs Vortrag "Werkstattbericht: Das neue Portal der Stadtgeschichte" stellt das Projekt "Stadt.Geschichte.Basel" vor, das die Basler Geschichte von den ersten Siedlungen bis heute erforscht und digital präsentiert. Der Schwerpunkt liegt auf dem Online-Portal, das als öffentlich zugänglicher, virtueller Speicher von historischen Daten konzipiert ist. Der Vortrag betont die Rolle von User-Centered Design und Stakeholder Engagement in der Portalentwicklung und adressiert die Herausforderungen der interdisziplinären und institutionenübergreifenden Zusammenarbeit. Abschliessend wird ein Walkthrough des Portals präsentiert, der dessen Funktionen und Benutzererfahrung hervorhebt.

@@ -1,0 +1,55 @@
+---
+title: Karten als boundary objects
+subtitle: 'oder: wie die Arbeit mit Geodaten historische Thesen beeinflussen kann'
+author:
+  - name: Cristina Wildisen-Münch
+    orcid: 0000-0003-3885-248X
+    affiliation: Universität Basel
+  - name: Nico Görlich
+    orcid: 0000-0003-3860-1488
+    affiliation: Universität Basel
+  - name: Moritz Mähr
+    email: moritz.maehr@gmail.com
+    orcid: 0000-0002-1367-1618
+    affiliation: Universität Basel
+  - name: Moritz Twente
+    email: mtwente@protonmail.com
+    orcid: 0009-0005-7187-9774
+    affiliation: Universität Basel
+date: 2023-05-24
+categories: Poster
+event: Humboldt-Universität zu Berlin, Digital History Tagung 2023
+lang: de
+bibliography: references.bib
+doi: 10.5281/zenodo.7960745
+citation:
+  type: standard
+  title: 'Karten als boundary objects, oder: wie die Arbeit mit Geodaten historische Thesen beeinflussen kann'
+  container-title: 'Digital History-Tagung 2023, Humboldt-Universität zu Berlin'
+appendix-cite-as: display
+other-links:
+  - text: Veranstaltungswebseite
+    icon: house
+    href: 'https://dhistory.hypotheses.org/digital-history-tagung-2023'
+  - text: Poster (Zenodo)
+    icon: filetype-pdf
+    href: 'https://doi.org/10.5281/zenodo.7960745'
+---
+
+## Poster
+
+Das Poster wurde auf der [Digital-History-Tagung 2023](https://dhistory.hypotheses.org/digital-history-tagung-2023) an der Humboldt-Universität Berlin präsentiert, ist auf Zenodo archiviert und [als PDF-Datei abrufbar](https://doi.org/10.5281/zenodo.7960745).
+
+::: {.callout-tip title="Poster anzeigen" icon="false" collapse="true"}
+<iframe src="/assets/files/Poster_DH_Berlin_2023.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Karten als boundary objects">
+
+This browser does not support PDFs. Please download the PDF <a href="/assets/files/Poster_DH_Berlin_2023.pdf">download the PDF</a> to view it.
+
+</iframe>
+:::
+
+## Abstract
+
+Karten sind für die Geschichtswissenschaften nicht nur eine wichtige Quellengattung, sondern auch epistemische Werkzeuge [@bertin_semiology_2010; @moretti_graphs_2005; @goodwin_reading_2011]. Karten bieten nicht nur räumliche Orientierung, sie können Verteilungen, Bewegungen und viele andere Sachverhalte in ihrer räumlich und zeitlichen Dimension auf einen Blick verständlich machen. Sie liefern eine visuelle Evidenz, die sich qualitativ grundlegend von Texten, Listen und Tabellen unterscheidet, und können sehr komplexe Zusammenhänge auf kleinem Raum vermitteln. Darüber hinaus dienen sie auch im Forschungsprozess als Ordnungssysteme und helfen so, Hypothesen zu bilden und zu testen. Seit dem Aufkommen von digitalen Geoinformationssystemen hat sich die Arbeit mit Karten grundlegend verändert [@dickmann_einsatzmoglichkeiten_2004; @galgano_doing_2013]. Spatiale Referenzen wie Ortsangaben oder Strassennamen können aus Textquellen extrahiert und mittels Geomapping automatisiert in Längen- und Breitengrade übersetzt werden. Digitale Reproduktionen von alten Karten können georeferenziert werden. Diese Daten können dann kombiniert werden, um Karten zu erstellen, die historische Sachverhalte sehr genau wiedergeben. Auf diese Weise lassen sich Eigentumsverhältnisse, Waren- und Finanzströme oder Veränderungen in Landschaften und Siedlungsgebieten mit relativ wenig Aufwand einprägsam darstellen. Die neuen Werkzeuge und die damit verbundene Arbeitsweise wirkt auf die Forschenden zurück und verändert auch die historischen Fragestellungen [@bodenhamer_chasing_2018; @cole_digital_2021; @during_hermeneutics_2015].
+
+Das Team für Forschungsdatenmanagement des interdisziplinären Forschungsprojekt Stadt.Geschichte.Basel unterstützt über 70 Archäolog:innen und Historiker:innen darin, die Geschichte Basels von den Kelten bis zur Gegenwart zu untersuchen und in zehn Bänden zu veröffentlichen. Dabei unterstützen die Data Stewards die Forschenden auch in allen Belangen, die mit Karten und Geodaten in Zusammenhang stehen.

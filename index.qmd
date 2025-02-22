@@ -1,1 +1,28 @@
-{{< include README.md >}}
+---
+title: "Stadt.Geschichte.Basel RDM"
+subtitle: "Forschungsdatenmanagement und Public History"
+lang: de
+listing:
+  - id: showcase-reel
+    type: grid
+    contents:
+      - products/handbuch/*.qmd
+      - products/showcase-reel.yaml
+    sort-ui: false
+    filter-ui: false
+    fields: [title]
+date-modified: last-modified
+---
+
+Diese Webseite zeigt die Arbeit des Teams für Forschungsdatenmanagement und Public History von Stadt.Geschichte.Basel. Im Fokus steht neben unserer Arbeit mit Forschungsdaten (Erstellung, Annotation, Publikation, Weiterverwendung) die Aufbereitung der Projektinhalte für die digitale Präsentation und Vermittlung. Wir dokumentieren auch projektbezogene Vorträge, Poster und Workshops im Rahmen von wissenschaftlichen Konferenzen sowie unsere Beteiligung an Community Building im Bereich Digital History.
+
+## Produkte
+
+Von unserem Team erarbeitete Lösungen bieten wir als Good-Practice-Beispiele zur Weiterverwendung an, darunter ein Handbuch zur Erstellung diskriminierungsfreier Metadaten für historische Quellen und Forschungsdaten oder Workflows für kollaboratives Projektmanagement oder zur Aufbereitung und Publikation von Forschungsdaten:
+
+::: {#showcase-reel}
+:::
+
+## Stadt.Geschichte.Basel
+
+Wir sind ein interdisziplinäres [Forschungsprojekt](https://stadtgeschichtebasel.ch), das sich der umfassenden Erforschung und Dokumentation der langen Geschichte von Basel widmet. Über 70 Forscher\*innen und Mitarbeiter\*innen aus verschiedenen Ländern untersuchen die Geschichte Basels von den ersten Siedlungsspuren bis heute. Unser Ziel ist es, einen bedeutenden Beitrag zur Erforschung und Dokumentation der Geschichte von Basel zu leisten und gleichzeitig die Vergangenheit auf zeitgemässe Weise zugänglich zu machen.

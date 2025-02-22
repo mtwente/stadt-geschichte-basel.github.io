@@ -1,0 +1,27 @@
+---
+title: Open Research Data Template
+subtitle: Forschungsdaten FAIR veröffentlichen
+author:
+  - name: Moritz Mähr
+    email: moritz.maehr@gmail.com
+    orcid: 0000-0002-1367-1618
+    affiliation: Universität Basel
+date-modified: last-modified
+lang: de
+other-links:
+  - text: Website
+    icon: house
+    href: 'https://maehr.github.io/open-research-data-template/'
+code-links:
+  - href: 'https://github.com/maehr/open-research-data-template/'
+    text: GitHub Repository
+    icon: github
+---
+
+## Open Research Data Template
+
+Das [Open Research Data Template](https://github.com/maehr/open-research-data-template) wurde entwickelt, um Forschenden eine strukturierte und standardisierte Vorlage zur Verwaltung und Veröffentlichung von offenen Forschungsdaten bereitzustellen. Es basiert auf den Best Practices des Projekts *The Turing Way* und integriert Werkzeuge wie GitHub Actions für Automatisierungen, GitHub Pages für die Dokumentation und Zenodo für die Langzeitarchivierung. Ziel ist es, die FAIR-Prinzipien (Findable, Accessible, Interoperable, Reusable) umzusetzen und die Nachnutzbarkeit von Forschungsdaten zu gewährleisten.
+
+Im Rahmen des Projekts [Stadt.Geschichte.Basel](https://stadtgeschichtebasel.ch/) spielt dieses Template eine entscheidende Rolle. Die Plattform hat es sich zur Aufgabe gemacht, die facettenreiche Geschichte Basels durch öffentlich zugängliche Forschungsdaten und sogenannte "Data Stories" einem breiten Publikum näherzubringen. Um diese Daten konsistent, nachvollziehbar und nachhaltig zu präsentieren, wurde das Open Research Data Template implementiert. Es ermöglicht den Forschenden, ihre Daten einheitlich zu strukturieren, umfassend zu dokumentieren und langfristig zu archivieren. Dadurch wird nicht nur die Transparenz und Qualität der historischen Forschung erhöht, sondern auch die Wiederverwendbarkeit der Daten für zukünftige wissenschaftliche Arbeiten sichergestellt.
+
+Durch die Anwendung des Templates können die im Projekt generierten Daten effizient verwaltet und der Öffentlichkeit in einer Weise zugänglich gemacht werden, die sowohl wissenschaftlichen Standards entspricht als auch für Laien verständlich ist. Dies fördert den offenen Austausch von Wissen und trägt dazu bei, die Geschichte Basels auf innovative und interaktive Weise erlebbar zu machen.
