@@ -15,17 +15,27 @@ listing:
       categories: 'Typ'
       title: 'Titel'
       event: 'Veranstaltung'
-  - id: digital-history
-    type: grid
-    categories: true
-    contents: digital-history/*/index.qmd
-    fields: [title]
   - id: coding
     type: grid
     contents: coding/*/index.qmd
     sort: "title desc"
     fields: [title, subtitle]
     grid-columns: 2
+  - id: digital-history
+    type: grid
+    categories: true
+    contents: digital-history/*/index.qmd
+    fields: [title]
+  - id: interna
+    type: grid
+    categories: true
+    contents: interna/*/index.qmd
+    fields: [title]
+  - id: publications
+    type: grid
+    categories: true
+    contents: publications/*/index.qmd
+    fields: [title]
   - id: research-data
     type: grid
     contents: [research-data/*/index.qmd]
@@ -50,6 +60,11 @@ noch in Produktkategorien einsortieren:
 ::: {#frontrow}
 :::
 
+## Publikationen
+
+::: {#publications}
+:::
+
 ## Coding
 
 ::: {#coding}
@@ -70,4 +85,9 @@ Wissenschaftliche Veröffentlichungen, die im Zusammenhang mit dem Forschungspro
 ## Community Building
 
 ::: {#digital-history}
+:::
+
+## Interna
+
+::: {#interna}
 :::
