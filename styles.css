@@ -121,3 +121,11 @@ h1 {
 .callout-header {
 	background-color: #ffe880 !important;
 }
+
+.card {
+	border-radius: 0.2em;
+	&:hover {
+		background-color: #ffe880;
+		border-color: #3a1e3e;
+	}
+}
