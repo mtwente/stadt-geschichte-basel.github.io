@@ -1,0 +1,32 @@
+---
+title: Inklusive Gestaltung
+category: Interna
+author: 
+- name: Cristina Münch
+  affiliation: Universität Basel
+  orcid: 0000-0003-3885-248X
+- name: Nico Görlich
+  affiliation: Universität Basel
+  orcid: 0000-0003-3860-1488
+- name: Moritz Mähr
+  email: moritz.maehr@unibas.ch
+  affiliation: Universität Basel
+  orcid: 0000-0002-1367-1618
+- name: Moritz Twente
+  affiliation: Universität Basel
+  orcid: 0009-0005-7187-9774
+  email: mtwente@protonmail.com
+date: March 2024
+date-format: "MMMM YYYY"
+lang: de-CH
+---
+
+Das Forschungsprojekt *Stadt.Geschichte.Basel* setzt sich für eine möglichst barrierefreie Gestaltung seiner digitalen Angebote ein. Dies betrifft sowohl unsere zentrale Webseite als auch unseren Blog und die sozialen Medien. Inklusives Design zielt darauf ab, digitale Inhalte und Dienstleistungen für alle Menschen zugänglich und nutzbar zu machen, unabhängig von ihren individuellen Fähigkeiten oder Einschränkungen. Durch die Anwendung der Prinzipien Wahrnehmbarkeit, Bedienbarkeit, Verständlichkeit und Robustheit wird sichergestellt, dass Webseiten barrierefrei gestaltet sind. 
+
+## **Barrierefreiheitserklärung**  
+Wir bemühen uns, die Online-Angebote von *Stadt.Geschichte.Basel* gemäss den aktuellen Webstandards und den Anforderungen der Barrierefreiheit zu gestalten. Unsere [Barrierefreiheitserklärung](https://stadtgeschichtebasel.ch/barrierefreiheitserklaerung) beschreibt, welche Massnahmen wir umsetzen, um die Zugänglichkeit zu gewährleisten, darunter die Verwendung barrierefreier Schriftgrössen, kontrastreicher Gestaltungselemente sowie einer klaren Navigationsstruktur. Zudem informieren wir über bestehende Einschränkungen und Möglichkeiten zur Rückmeldung. Falls Sie auf Barrieren stossen oder Verbesserungsvorschläge haben, freuen wir uns über Ihr Feedback über das dort angegebene Kontaktformular.  
+
+## **Richtlinien für den Blog und Soziale Medien**  
+Unsere Inhalte in Blog und sozialen Netzwerken sollen für möglichst viele Menschen zugänglich sein. Deshalb achten wir auf eine verständliche Sprache, die Vermeidung von Fachjargon, alternative Textbeschreibungen für Bilder sowie eine lesefreundliche Formatierung. Zudem stellen wir sicher, dass Videos möglichst mit Untertiteln versehen sind und Verlinkungen eindeutig beschrieben werden. Unsere vollständigen Richtlinien zur Veröffentlichung von Inhalten finden Sie [hier](https://stadtgeschichtebasel.ch/richtlinien-fuer-den-blog-und-soziale-medien).  
+
+Wir arbeiten kontinuierlich daran, unsere Angebote weiter zu verbessern und allen Nutzer\*innen eine barrierefreie Nutzung zu ermöglichen.

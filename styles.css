@@ -122,6 +122,12 @@ h1 {
 	background-color: #ffe880 !important;
 }
 
+.col-centered {
+	float: none;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
 .card {
 	border-radius: 0.2em;
 	&:hover {
