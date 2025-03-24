@@ -36,11 +36,231 @@ Die [Plattform](https://forschung.stadtgeschichtebasel.ch/) befindet sich derzei
 
 Die [Forschungsdatenplattform von Stadt.Geschichte.Basel](https://forschung.stadtgeschichtebasel.ch/) ist eine öffentlich zugängliche digitale Ressource, die darauf abzielt, nachnutzbare Quellen und Daten zur Geschichte der Stadt Basel bereitzustellen. Sie ermöglicht es Forschenden, Studierenden und der interessierten Öffentlichkeit, auf eine Vielzahl von historischen Materialien zuzugreifen, darunter narrative Quellen, historische Texte, Bilder, Karten und audiovisuelle Medien. Diese Vielfalt fördert eine tiefere Auseinandersetzung mit den historischen Themen und unterstützt interdisziplinäre Forschung.
 
+Durch die sorgfältige Aufbereitung lassen sich Themen der Basler Geschichte aus verschiedenen Perspektiven erkunden – sei es über Karten, Zeitachsen oder Schlagwörter. Unser breites Verständnis von Forschungsdaten umfasst nicht nur klassische Daten wie Statistiken, sondern auch narrative Quellen, historische Texte, Bilder, Karten und audiovisuelle Medien.
+
+### Zielgruppe
+
+Zielgruppe: Beschreibung der primären Nutzergruppen der Plattform, wie Wissenschaftler, Studenten, Entscheidungsträger oder die interessierte Öffentlichkeit. Erläutern Sie, wie die Plattform diesen Gruppen nützt.
+
+Forschende, Studierende, interessierte Öffentlichkeit
+Geschichten und Forschungsdaten auf innovative und zugängliche Art und Weise präsentieren
+
+## Aufgabenstellung
+
+> "Ein Online-Portal. Es ist als virtueller Speicher konzipiert, der öffentlichen Zugang zu einem breiten Spektrum an Daten zur Basler Geschichte (...) bietet. Das Portal wird so konzipiert und organisatorisch eingebunden, dass es nach Ende der achtjährigen Projektlaufzeit weitergeführt und kontinuierlich aktualisiert werden kann.
+- Die kontinuierliche, öffentliche Sichtbarkeit und der Dialog mit den zukünftigen Nutzerinnen und Nutzern einer Stadtgeschichte sind wichtige Anliegen des Projekts. (...)"<br><br>
+> Auszug aus Vertrag zwischen dem Kanton Basel-Stadt und der Stiftung Stadt.Geschichte.Basel vom 31.7.17
+
+## Ziele
+
+> Research Data Management (RDM) bezieht sich auf die Organisation, Speicherung und Aufbewahrung für alle digitalen Objekte, die während eines Forschungsprojekts entstehen. Es umfasst die initiale Planung, die laufenden Prozesse und die langfristige Archivierung und Weitergabe.
+- RDM ist entscheidend für reproduzierbare Forschung. Es sorgt für Effizienz in den Forschungsabläufen und für eine grössere Reichweite und Wirkung, da die Daten FAIR (Findable, Accessible, Interoperable and Reusable) werden.<br><br>
+> auch in Template-Seite einbauen
+
+weiteres Tool mit kleinerem Aktionsradius: [ORD Template](../ord-template/index.qmd)
+
+## Datenerstellung
+
 Die Datenaufbereitung erfolgt gemäss dem [Handbuch für diskriminierungsfreie Metadaten](/products/publications/handbuch/index.qmd), um eine inklusive und respektvolle Darstellung sicherzustellen.
+
+Arten von Quellen: Bilder, Karten, Tabellen, bibliografische Angaben.
+siehe [Geodaten](../../research-data/geodata/index.qmd), [Stat](../../research-data/plots/index.qmd) etc.
+
+Unter https://forschung.stadtgeschichtebasel.ch/ werden die Forschungsdaten der SGB über eine intuitive Benutzeroberfläche Forschenden, Studierenden und Interessierten zur Verfügung gestellt. Jedes Datum (eine Quelle, eine Foto, eine Illustration, ein Datensatz etc.) wird mit Metadaten versehen, im Vier-Augen-Prinzip von Fachleuten geprüft, langzeitarchiviert und veröffentlicht. Die Daten können frei heruntergeladen werden und verweisen auf andere Informationsquellen und Vermittlungsangebote. Die Stadt.Geschichte.Basel nimmt auch Daten anderer Projekte auf, insofern ein Bezug zu Basel gegeben ist. Entsprechende Richtlinien für die Aufnahme fremder Daten befindet sich in Entwicklung und wird zum gegebene Zeitpunkt unter https://github.com/stadt-geschichte-basel öffentlich gemacht.
+Darüber hinaus finden sich auf der Plattform folgende Informationsangebote:
+	•	Bibliografie
+	•	Data Stories
+	•	Universitäre Forschungsprojekte
+
+## Bedienung/Nutzung
+
+Funktionsweise: Eine detaillierte Beschreibung der Funktionalitäten der Plattform. Dazu gehören Datenupload, Suchfunktionen, Datenausgabeformate, Visualisierungstools, Interaktivitätselemente und alle speziellen Features, die für die Analyse oder Präsentation der Daten relevant sind.
+
+Datenzugang und -nutzung: Informationen darüber, wie man auf die Daten zugreift, einschließlich Registrierungsprozessen, Zugriffsbeschränkungen oder Lizenzinformationen. Es sollte klar sein, ob die Daten frei zugänglich sind (Open Access) oder bestimmte Nutzungsbedingungen haben.
+
+Open Access
+CC-BY-SA. 4.0
+
+Fehler melden
+
+
+## Datenschutz/Sicherheit
+
+Datenschutz und Sicherheit: Erklärung der Maßnahmen zum Schutz der Datenintegrität und der Privatsphäre der Nutzer, insbesondere wenn personenbezogene Daten betroffen sind.
+
+## Plattformarchitektur
+**Beispiel: Upload einer Landkarte mit Geodaten**
+
+SGB additions to CB: see Readme
+
+Bereitstellung PDF1+PDF2 für Druck 
+
+Erstellung/Bereitstellung/... der Objekte für Online
+Annotation der Objekte/Erstellung von Metadaten
+  >> Parent Object + Metadaten
+  >> Child Object PDF1 + Metadaten
+  >> Child Object PDF2 + Metadaten
+  >> Child Object GEO + Metadaten
+
+Erstellung Parent-Object auf Omeka
+Hinzufügen Metadaten auf Omeka-Server
+
+Upload Objekte auf Omeka-Server
+Hinzufügen Metadaten auf Omeka-Server
+
+Data Processing Script Omeka > CSV
+  Create CSV
+  Upload CSV to CB
+  Upload Objects to CB GH Repository
+
+Setup Ruby, setup Pages
+  CB GH Repository
+
+build with Jekyll
+  > CSS styling
+  > Libraries: leaflet etc.
+
+Deploy to GH Pages environment
+
+mermaid element types
+* storage/database: 
+
+```{mermaid fig-fdp}
+flowchart TD
+    D1 --> Abbildung
+
+    subgraph Grafik
+        G1(Regieanweisung) <--> Abbildung
+        subgraph Abbildung
+        G5(PDF1)
+        G6(PDF2)
+        end
+        Abbildung -->|m17308_1| G8
+        Abbildung -->|m17308_2| G8
+        Abbildung --> G7(Aufbereitung zum Druck)
+        Abbildung --> G4(Metadatenerstellung)
+        G4 -->|abb17308| G8(Vorbereitung zum Upload)
+    end
+
+    G7 --> G9(icona)
+
+    G1 --> D4
+
+    subgraph Daten
+      D2(Basiskarten) --> D1(Geodaten)
+      D4(Historisches\nKartenmaterial) -->|Georeferenzierung| D1
+      D1 -->|m17308_3| D5(Vorbereitung zum Upload)
+    end
+```
+
+
+
+```{mermaid fig-Workflow}
+flowchart TD
+
+    subgraph Resources
+        RN1 --> RN5([Zotero Bibliography])
+        RN1[(<br>Literature Research)] --->|Objects| RN3[Wikidata]
+        
+        RN2[("<br>Federal Register<br>of Buildings and Dwellings")] --->|Features| RN3
+
+        DOC2 --> DOC4[Object Resources Collection]
+        DOC3 -->|Records| DOC4
+        DOC1[("<br>Survey (2024)")] -->|Photos| DOC2([Wikimedia Commons])
+        DOC3[(<br>SBB Historic)] -. Photos .-> DOC2
+        DOC5[(<br>YouTube,<br>Flickr, ...)] --->|Photos/Videos| DOC4
+
+        DOC2 -->|Annotation| DOC2
+    end
+
+    subgraph Geodata
+        direction LR
+        RN6 -->|External Renderer| RN7([3D Models])
+        RN6[OpenStreetMap] -->|OSMnx Download| RN8["Analysis<br> (Jupyter Notebook)"]
+        RN8 -->|momepy Analysis| RN8
+
+    end
+
+    RN13 --> RN14
+    RN3 <-->|Cross-Reference| RN6
+    RN3 -->|Object Data| RN13
+    RN8 -->|PDF<br>GeoJSON<br>Jupyter Notebook| RN9
+    RN8 -->|Leaflet Map| CB2
+    RN8 -->|Description| CB2
+
+
+    subgraph Data Storage
+
+        RN9["maxvogt-analysis <br>(GitHub Repository)"]
+        RN9 -->|Quarto| RN11[Online<br>Documentation]
+        RN9 --> RN10[Zenodo]
+
+
+        RN14[CollectionBuilder] --> RN12["maxvogt <br>(GitHub Repository)"]
+        RN13[Metadata CSV] --> RN12
+
+
+        RN12 --> RN10
+
+
+    end
+
+    RN14 -->|Collection Items| CB2
+
+    DOC4 --> RN13
+
+    DOC1 --> RN6
+    DOC1 --> RN3
+
+    subgraph Presentation
+        CB3([Poster])
+        CB2([Website])        
+    end
+
+  style RN1 fill:#D9CCE3
+  style RN2 fill:#D9CCE3
+  style DOC1 fill:#D9CCE3
+  style DOC2 fill:#F6C141
+  style DOC3 fill:#D9CCE3
+  style DOC4 fill:#7BAFDE
+  style DOC5 fill:#D9CCE3
+  style RN3 fill:#7BAFDE
+  style RN5 fill:#F6C141
+  style CB2 fill:#F6C141
+  style RN6 fill:#7BAFDE
+  style RN7 fill:#F6C141
+  style RN8 fill:#90C987
+  style RN10 fill:#F7F056
+  style RN9 fill:#F7F056
+  style RN12 fill:#F7F056
+  style CB3 fill:#F7F056
+```
+
+
+Technologische Infrastruktur: Eine Übersicht über die technische Infrastruktur und Plattformarchitektur, insbesondere wenn dies für Ihre Zielgruppe von Interesse ist. Dazu können Informationen über Server, Datenbankmanagement, Programmiersprachen und Frameworks gehören.
+
+CollectionBuilder https://collectionbuilder.github.io/
+Mitwirkungsmöglichkeiten: Anleitung, wie Nutzer eigene Daten beitragen, Feedback geben oder an der Weiterentwicklung der Plattform teilnehmen können.
 
 Das zugehörige [GitHub-Repository](https://github.com/Stadt-Geschichte-Basel/forschung.stadtgeschichtebasel.ch/) enthält den Quellcode der Plattform und bietet Einblicke in die technische Umsetzung. Es basiert auf dem "CollectionBuilder-CSV"-Framework und ist unter der MIT-Lizenz veröffentlicht, was die offene Weiterentwicklung und Anpassung durch die Community ermöglicht. Interessierte Entwickler\*innen und Forschende können hier den Code einsehen, Beiträge leisten oder die Struktur für eigene Projekte adaptieren.
 
-Insgesamt dient die Forschungsdatenplattform als wertvolles Werkzeug, um die reichhaltige Geschichte Basels zugänglich zu machen und den offenen Austausch von Wissen zu fördern.
+## Support
+
+Support und Ressourcen: Informationen über Unterstützungsmöglichkeiten, wie Benutzerhandbücher, FAQs, Kontaktinformationen für technischen Support oder Schulungsressourcen.
+https://collectionbuilder.github.io/cb-docs/
+
+## Ressourcen
+
+https://endings.uvic.ca/principles.html Endings Principles
+https://go-dh.github.io/mincomp/about/ Minimal Computing
+https://docs.google.com/document/d/1Nd1MOvX0ENzLIoeFbRb3vgbWvFqA29IXkHttru7S3fI/edit?tab=t.0#heading=h.4vvl4pnrukub SGG Datenstandards
+https://www.contributor-covenant.org/version/2/1/code_of_conduct/ Contributor Covenant
+https://www.dfg.de/de/grundlagen-themen/grundlagen-und-prinzipien-der-foerderung/gwp DFG wiss Praxis
+
+https://www.go-fair.org/fair-principles/ FAIR
+
+
+---
 
 ## Datenmodell
 
