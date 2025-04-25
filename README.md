@@ -14,15 +14,85 @@ This repository contains the documentation of the work of the team for research 
 The structure of this repository follows the [Advanced Structure for Data Analysis](https://the-turing-way.netlify.app/project-design/project-repo/project-repo-advanced.html) of _The Turing Way_ and is organized as follows:
 
 - `assets/`: Images, figures, and other media files.
+- `docs/`: Documentation files, including the main README and other markdown files.
 - `products/`: The final products of the project, such as reports, papers, or presentations.
+- `renv/`: The R environment for the project, including package dependencies and versions.
 
-## Installation
+## Getting Started
 
-Install [Node.js](https://nodejs.org/en/download/package-manager) and [Quarto](https://quarto.org/docs/get-started/). Run the following commands in the root directory of the repository:
+We recommend using **GitHub Codespaces** for the easiest and fastest setup. It gives you a pre-configured, cloud-based development environment with everything ready to go — directly in your browser.
+
+### 🚀 Quick Start with GitHub Codespaces
+
+1. **Fork this repository** to your GitHub account (if needed).
+
+<div align="center">
+  <img src="docs/assets/img_fork.png" alt="Fork the repository" style="width: 540px; margin: 1em 0;" />
+</div>
+
+2. Click the green **`<> Code`** button at the top right of this repository.
+
+3. Select the **“Codespaces”** tab and click **“Create codespace on `main`”**.
+
+<div align="center">
+  <img src="docs/assets/img_codespace.png" alt="Create Codespace" style="width: 540px; margin: 1em 0;" />
+</div>
+
+4. GitHub will now build a container that includes:
+
+   - ✅ Node.js (via `npm`)
+   - ✅ Python with `uv`
+   - ✅ R with `renv`
+   - ✅ Quarto
+
+5. Once the Codespace is ready, you can preview the documentation locally inside the Codespace with:
+
+   - **Open a terminal** in the Codespace (Terminal > New Terminal).
+   - **Run the following command** to install all dependencies and preview the project:
 
 ```bash
-npm install
+uv run quarto preview
 ```
+
+<div align="center">
+  <img src="docs/assets/img_terminal.png" alt="Terminal" style="width: 540px; margin: 1em 0;" />
+</div>
+
+---
+
+### 🛠️ Local Setup
+
+<details>
+<summary>👩‍💻 Recommended for advanced users</summary>
+
+### Prerequisites
+
+Make sure the following tools are installed locally:
+
+- [Node.js](https://nodejs.org/en/download/)
+- [R](https://cran.r-project.org/) and Rtools (on Windows)
+- [uv (Python manager)](https://github.com/astral-sh/uv#installation)
+- [Quarto](https://quarto.org/docs/get-started/)
+
+> _Note: `uv` automatically manages a Python version if none is installed._
+
+### Local setup steps
+
+```bash
+# 1. Install Node.js dependencies
+npm install
+
+# 2. Setup Python environment
+uv sync
+
+# 3. Setup R environment
+Rscript -e 'install.packages("renv"); renv::restore()'
+
+# 4. Preview documentation
+uv run quarto preview
+```
+
+</details>
 
 ## Use
 
@@ -53,7 +123,7 @@ npm run changelog
 Preview the documentation.
 
 ```bash
-quarto preview
+uv run quarto preview
 ```
 
 ## Support
