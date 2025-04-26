@@ -133,5 +133,5 @@ Gewisse historische Begriffe werden bewusst nicht gegendert, da sie sonst den hi
 ### Barrierefreiheit in der Schreibweise
 Die Inhalte werden in einer barrierefreien Schreibweise formuliert, damit sie optimal von Screenreadern erkennt werden können.
 
-* Alle Inhalte von Stadt.Geschichte.Basel enthalten die deutschen Anführungszeichen (“”). 
+* Alle Inhalte von Stadt.Geschichte.Basel enthalten die US-amerikanischen Anführungszeichen (“”). 
 * Ab fünf Stellen vor dem Komma werden Tausendertrennzeichen gesetzt. Beispielsweise 30’000.
