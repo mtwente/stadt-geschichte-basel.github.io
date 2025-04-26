@@ -1,0 +1,70 @@
+---
+title: Städte bauen, Gesellschaft formen
+subtitle: Entwurf und Vision in der Städtebaugeschichte
+author:
+  - name: Moritz Twente
+    email: mtwente@protonmail.com
+    orcid: 0009-0005-7187-9774
+    affiliation: Universität Basel
+  - name: Victoria Grau
+    orcid: 0000-0003-4194-0835
+    affiliation: Bauhaus-Universität Weimar
+  - name: Eric Häusler
+    orcid: 0000-0002-1530-0562
+    affiliation: ETH Zürich
+  - name: Jannik Noeske
+    orcid: 0000-0001-6314-2880
+    affiliation: Bauhaus-Universität Weimar
+date: 2025-07-11
+categories: Panel
+event: Schweizerische Geschichtstage
+lang: de
+bibliography: references.bib
+doi: 10.5281/zenodo.14497716
+citation:
+  type: standard
+  title: 'Städte bauen, Gesellschaft formen. Entwurf und Vision in der Städtebaugeschichte (Panel)'
+  container-title: 'Siebte Schweizerische Geschichtstage, Universität Luzern'
+appendix-cite-as: display
+other-links:
+  - text: Konferenzwebsite
+    icon: house
+    href: 'https://geschichtstage.ch'
+  - text: 'Extended Abstracts'
+    icon: file-richtext
+    href: 'https://mtwente.github.io/geschichtstage25'
+  - text: Panel-Beschreibung (Zenodo)
+    icon: filetype-pdf
+    href: 'https://doi.org/10.5281/zenodo.14497716'
+---
+
+## Panel
+
+Das Panel **Städte bauen, Gesellschaft formen: Entwurf und Vision in der Städtebaugeschichte** ist Teil der siebten Schweizerischen Geschichtstage (08.–11.07.2025) an der Universität Luzern. Victoria Grau, Eric Häusler, Jannik Noeske und Moritz Twente präsentieren im Rahmen des [Panelprogramms](#abstract) drei Themen an der Schnittstelle von Städtebau-/Planungsgeschichte und Gesellschaftspolitik. Dem Schwerpunkt der Geschichtstage 2025 entsprechend – (Un)sichtbarkeit – liegt der Fokus auf visuellen Aspekten der vorgestellten Projekte.
+
+Das Panel-Abstract ist auf Zenodo archiviert und [als PDF-Datei abrufbar](https://doi.org/10.5281/zenodo.14497716).
+
+::: {.callout-tip title="Extended Abstracts" icon="false"}
+
+Als Ergänzung zum offiziellen Konferenzprogramm haben Moritz Twente und Victoria Grau eine zusätzliche [Panel-Website](https://mtwente.github.io/geschichtstage25/) erstellt, um ausführlichere Abstracts zu den drei Vorträgen anbieten und um die Inhalte nach der Veranstaltung zitierfähig archivieren zu können.
+
+:::
+
+## Abstract
+
+Städtebauliche Entwürfe sind nicht nur Visionen für Städte, Bauwerke und Infrastrukturen, sondern verräumlichen Konzepte des menschlichen Zusammenlebens. Solche Entwürfe, Konzepte oder Visionen konfrontieren bestehende Stadtstrukturen mit neuen Ideen, die häufig aus der Kritik an vergangenen Grundsätzen städtischen Zusammenlebens resultieren und Fehlentwicklungen sichtbar machen. In Planung und Gestaltung von Städten materialisieren sich damit gesellschaftspolitische Vorstellungen – ob implizit oder explizit, ob gebaut oder verworfen, ob Basel oder Otelfingen.
+
+Im Rahmen dieses Panels wollen wir Städtebau als gesellschaftliche Vision aus einer geschichtswissenschaftlichen Perspektive untersuchen. Unter der Prämisse, dass Bauvorhaben “Angebote, Gesellschaft […] in Form zu bringen” [@eisinger_stadt_2005] sind, können wir gesellschaftspolitische Ziele über ihre räumlichen Implikationen im Entwurf erkennen. Städtebauliche Entwürfe sind Austragungsorte politischer Debatten sowie Instrumente zur Formulierung von Machtansprüchen, die in die Lebensrealitäten der Bevölkerung eingreifen.
+
+Durch die Beschäftigung mit historischen Entwürfen, Konzepten und Visionen machen wir divergierende Ideen für die baulich-räumliche Organisation von Gesellschaft sichtbar, die im Entwurfsprozess miteinander konkurrieren: Wie sollte mit Städtebau welche Gesellschaftspolitik betrieben werden und wie gestaltet sich das Verhältnis zwischen Utopie und bereits existierenden Bauten? Welchen Einfluss haben zeitgenössische soziale, kulturelle oder wirtschaftliche Entwicklungen auf städtebauliche Utopien? Welche Akteur*innen bleiben im Gestaltungsprozess unsichtbar bzw. werden im Entwurf marginalisiert?
+
+Für die Annäherung an Städtebaugeschichte spielen Visualisierungen eine wichtige Rolle. Die herkömmlichen Werkzeuge für die Vermittlung von Bauprogrammen sind technische Pläne und Zeichnungen, doch auch Modelle oder bildende Kunst, etwa in Form von u.a. Fotografien und Gemälden sowie sprachliche Bilder haben eine lange Tradition in der Vermittlung städtebaulicher Visionen. Solche Darstellungen eröffnen Zugänge zur Interpretation der gesellschaftlichen Zusammenhänge, die entwerferisch thematisiert bzw. kritisiert werden: Mit welchen Medien wird der Entwurf visualisiert? Wie werden bildliche Darstellungen genutzt, um sozialräumliche Effekte baulicher Massnahmen hervorzuheben oder zu kaschieren? Welche Rolle spielen Visualisierungen für die Legitimation von Bauvorhaben?
+
+## Paper
+
+Das Panel besteht aus drei Präsentationen.
+
+* **Hinter dem Konzept und vor dem Plan: Stadtvorstellungen in Hans Martis Skizzensammlung** von Moritz Twente und Victoria Grau, siehe [Abstract](https://mtwente.github.io/geschichtstage25/docs/abstracts/marti.html).
+* **Gesellschaft aus dem Zeichenautomaten: Städtebau und Datenverarbeitung in der DDR** von Jannik Noeske, siehe [Abstract](https://mtwente.github.io/geschichtstage25/docs/abstracts/zeichenautomaten.html).
+* **Mut zur Lücke: Fumihiko Makis «Hillside Terrace» in Daikanyama, Tokyo (1967–1992)** von Eric Häusler, siehe [Abstract](https://mtwente.github.io/geschichtstage25/docs/abstracts/hillsideterrace.html).
+
