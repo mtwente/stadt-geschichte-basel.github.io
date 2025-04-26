@@ -27,6 +27,8 @@ other-links:
 
 Die Publikationsreihe *Stadt.Geschichte.Basel* präsentiert in zehn Bänden (Bände 1–9 sowie ein Abschlussband) eine umfassende Aufarbeitung der Basler Stadtgeschichte von den frühesten Anfängen bis zur Gegenwart. Ein zentrales Anliegen des Projekts ist es, historische Forschungsergebnisse möglichst breit zugänglich zu machen und für unterschiedliche Interessensgruppen nutzbar zu halten. Um dies zu erreichen, werden die Bände [in einer Open-Access-Version veröffentlicht](https://openaccess.stadtgeschichtebasel.ch/), die kostenlos im Internet zur Verfügung steht.
 
+[![Screenshot der Open-Access-Plattform](../../../assets/img/emono_screenshot.png)](https://emono.unibas.ch/stadtgeschichtebasel)
+
 Diese Dokumentation richtet sich an das **Team Forschungsdatenmanagement und Public History** von *Stadt.Geschichte.Basel* und fasst die wichtigsten Schritte, Rollen und technischen Aspekte zusammen, die zur Entstehung der Open-Access-Ausgabe führten. Sie dient als Referenz für zukünftige Projekte und stellt die wichtigsten **Lessons Learned** aus diesem Prozess dar.
 
 ## Workflow und Rollen
