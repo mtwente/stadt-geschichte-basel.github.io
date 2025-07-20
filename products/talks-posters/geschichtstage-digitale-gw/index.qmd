@@ -2,34 +2,21 @@
 title: Die unsichtbaren Anforderungen der digitalen Geschichtswissenschaft
 subtitle: Angebot und Nachfrage im Scheinwerferlicht
 author:
-  - name: Pascale Sutter
-    orcid: 0000-0003-4348-4394
-    affiliation: Schweizerische Rechtsquellenstiftung
-  - name: Stefan Nellen
-    affiliation: Schweizerisches Bundesarchiv
-  - name: Lorenz Dändliker
-    affiliation: Universität Zürich
-  - name: Victoria G. D. Landau
-    orcid: 0000-0002-7682-5709
-    affiliation: Universität Basel
-  - name: Tim Rüdiger
-    orcid: 0009-0004-5148-8242  
-    affiliation: Staatsarchiv Zürich
   - name: Noëlle Schnegg
     orcid: 0009-0008-5207-6652
     email: noelle.schnegg@unibas.ch
     affiliation: Universität Basel
-  - name: Ina Serif
-    orcid: 0000-0003-2419-4252
-    affiliation: Universität Basel
 date: 2025-07-11
-categories: Panel
+categories: Vortrag
 event: Schweizerische Geschichtstage, Universität Luzern
 lang: de
 doi: 10.5281/zenodo.16218532
+bibliography: references.bib
+nocite: |
+  @*
 citation:
   type: standard
-  title: 'Die unsichtbaren Anforderungen der digitalen Geschichtswissenschaft: Angebot und Nachfrage im Scheinwerferlicht'
+  title: 'Impulsreferat zu: Die unsichtbaren Anforderungen der digitalen Geschichtswissenschaft: Angebot und Nachfrage im Scheinwerferlicht'
   container-title: 'Siebte Schweizerische Geschichtstage, Universität Luzern'
 appendix-cite-as: display
 other-links:
@@ -46,7 +33,9 @@ other-links:
 
 ## Impulsreferat
 
-Der Impulsvortrag von Noëlle Schnegg ist Teil der siebten Schweizerischen Geschichtstage (08.–11.07.2025) an der Universität Luzern. In Impulsreferaten umreissen Lorenz Dändliker, Victoria Landau, Tim Rüdiger, Noëlle Schnegg und Ina Serif im Rahmen des [Panelprogramms](https://geschichtstage.ch/frontend/index.php?page_id=40244&v=List&do=15&day=all&ses=38350#anker_session_38350) unsichtbare Anforderungen an die digitale Geschichtswissenschaft.
+Das Panel "Die unsichtbaren Anforderungen der digitalen Geschichtswissenschaft: Angebot und Nachfrage im Scheinwerferlicht" ist Teil der [7. Schweizerischen Geschichtstage](https://geschichtstage.ch/) (08.–11. Juli 2025) an der [Universität Luzern](https://www.unilu.ch/).
+
+[Noëlle Sarah Schnegg](https://dg.philhist.unibas.ch/en/persons/schnegg-noelle-sarah/) präsentiert in einem Impulsreferat ihre Wünsche an die Digitale Geschichtswissenschaft; der Fokus liegt auf ihrer Arbeit zu einer diskriminierungssensiblen Metadatenpraxis für historische Quellen‑ und Forschungsdaten.
 
 ::: {.callout-tip title="Präsentation anzeigen" icon="false" collapse="true"}
 <iframe src="/assets/files/20250711-Schnegg_DigiGW.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Die unsichtbaren Anforderungen der digitalen Geschichtswissenschaft: Impulsreferat N. Schnegg">
@@ -56,14 +45,29 @@ This browser does not support PDFs. Please download the PDF <a href="/assets/fil
 </iframe>
 :::
 
-## Abstract (Panel)
+## Panelstruktur
 
-Gedächtnisinstitutionen wie Archive und Bibliotheken, aber auch Editions- und Datenbankprojekte legen unverzichtbare Grundlagen für historische Forschungsvorhaben. Worauf müssen diese achten, damit die Forschenden sie am gewinnbringendsten nutzen können? Das Panel bietet Forschenden eine Plattform, um ihre Anforderungen an Daten und digitale Grundlagen schlaglichtartig anhand einzelner Beispiele zu formulieren. Bestehende Angebote sollen analysiert und kommentiert werden.
+Gedächtnisinstitutionen – Archive, Bibliotheken, Editions‑ und Datenbankprojekte – schaffen unverzichtbare Grundlagen für historische Forschungsvorhaben. Das Panel bietet Forschenden eine Bühne, ihre Anforderungen an Daten und digitale Infrastrukturen schlaglichtartig zu formulieren; bestehende Angebote werden analysiert und kommentiert.
 
-Zum Auftakt des Panels findet ein Wunschkonzert von Seiten Forschung statt. Ausgewählte Forschende sollen ihre Wünsche zu aufbereiteten und offenen Daten, Quellen und Materialien in kurzen Pitches ausformulieren. Die Forschenden formulieren in Form von Pitches à 4 Minuten (max. 2 Slides) ihre Forderungen. Folgende Leitfragen werden dabei thematisiert: Wie sollen Daten aufbereitet und zur Verfügung gestellt werden? Welche Datenformen und -formate sind gefragt und hilfreich für die Forschung? Auf welchem Weg können die Daten und Informationen bezogen und verarbeitet werden (30 Minuten).
+Zum Auftakt findet ein Wunschkonzert von Seiten der Forschung statt: ausgewählte Forschende formulieren ihre Forderungen in Pitches à 4 Minuten (max. 2 Slides). Leitfragen sind u. a.:
 
-Im zweiten Teil referieren Datenprovider, Forschungsprojekte, Bibliotheken und Archive,, was sie an Informationen, Daten und Wissensformen zur Verfügung stellen. Auch dieser Teil wird über eine Vielzahl von kurzen Pitches strukturiert und bringt dadurch die unterschiedlichen Stakeholder und Perspektiven zusammen. Teilnehmen werden: Eidg. Bundesarchiv (Stapfer Enquête), ETH Bibliothek (Bildarchiv online) histify, Personenportal SH, SAMARA (TI), Schweizerische Nationalbibliothek (Bibliographie der Schweizergeschichte), Schweizerisches Wirtschaftsarchiv, SSRQ, , swisstopo, Transcriptiones,
+* Wie sollen Daten aufbereitet und bereitgestellt werden?
+* Welche Datenformen und ‑formate sind besonders gefragt?
+* Über welche Bezugs‑ und Verarbeitungswege sollen die Daten laufen?
 
-Die Pitches der Datenprovider sind streng reglementiert und zeitlich limitiert. Während maximal 4 Minuten und 2 Slides (ink. Titelfolie) dürfen die Angebote präsentiert und auf die Wunschvorstellungen der Forschenden reagiert werden. Zum Abschluss wird die Diskussion geöffnet und mögliche Entwicklungen und Angebote im Dialog weiterentwickelt. Begleitet wird das Panel von einem digitalen Miro-Board, das die Inhalte der Pitches aufgreift und den Teilnehmenden die Möglichkeit bietet, vor und während der Veranstaltung Kommentare, Fragen und Ideen direkt einzubringen.
+Im zweiten Teil antworten Datenprovider, Forschungsprojekte, Bibliotheken und Archive in ebenso kurzen Pitches. Vertreten sind:
 
-Das Panel wird organisiert, verantwortet und moderiert durch die SGG Abteilung Grundlagenerschliessung und Digitalisierung.
+* [Eidg. Bundesarchiv – Stapfer-Enquête](https://applab.bar.admin.ch/databases-and-apis/the-stapfer-enquete-data-source),
+* [ETH‑Bibliothek – Bildarchiv online](https://ba.e-pics.ethz.ch/),
+* [histify](https://histify.ch/),
+* [Personenportal SH](https://sh.personenportal.ch/),
+* [SAMARA (TI)](https://www4.ti.ch/decs/dcsu/uapcd/svpc/samara),
+* [Schweizerische Nationalbibliothek – Bibliographie der Schweizergeschichte](https://www.nb.admin.ch/snl/de/home/recherche/bibliografien/bsg.html),
+* [Schweizerisches Wirtschaftsarchiv](https://wirtschaftsarchiv.ub.unibas.ch/de/),
+* [SSRQ](https://www.ssrq-sds-fds.ch/online/),
+* [swisstopo](https://www.swisstopo.admin.ch/),
+* [Transcriptiones](https://transcriptiones.ch/).
+
+Die Pitches sind strikt auf 4 Minuten und 2 Slides (inkl. Titelfolie) begrenzt. Anschliessend wird die Diskussion geöffnet, um gemeinsam künftige Entwicklungen zu skizzieren. Begleitet wird das Panel von einem digitalen [Miro‑Board](https://miro.com/online-whiteboard/), auf dem Teilnehmende vor und während der Veranstaltung Kommentare, Fragen und Ideen einbringen können.
+
+Das Panel wird organisiert und moderiert von der [SGG‑Abteilung «Grundlagenerschliessung und Digitalisierung»](https://www.sgg-ssh.ch/ueber-uns/abteilungen/).
