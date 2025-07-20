@@ -16,6 +16,7 @@ date: 2025-07-14
 categories: Vortrag
 event: Universidade NOVA de Lisboa, DH2025
 lang: de
+doi: 10.5281/zenodo.15920515
 citation:
   type: standard
   title: 'One Template to Rule Them All: Interactive Research Data Documentation with Quarto'
@@ -34,6 +35,12 @@ other-links:
   - text: 'Projektbeschreibung'
     icon: info-circle
     href: '/products/coding/ord-template/'
+  - text: 'Slides (Reveal.js)'
+    icon: easel
+    href: 'https://maehr.github.io/one-template-to-rule-them-all/presentation/slides.html'
+  - text: 'Slides (PDF)'
+    icon: filetype-pdf
+    href: '/assets/files/20250714-DHTech_ORDTemplate.pdf'
 
 code-links:
   - href: 'https://github.com/maehr/open-research-data-template/'
@@ -45,13 +52,13 @@ code-links:
 
 Der Vortrag ist Teil des [Digital Humanities Tech Symposiums](https://dh-tech.github.io/2025/02/19/digital-humanities-tech-symposium/) der Konferenz [Digital Humanities 2025](https://dh2025.adho.org/) an der Universidade NOVA de Lisboa.
 
-<!-- ::: {.callout-tip title="Präsentation anzeigen" icon="false" collapse="true"}
-<iframe src="FIXME" width="100%" height="600px" loading="lazy" allowfullscreen title="One Template to Rule Them All">
+::: {.callout-tip title="Präsentation anzeigen (PDF)" icon="false" collapse="true"}
+<iframe src="/assets/files/20250714-DHTech_ORDTemplate.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="One Template to Rule Them All">
 
-This browser does not support PDFs. Please download the PDF <a href="/assets/files/Poster_DH_Berlin_2023.pdf">download the PDF</a> to view it.
+This browser does not support PDFs. Please download the PDF <a href="/assets/files/20250714-DHTech_ORDTemplate.pdf">download the PDF</a> to view it.
 
 </iframe>
-::: -->
+:::
 
 ## Abstract
 
@@ -63,10 +70,10 @@ A key innovation of the template is its ability to combine static metadata, narr
 
 In our demonstration, we will show not only the technical architecture and GitHub Actions automation behind the template, but also real-world examples where it has been successfully deployed:
 
-* [DigiHistCH24](https://digihistch24.github.io/): The conference website for [Historical Research, Digital Literacy, and Algorithmic Criticism (Basel, 2024)](/products/digital-history/digihistch24/), built with the template, includes an interactive book of abstracts and serves as a structured record of contemporary research in digital history.
-* [Stadt.Geschichte.Basel Documentation](https://dokumentation.stadtgeschichtebasel.ch/): This project documents the data workflows behind Basel's new city history project, showcasing transparent research data practices in a major public history initiative.
-* [DHBern Portal](https://dhbern.github.io/): Acting as a hub for digital humanities projects at the University of Bern, the portal demonstrates how multiple datasets and methodologies can be harmonized under a single, sustainable open data framework.
-* [Decoding Inequality 2025](https://dhbern.github.io/decoding-inequality-2025/): This repository contains the materials for the course "Decoding Inequality: Kritische Perspektiven auf Machine Learning und gesellschaftliche Ungleichheit" held at the University of Bern in the spring semester 2025.
+-   [DigiHistCH24](https://digihistch24.github.io/): The conference website for [Historical Research, Digital Literacy, and Algorithmic Criticism (Basel, 2024)](/products/digital-history/digihistch24/), built with the template, includes an interactive book of abstracts and serves as a structured record of contemporary research in digital history.
+-   [Stadt.Geschichte.Basel Documentation](https://dokumentation.stadtgeschichtebasel.ch/): This project documents the data workflows behind Basel's new city history project, showcasing transparent research data practices in a major public history initiative.
+-   [DHBern Portal](https://dhbern.github.io/): Acting as a hub for digital humanities projects at the University of Bern, the portal demonstrates how multiple datasets and methodologies can be harmonized under a single, sustainable open data framework.
+-   [Decoding Inequality 2025](https://dhbern.github.io/decoding-inequality-2025/): This repository contains the materials for the course "Decoding Inequality: Kritische Perspektiven auf Machine Learning und gesellschaftliche Ungleichheit" held at the University of Bern in the spring semester 2025.
 
 These projects illustrate how reusable research data publication can be seamlessly integrated into active Digital Humanities workflows without imposing additional technical barriers on researchers.
 
@@ -78,11 +85,10 @@ Through this tool presentation, we aim to encourage the broader adoption of auto
 
 The Open Research Data Template enables:
 
-* Executable Documentation: Quarto integrates [Python](https://quarto.org/docs/computations/python.html), [R](https://quarto.org/docs/computations/r.html), [Julia](https://quarto.org/docs/computations/julia.html), and [ObservableJS](https://quarto.org/docs/computations/ojs.html) seamlessly in a single site.
-* [Reproducible Workflows](https://book.the-turing-way.org/reproducible-research/reproducible-research): Data preprocessing, cleaning, and analysis steps are documented alongside the datasets.
-* Automated Deployment: [GitHub Actions](https://github.com/features/actions) handle site building, deadlink checking, and deployment to [GitHub Pages](https://pages.github.com/).
-* Persistent Archiving: [Zenodo](https://zenodo.org/) integration allows datasets and documentation snapshots with [DOI minting](https://help.zenodo.org/docs/deposit/describe-records/reserve-doi/).
-* Consistency and Scalability: The template enforces best practices in open research data management inspired by [The Turing Way](https://book.the-turing-way.org/).
+-   Executable Documentation: Quarto integrates [Python](https://quarto.org/docs/computations/python.html), [R](https://quarto.org/docs/computations/r.html), [Julia](https://quarto.org/docs/computations/julia.html), and [ObservableJS](https://quarto.org/docs/computations/ojs.html) seamlessly in a single site.
+-   [Reproducible Workflows](https://book.the-turing-way.org/reproducible-research/reproducible-research): Data preprocessing, cleaning, and analysis steps are documented alongside the datasets.
+-   Automated Deployment: [GitHub Actions](https://github.com/features/actions) handle site building, deadlink checking, and deployment to [GitHub Pages](https://pages.github.com/).
+-   Persistent Archiving: [Zenodo](https://zenodo.org/) integration allows datasets and documentation snapshots with [DOI minting](https://help.zenodo.org/docs/deposit/describe-records/reserve-doi/).
+-   Consistency and Scalability: The template enforces best practices in open research data management inspired by [The Turing Way](https://book.the-turing-way.org/).
 
 Unlike traditional static documentation approaches, our template ensures that the preprocessing code, documentation, and data are kept in sync and fully transparent for future reuse.
-

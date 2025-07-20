@@ -13,7 +13,7 @@ author:
         - Universität Basel
         - Universität Bern
 date: 2025-07-18
-date-modified: last-modified
+doi: 10.5281/zenodo.16042822
 categories: Vortrag
 event: Universidade NOVA de Lisboa, DH2025
 lang: de
@@ -30,19 +30,18 @@ other-links:
   - text: Panelprogramm (Conftool)
     icon: calendar4-range
     href: 'https://www.conftool.pro/dh2025/index.php?page=browseSessions&form_session=187'
+  - text: Slides (Zenodo)
+    icon: filetype-pdf
+    href: 'https://doi.org/10.5281/zenodo.16042822'
 ---
 
 ## Vortrag
 
 Der Vortrag ist Teil der Session [Long Paper-23](https://www.conftool.pro/dh2025/index.php?page=browseSessions&form_session=187) der Konferenz [Digital Humanities 2025](https://dh2025.adho.org/) an der Universidade NOVA de Lisboa.
 
-<!-- ::: {.callout-tip title="Präsentation anzeigen" icon="false" collapse="true"}
-<iframe src="FIXME" width="100%" height="600px" loading="lazy" allowfullscreen title="Navigating Disconcertment in Map-Making">
-
-This browser does not support PDFs. Please download the PDF <a href="FIXME">download the PDF</a> to view it.
-
-</iframe>
-::: -->
+::: {.callout-tip title="Präsentation anzeigen" icon="false"}
+Die Slides zur Präsentation sind [auf Zenodo verfügbar](https://doi.org/10.5281/zenodo.16042822).
+:::
 
 ## Abstract
 
