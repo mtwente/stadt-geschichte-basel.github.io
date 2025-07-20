@@ -1,5 +1,5 @@
 ---
-title: Handbuch für diskriminerungsfreie Metadaten
+title: Handbuch zur Erstellung diskriminierungsfreier Metadaten für historische Quellen und Forschungsdaten
 subtitle: Erfahrungen aus dem geschichtswissenschaftlichen Forschungsprojekt Stadt.Geschichte.Basel
 category: Publikation
 author: 
