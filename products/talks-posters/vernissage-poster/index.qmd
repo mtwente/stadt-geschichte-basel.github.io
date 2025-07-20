@@ -1,0 +1,44 @@
+---
+title: Stadt.Geschichte.Basel digital
+subtitle: Forschungsdatenmanagement und Public History
+author:
+  - name: Moritz Twente
+    email: mtwente@protonmail.com
+    orcid: 0009-0005-7187-9774
+    affiliation: Universität Basel
+date: 2025-03-27
+doi: 10.5281/zenodo.15095455
+categories: Poster
+event: Vernissage Stadt.Geschichte.Basel Band 8/9, Kuppel Basel
+lang: de
+citation:
+  type: standard
+  title: 'Stadt.Geschichte.Basel digital: Forschungsdatenmanagement und Public History'
+  container-title: 'Vernissage Stadt.Geschichte.Basel Band 8/9, Kuppel Basel'
+appendix-cite-as: display
+other-links:
+  - text: Veranstaltungsankündigung
+    icon: house
+    href: 'https://stadtgeschichtebasel.ch/blog/buchvernissage-band-8-9'
+  - text: Posterserie (Zenodo)
+    icon: filetype-pdf
+    href: 'https://doi.org/10.5281/zenodo.15095455'
+---
+
+## Poster
+
+Die Posterserie ist Teil der [Buchvernissage der Bände 8 und 9 der Stadt.Geschichte.Basel](https://stadtgeschichtebasel.ch/blog/buchvernissage-band-8-9) und besteht aus drei Postern, auf denen die Arbeit des Teams für Forschungsdatenmanagement und Public History dokumentiert wird.
+
+::: {.callout-tip title="Posterserie anzeigen" icon="false"}
+Die drei Poster sind [auf Zenodo verfügbar](https://doi.org/10.5281/zenodo.15095455).
+:::
+
+## Abstract
+
+Diese Poster-Serie gibt einen Überblick über die Arbeit des Teams für Forschungsdatenmanagement und Public History des interdisziplinären Forschungsprojekts Stadt.Geschichte.Basel. Die drei Poster wurden an der Buchvernissage der Stadt.Geschichte.Basel gezeigt und dienen als Ergänzung zur Präsentation [Die Geschichte von Basel ins Netz stellen: Stadt.Geschichte.Basel digital](/products/talks-posters/vernissage-presentation/index.qmd).
+
+Das erste Poster beschreibt die im Rahmen des Projekts entwickelte [Forschungsdatenplattform](/products/coding/plattform/index.qmd) und gibt einen Eindruck von den veröffentlichten Daten und den Features der Plattform, mit denen die Forschungsdaten entdeckt werden können. Neben Filter- und Exportfunktionen dank umfassender und maschinenlesbarer Metadatenannotation bietet die Plattform Karten-Tools zur Darstellung von [Geodaten](/products/research-data/geodata/index.qmd) sowie die Rohdaten hinter den [Statistiken und Diagrammen](/products/research-data/plots/index.qmd) aus den Büchern.
+
+Das zweite Poster präsentiert das ebenfalls vom [Team](/team.qmd) für Forschungsdatenmanagement und Public History entwickelte [Portal](/products/coding/portal/index.qmd), das die zentrale Pforte zu den über 30 Partnerinstitutionen und dem Christoph-Merian-Verlag darstellt. Das benutzerfreundliche Design stützt sich auf state of the art-Webtechnologien und bietet mit Data Stories, einer Agenda und einem Blog aktuelle Einblicke in die Welt der Basler Geschichte.
+
+Auf dem dritten Poster findet sich eine Übersicht von Präsentationen, Postern und Workshops auf wissenschaftlichen Konferenzen im Bereich Digital History und Forschungsdatenmanagement sowie ausgewählte Projekte bzgl. Community Building.
