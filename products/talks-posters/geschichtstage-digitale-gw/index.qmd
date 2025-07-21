@@ -38,9 +38,9 @@ Das Panel "Die unsichtbaren Anforderungen der digitalen Geschichtswissenschaft: 
 [Noëlle Sarah Schnegg](https://dg.philhist.unibas.ch/en/persons/schnegg-noelle-sarah/) präsentiert in einem Impulsreferat ihre Wünsche an die Digitale Geschichtswissenschaft; der Fokus liegt auf ihrer Arbeit zu einer diskriminierungssensiblen Metadatenpraxis für historische Quellen‑ und Forschungsdaten.
 
 ::: {.callout-tip title="Präsentation anzeigen" icon="false" collapse="true"}
-<iframe src="/assets/files/20250711-Schnegg_DigiGW.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Die unsichtbaren Anforderungen der digitalen Geschichtswissenschaft: Impulsreferat N. Schnegg">
+<iframe src="/assets/files/20250711-Schnegg-Geschichtstage.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Die unsichtbaren Anforderungen der digitalen Geschichtswissenschaft: Impulsreferat N. Schnegg">
 
-This browser does not support PDFs. Please download the PDF <a href="/assets/files/20250711-Schnegg_DigiGW.pdf">download the PDF</a> to view it.
+This browser does not support PDFs. Please download the PDF <a href="/assets/files/20250711-Schnegg-Geschichtstage.pdf">download the PDF</a> to view it.
 
 </iframe>
 :::
@@ -51,22 +51,22 @@ Gedächtnisinstitutionen – Archive, Bibliotheken, Editions‑ und Datenbankpro
 
 Zum Auftakt findet ein Wunschkonzert von Seiten der Forschung statt: ausgewählte Forschende formulieren ihre Forderungen in Pitches à 4 Minuten (max. 2 Slides). Leitfragen sind u. a.:
 
-* Wie sollen Daten aufbereitet und bereitgestellt werden?
-* Welche Datenformen und ‑formate sind besonders gefragt?
-* Über welche Bezugs‑ und Verarbeitungswege sollen die Daten laufen?
+-   Wie sollen Daten aufbereitet und bereitgestellt werden?
+-   Welche Datenformen und ‑formate sind besonders gefragt?
+-   Über welche Bezugs‑ und Verarbeitungswege sollen die Daten laufen?
 
 Im zweiten Teil antworten Datenprovider, Forschungsprojekte, Bibliotheken und Archive in ebenso kurzen Pitches. Vertreten sind:
 
-* [Eidg. Bundesarchiv – Stapfer-Enquête](https://applab.bar.admin.ch/databases-and-apis/the-stapfer-enquete-data-source),
-* [ETH‑Bibliothek – Bildarchiv online](https://ba.e-pics.ethz.ch/),
-* [histify](https://histify.ch/),
-* [Personenportal SH](https://sh.personenportal.ch/),
-* [SAMARA (TI)](https://www4.ti.ch/decs/dcsu/uapcd/svpc/samara),
-* [Schweizerische Nationalbibliothek – Bibliographie der Schweizergeschichte](https://www.nb.admin.ch/snl/de/home/recherche/bibliografien/bsg.html),
-* [Schweizerisches Wirtschaftsarchiv](https://wirtschaftsarchiv.ub.unibas.ch/de/),
-* [SSRQ](https://www.ssrq-sds-fds.ch/online/),
-* [swisstopo](https://www.swisstopo.admin.ch/),
-* [Transcriptiones](https://transcriptiones.ch/).
+-   [Eidg. Bundesarchiv – Stapfer-Enquête](https://applab.bar.admin.ch/databases-and-apis/the-stapfer-enquete-data-source),
+-   [ETH‑Bibliothek – Bildarchiv online](https://ba.e-pics.ethz.ch/),
+-   [histify](https://histify.ch/),
+-   [Personenportal SH](https://sh.personenportal.ch/),
+-   [SAMARA (TI)](https://www4.ti.ch/decs/dcsu/uapcd/svpc/samara),
+-   [Schweizerische Nationalbibliothek – Bibliographie der Schweizergeschichte](https://www.nb.admin.ch/snl/de/home/recherche/bibliografien/bsg.html),
+-   [Schweizerisches Wirtschaftsarchiv](https://wirtschaftsarchiv.ub.unibas.ch/de/),
+-   [SSRQ](https://www.ssrq-sds-fds.ch/online/),
+-   [swisstopo](https://www.swisstopo.admin.ch/),
+-   [Transcriptiones](https://transcriptiones.ch/).
 
 Die Pitches sind strikt auf 4 Minuten und 2 Slides (inkl. Titelfolie) begrenzt. Anschliessend wird die Diskussion geöffnet, um gemeinsam künftige Entwicklungen zu skizzieren. Begleitet wird das Panel von einem digitalen [Miro‑Board](https://miro.com/online-whiteboard/), auf dem Teilnehmende vor und während der Veranstaltung Kommentare, Fragen und Ideen einbringen können.
 
