@@ -39,8 +39,14 @@ other-links:
 
 Das Poster ist Teil einer [Postersession](https://www.conftool.pro/dh2025/index.php?page=browseSessions&form_session=268#paperID635) der Konferenz [Digital Humanities 2025](https://dh2025.adho.org/) an der Universidade NOVA de Lisboa.
 
-::: {.callout-tip title="Poster anzeigen" icon="false"}
-Dieses Poster ist [auf Zenodo verfügbar](https://doi.org/10.5281/zenodo.15823311).
+::: {.callout-tip title="Poster anzeigen (Vorschau)" icon="false" collapse="true"}
+Diese Ansicht zeigt eine komprimierte Vorschau des Posters. Das hochaufgelöste Original ist [auf Zenodo verfügbar](https://doi.org/10.5281/zenodo.15823311).
+
+<iframe src="/assets/files/20250711-DH25-CB_Poster-Preview.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Minimal Computing Meets Public History (Preview)">
+
+This browser does not support PDFs. Please download the PDF <a href="/assets/files/20250711-DH25-CB_Poster-Preview.pdf">download the PDF</a> to view it.
+
+</iframe>
 :::
 
 ## Abstract
