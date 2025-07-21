@@ -34,10 +34,9 @@ Die Präsentation ist Teil der [Buchvernissage der Bände 8 und 9 der Stadt.Gesc
 ::: {.callout-tip title="Präsentation anzeigen (PDF)" icon="false" collapse="true"}
 <iframe src="/assets/files/20250327-Moritz_Maehr-SGB_digital.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="One Template to Rule Them All">
 
-This browser does not support PDFs. Please download the PDF <a href="/assets/files/20250327-Moritz_Maehr-SGB_digital.pdf">download the PDF</a> to view it.
+This browser does not support PDFs. Please <a href="/assets/files/20250327-Moritz_Maehr-SGB_digital.pdf">download the PDF</a> to view it.
 
 </iframe>
-
 :::
 
 ## Abstract

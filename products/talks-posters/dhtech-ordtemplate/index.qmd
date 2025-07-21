@@ -55,7 +55,7 @@ Der Vortrag ist Teil des [Digital Humanities Tech Symposiums](https://dh-tech.gi
 ::: {.callout-tip title="Präsentation anzeigen (PDF)" icon="false" collapse="true"}
 <iframe src="/assets/files/20250714-DHTech_ORDTemplate.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="One Template to Rule Them All">
 
-This browser does not support PDFs. Please download the PDF <a href="/assets/files/20250714-DHTech_ORDTemplate.pdf">download the PDF</a> to view it.
+This browser does not support PDFs. Please <a href="/assets/files/20250714-DHTech_ORDTemplate.pdf">download the PDF</a> to view it.
 
 </iframe>
 :::

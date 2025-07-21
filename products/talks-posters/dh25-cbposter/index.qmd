@@ -44,7 +44,7 @@ Diese Ansicht zeigt eine komprimierte Vorschau des Posters. Das hochaufgelöste 
 
 <iframe src="/assets/files/20250711-DH25-CB_Poster-Preview.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Minimal Computing Meets Public History (Preview)">
 
-This browser does not support PDFs. Please download the PDF <a href="/assets/files/20250711-DH25-CB_Poster-Preview.pdf">download the PDF</a> to view it.
+This browser does not support PDFs. Please <a href="/assets/files/20250711-DH25-CB_Poster-Preview.pdf">download the PDF</a> to view it.
 
 </iframe>
 :::

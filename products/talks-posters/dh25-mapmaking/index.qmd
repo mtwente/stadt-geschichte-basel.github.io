@@ -44,7 +44,7 @@ Diese Ansicht zeigt eine komprimierte Vorschau der Präsentation. Die hochaufgel
 
 <iframe src="/assets/files/20250718-Twente_Maehr_Disconcertment-Preview.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Navigating Disconcertment in Map-Making (Preview)">
 
-This browser does not support PDFs. Please download the PDF <a href="/assets/files/20250718-Twente_Maehr_Disconcertment-Preview.pdf">download the PDF</a> to view it.
+This browser does not support PDFs. Please <a href="/assets/files/20250718-Twente_Maehr_Disconcertment-Preview.pdf">download the PDF</a> to view it.
 
 </iframe>
 :::

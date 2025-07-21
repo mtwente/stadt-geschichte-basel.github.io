@@ -40,7 +40,7 @@ Das Panel **Ausgeleuchtet und dem Vergessen enthoben? Bilder und Daten der Schwe
 ::: {.callout-tip title="Präsentation anzeigen" icon="false" collapse="true"}
 <iframe src="/assets/files/20250711-Moritz_Maehr-SGB_digital.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Daten einer Stadt: Stadt.Geschichte.Basel digital">
 
-This browser does not support PDFs. Please download the PDF <a href="/assets/files/20250711-Moritz_Maehr-SGB_digital.pdf">download the PDF</a> to view it.
+This browser does not support PDFs. Please <a href="/assets/files/20250711-Moritz_Maehr-SGB_digital.pdf">download the PDF</a> to view it.
 
 </iframe>
 :::
