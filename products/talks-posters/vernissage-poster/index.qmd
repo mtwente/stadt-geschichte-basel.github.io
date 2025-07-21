@@ -25,13 +25,40 @@ other-links:
     href: 'https://doi.org/10.5281/zenodo.15095455'
 ---
 
-## Poster
+## Posterserie
 
 Die Posterserie ist Teil der [Buchvernissage der Bände 8 und 9 der Stadt.Geschichte.Basel](https://stadtgeschichtebasel.ch/blog/buchvernissage-band-8-9) und besteht aus drei Postern, auf denen die Arbeit des Teams für Forschungsdatenmanagement und Public History dokumentiert wird.
 
-::: {.callout-tip title="Posterserie anzeigen" icon="false"}
-Die drei Poster sind [auf Zenodo verfügbar](https://doi.org/10.5281/zenodo.15095455).
+::: {.callout-tip title="Poster 'Forschungsdatenplattform' anzeigen (Vorschau)" icon="false" collapse="true"}
+Diese Ansicht zeigt eine komprimierte Vorschau des Posters. Die hochaufgelösten Original-Poster sind [auf Zenodo verfügbar](https://doi.org/10.5281/zenodo.15095455).
+
+<iframe src="/assets/files/250327_RDM_Forschungsdatenplattform_Preview.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Stadt.Geschichte.Basel digital: Forschungsdatenplattform (Preview)">
+
+This browser does not support PDFs. Please download the PDF <a href="/assets/files/250327_RDM_Forschungsdatenplattform_Preview.pdf">download the PDF</a> to view it.
+
+</iframe>
 :::
+
+::: {.callout-tip title="Poster 'Forschungsdatenmanagement und Public History' anzeigen (Vorschau)" icon="false" collapse="true"}
+Diese Ansicht zeigt eine komprimierte Vorschau des Posters. Die hochaufgelösten Original-Poster sind [auf Zenodo verfügbar](https://doi.org/10.5281/zenodo.15095455).
+
+<iframe src="/assets/files/250327_RDM_Portal-DataStories_Preview.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Stadt.Geschichte.Basel digital: Forschungsdatenmanagement und Public History (Preview)">
+
+This browser does not support PDFs. Please download the PDF <a href="/assets/files/250327_RDM_Portal-DataStories_Preview.pdf">download the PDF</a> to view it.
+
+</iframe>
+:::
+
+::: {.callout-tip title="Poster 'Publikationen und Projektdokumentation' anzeigen (Vorschau)" icon="false" collapse="true"}
+Diese Ansicht zeigt eine komprimierte Vorschau des Posters. Die hochaufgelösten Original-Poster sind [auf Zenodo verfügbar](https://doi.org/10.5281/zenodo.15095455).
+
+<iframe src="/assets/files/250327_RDM_Publications_Preview.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Stadt.Geschichte.Basel digital: Publikationen und Projektdokumentation (Preview)">
+
+This browser does not support PDFs. Please download the PDF <a href="/assets/files/250327_RDM_Publications_Preview.pdf">download the PDF</a> to view it.
+
+</iframe>
+:::
+
 
 ## Abstract
 
