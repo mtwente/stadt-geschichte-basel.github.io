@@ -30,13 +30,14 @@ other-links:
     href: 'https://www.herder-institut.de/blog/2024/12/12/grosse-anforderungen-an-kleine-textfelder/'
 #  - text: 'Slides (Zenodo)'
 #    icon: filetype-pdf
-#    href:
+#    href: FIXME
 ---
 
 ## Vortrag
 
 Der Vortrag "Diskriminierungsfrei? Erfahrungen aus einem Handbuchprojekt" ist Teil des Workshops "Grosse Anforderungen an kleine Textfelder: Ethische Fragen an Metadaten historischer Quellen" (21.-22.11.2024) am Herder-Institut in Marburg.
 
+```{=html}
 <!--
 ::: {.callout-tip title="Präsentation anzeigen" icon="false" collapse="true"}
 <iframe src="FIXME" width="100%" height="600px" loading="lazy" allowfullscreen title="Diskriminierungsfrei? Erfahrungen aus einem Handbuchprojekt">
@@ -46,6 +47,7 @@ This browser does not support PDFs. Please download the PDF <a href="FIXME">down
 </iframe>
 :::
 -->
+```
 
 ## Abstract
 
