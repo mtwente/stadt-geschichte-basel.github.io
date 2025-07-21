@@ -24,7 +24,7 @@ other-links:
   - text: Slides (Zenodo)
     icon: filetype-pdf
     href: 'https://doi.org/10.5281/zenodo.6637118'
-  - text: 'Videoaufzeichnung'
+  - text: 'Videoaufzeichnung (YouTube)'
     icon: camera-reels
     href: 'https://www.youtube.com/watch?v=Ha7H7zjvIBk'
 ---

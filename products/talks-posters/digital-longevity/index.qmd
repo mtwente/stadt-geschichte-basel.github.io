@@ -21,7 +21,10 @@ other-links:
   - text: 'Veranstaltungswebsite'
     icon: house
     href: 'https://www.lhlt.mpg.de/events/36152/3251077/'
-  - text: 'Videoaufzeichnung'
+  - text: Slides (Zenodo)
+    icon: filetype-pdf
+    href: 'https://doi.org/10.5281/zenodo.10368874'
+  - text: 'Videoaufzeichnung (YouTube)'
     icon: camera-reels
     href: 'https://www.youtube.com/watch?v=6JO7y0MIpsA'
 ---
