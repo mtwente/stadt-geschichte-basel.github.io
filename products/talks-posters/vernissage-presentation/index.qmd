@@ -1,0 +1,48 @@
+---
+title: Die Geschichte von Basel ins Netz stellen
+subtitle: Stadt.Geschichte.Basel digital
+author:
+  - name: Moritz Mähr
+    email: moritz.maehr@gmail.com
+    orcid: 0000-0002-1367-1618
+    affiliations:
+        - Universität Basel
+        - Universität Bern
+date: 2025-03-27
+doi: 10.5281/zenodo.15056354
+categories: Vortrag
+event: Vernissage Stadt.Geschichte.Basel Band 8/9, Kuppel Basel
+lang: de
+citation:
+  type: standard
+  title: 'Die Geschichte von Basel ins Netz stellen: Stadt.Geschichte.Basel digital'
+  container-title: 'Vernissage Stadt.Geschichte.Basel Band 8/9, Kuppel Basel'
+appendix-cite-as: display
+other-links:
+  - text: Veranstaltungsankündigung
+    icon: house
+    href: 'https://stadtgeschichtebasel.ch/blog/buchvernissage-band-8-9'
+  - text: Slides (Zenodo)
+    icon: filetype-pdf
+    href: 'https://doi.org/10.5281/zenodo.15056354'
+---
+
+## Präsentation
+
+Die Präsentation ist Teil der [Buchvernissage der Bände 8 und 9 der Stadt.Geschichte.Basel](https://stadtgeschichtebasel.ch/blog/buchvernissage-band-8-9) in der Kuppel Basel am 27.03.2025, präsentiert die Arbeit des Teams für Forschungsdatenmanagement und Public History und wird ergänzt von einer [Posterserie](/products/talks-posters/vernissage-poster/index.qmd).
+
+::: {.callout-tip title="Präsentation anzeigen (PDF)" icon="false" collapse="true"}
+<iframe src="/assets/files/20250327-Moritz_Maehr-SGB_digital.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="One Template to Rule Them All">
+
+This browser does not support PDFs. Please <a href="/assets/files/20250327-Moritz_Maehr-SGB_digital.pdf">download the PDF</a> to view it.
+
+</iframe>
+:::
+
+## Abstract
+
+Die Präsentation von Dr. Moritz Mähr bei der Buchvernissage zu Band 8 und 9 der Stadt.Geschichte.Basel stellt das digitale [Portal](/products/coding/portal/index.qmd) des Projekts vor. Ziel dieses Online-Portals ist es, als virtueller Speicher zu dienen, der öffentlichen Zugang zu einer Vielzahl historischer Daten über Basel ermöglicht. Es soll nach Abschluss der achtjährigen Projektlaufzeit fortgeführt und kontinuierlich aktualisiert werden.
+
+Das Portal verfolgt einen Public-History-Ansatz, indem es sowohl für die breite Öffentlichkeit als auch für Forschende und Studierende konzipiert ist. Es bietet einerseits dynamische Inhalte wie Geschichten, Erlebnisse, Blogs und Veranstaltungshinweise, andererseits stellt es umfassende Quellen, Forschungsdaten und Forschungsergebnisse zur Verfügung, die [Open Access](/products/interna/open-access-ausgabe/index.qmd) verfügbar und maschinenlesbar sind.
+
+Das Team um Dr. Moritz Mähr legt besonderen Wert auf die nachhaltige Sicherung und Langzeitarchivierung der Daten auf Plattformen wie DaSCH und [Zenodo](https://zenodo.org/communities/stadt-geschichte-basel). Geplant sind zudem weitere Aktivitäten, darunter die Präsentation von Forschungsergebnissen auf der internationalen Tagung [DH25 in Lissabon](/products/talks-posters/dh25-mapmaking/index.qmd) und die Veröffentlichung barrierefreier digitaler Versionen der Bände 1 bis 9 von Stadt.Geschichte.Basel.

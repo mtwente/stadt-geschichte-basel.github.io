@@ -1,6 +1,6 @@
 ---
 title: Daten einer Stadt
-subtitle: Stadt.Geschichte.Basel
+subtitle: Stadt.Geschichte.Basel digital
 author:
   - name: Moritz Mähr
     email: moritz.maehr@gmail.com
@@ -12,6 +12,10 @@ date: 2025-07-11
 categories: Vortrag
 event: Schweizerische Geschichtstage, Universität Luzern
 lang: de
+bibliography: references.bib
+nocite: |
+  @*
+doi: 10.5281/zenodo.15861300
 citation:
   type: standard
   title: 'Daten einer Stadt: Stadt.Geschichte.Basel. Teil des Panels "Ausgeleuchtet und dem Vergessen enthoben? Bilder und Daten der Schweizer Geschichte digital"'
@@ -24,20 +28,25 @@ other-links:
   - text: Panel-Programm (Converia)
     icon: calendar4-range
     href: 'https://geschichtstage.ch/frontend/index.php?page_id=40244&v=List&do=15&day=5638&ses=38367#'
+  - text: Slides (Zenodo)
+    icon: filetype-pdf
+    href: 'https://doi.org/10.5281/zenodo.15861300'
 ---
 
 ## Panel
 
 Das Panel **Ausgeleuchtet und dem Vergessen enthoben? Bilder und Daten der Schweizer Geschichte digital** ist Teil der siebten Schweizerischen Geschichtstage (08.–11.07.2025) an der Universität Luzern. Cécile Vilas, Sonja Matter, Werner Bosshard, Béla Kapossy, Moritz Mähr und Tobias Hodel umreissen im Rahmen des [Panelprogramms](https://geschichtstage.ch/frontend/index.php?page_id=40244&v=List&do=15&day=5638&ses=38367#) das Geflecht an Ansätzen, Herausforderungen und Chancen, die sich bei der Digitalisierung von historischem Bildmaterial und audiovisuellen Quellen stellen.
 
-<!-- ::: {.callout-tip title="Präsentation anzeigen" icon="false" collapse="true"}
-<iframe src="FIXME" width="100%" height="600px" loading="lazy" allowfullscreen title="Daten einer Stadt">
+::: {.callout-tip title="Präsentation anzeigen" icon="false" collapse="true"}
+<iframe src="/assets/files/20250711-Moritz_Maehr-SGB_digital.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Daten einer Stadt: Stadt.Geschichte.Basel digital">
 
-This browser does not support PDFs. Please download the PDF <a href="FIXME">download the PDF</a> to view it.
+This browser does not support PDFs. Please <a href="/assets/files/20250711-Moritz_Maehr-SGB_digital.pdf">download the PDF</a> to view it.
 
 </iframe>
-::: -->
+:::
 
 ## Abstract (Vortrag)
+
+Die Präsentation "Daten einer Stadt: Stadt.Geschichte.Basel digital" beleuchtet die methodischen, technischen und ethischen Herausforderungen bei der Digitalisierung städtischer Geschichtsdaten am Beispiel des Portals Stadt.Geschichte.Basel. Zentrale Themen sind der Anspruch eines inklusiven Portals für Forschung, Lehre und Public History, der Umgang mit heterogenen Quellen und Forschungsdaten, sowie die Entwicklung diskriminierungssensibler Metadatenstandards. Die Präsentation diskutiert den Spannungsbogen zwischen öffentlicher Vermittlung und wissenschaftlicher Fundierung, den Umgang mit Datenzugänglichkeit, rechtlichen Rahmenbedingungen und nachhaltiger Datenarchivierung. Ein besonderer Fokus liegt auf der kollaborativen Entwicklung offener, FAIR/CARE-konformer Infrastrukturen und der Reflexion über Kanonbildung, Sichtbarmachung und gesellschaftspolitische Implikationen der Digital History.
 
 Die [Forschungsdatenplattform Stadt.Geschichte.Basel](https://forschung.stadtgeschichtebasel.ch) fördert Forschung und Lehre zur Basler Stadtgeschichte, indem sie die Nachnutzung einer kuratierten Sammlung digitalisierter Quellen etablierter Gedächtnisinstitutionen ermöglicht. Die partizipative, iterative Entwicklung unter Einbezug von über 90 Expert\*innen aus Forschung und GLAM-Bereich stellt sicher, dass verschiedene Nutzungsbedürfnisse berücksichtigt werden. Audiovisuelle Quellen, georeferenzierte Karten, interaktive Statistiken und Modelle fungieren dabei als ["boundary objects"](/products/talks-posters/boundary-objects/) und fördern den Austausch sowohl zwischen Wissenschaft und Öffentlichkeit als auch zwischen verschiedenen Disziplinen. Ein eigens entwickeltes [Handbuch zur Erstellung diskriminierungssensibler Metadaten](/products/publications/handbuch/) leitet die Datenaufbereitung. Herausforderungen ergeben sich durch urheberrechtliche Beschränkungen, den Wunsch nach Open Access und die Schaffung neuer Zugänge zur Stadtgeschichte.
