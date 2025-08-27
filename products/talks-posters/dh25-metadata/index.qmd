@@ -140,7 +140,7 @@ Dabei stehen mehrere Herausforderungen im Fokus: der Umgang mit rassistischem Vo
 ### Universitäten Zürich, Genf, Bern und SLA / Annemarie-Schwarzenbach-Edition (2024–2028)
 
 ::: {.callout-tip title="Präsentation anzeigen: Annemarie-Schwarzenbach-Edition" icon="false" collapse="true"}
-Die Präsentation ist auf Zenodo archiviert und [zum Download verfügbar](https://doi.org/10.5281/zenodo.15971183). <iframe src="/assets/files/250716-Zimmermann_DH25_Schwarzenbach.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Diskiminierungssensibles Edieren: Die digitale Edition Annemarie Schwarzenbach">
+Die Präsentation ist auf Zenodo archiviert und [zum Download verfügbar](https://doi.org/10.5281/zenodo.15971183). <iframe src="/assets/files/250716-Zimmermann_DH25_Schwarzenbach.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Diskriminierungssensibles Edieren: Die digitale Edition Annemarie Schwarzenbach">
 
 This browser does not support PDFs. Please download the PDF <a href="/assets/files/250716-Zimmermann_DH25_Schwarzenbach.pdf">download the PDF</a> to view it.
 
