@@ -12,7 +12,7 @@ date: 2024-11-21
 categories: Vortrag
 event: Herder-Institut Marburg, Große Anforderungen an kleine Textfelder
 lang: de
-# doi: FIXME
+doi: 10.5281/zenodo.16911503
 bibliography: references.bib
 nocite: |
   @*
@@ -25,29 +25,28 @@ other-links:
   - text: Veranstaltungsankündigung
     icon: house
     href: 'https://www.hsozkult.de/event/id/event-150327'
+  - text: Programm (PDF)
+    icon: journal-richtext
+    href: 'https://www.herder-institut.de/wp-content/uploads/2024/11/COP_GrosseAnforderungen_2024-11.pdf'
   - text: Veranstaltungsbericht
     icon: journal-richtext
     href: 'https://www.herder-institut.de/blog/2024/12/12/grosse-anforderungen-an-kleine-textfelder/'
-#  - text: 'Slides (Zenodo)'
-#    icon: filetype-pdf
-#    href: FIXME
+  - text: 'Slides (Zenodo)'
+    icon: filetype-pdf
+    href: https://doi.org/10.5281/zenodo.16911503
 ---
 
 ## Vortrag
 
-Der Vortrag "Diskriminierungsfrei? Erfahrungen aus einem Handbuchprojekt" ist Teil des Workshops "Grosse Anforderungen an kleine Textfelder: Ethische Fragen an Metadaten historischer Quellen" (21.-22.11.2024) am Herder-Institut in Marburg.
+Der Vortrag ist Teil des Workshops [Grosse Anforderungen an kleine Textfelder: Ethische Fragen an Metadaten historischer Quellen](https://www.herder-institut.de/blog/2024/12/12/grosse-anforderungen-an-kleine-textfelder/) (21.–22.11.2024) am Herder-Institut für historische Ostmitteleuropaforschung in Marburg.
 
-```{=html}
-<!--
 ::: {.callout-tip title="Präsentation anzeigen" icon="false" collapse="true"}
-<iframe src="FIXME" width="100%" height="600px" loading="lazy" allowfullscreen title="Diskriminierungsfrei? Erfahrungen aus einem Handbuchprojekt">
+<iframe src="/assets/files/241121-Schnegg_Buerki-Handbuchprojekt.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Diskriminierungsfrei? Erfahrungen aus einem Handbuchprojekt">
 
-This browser does not support PDFs. Please download the PDF <a href="FIXME">download the PDF</a> to view it.
+This browser does not support PDFs. Please download the PDF <a href="/assets/files/241121-Schnegg_Buerki-Handbuchprojekt.pdf">download the PDF</a> to view it.
 
 </iframe>
 :::
--->
-```
 
 ## Abstract
 
@@ -55,4 +54,4 @@ Noëlle Schnegg (Universität Basel) und Levyn Bürki (Universität Bern) teilen
 
 Im Kontext aktueller Initiativen und weiterer Leitfäden stellen Schnegg und Bürki das Handbuch kurz vor und diskutieren dabei wichtige Nuancen hinsichtlich Terminologie, Fokussetzung und Autor:innenschaft. Dabei werfen sie einen kritischen Blick auf Begriffe wie "diskriminierungsfrei", "dekolonial" und "Bias" und erörtern, weshalb es bei der Auseinandersetzung mit den kleinen Textfeldern um weit mehr als bloss um Vokabeln geht.
 
-Anhand konkreter Beispiele gehen sie auf Herausforderungen im Umgang mit Metadaten ein, die auch zu wertvollem Feedback geführt haben. Thematisieren werden sie etwa die Autor:innenschaft von Metadaten, die Relevanz einer Metadtaten-Versionierung, den Einsatz von Beispielen sowie das Risiko von Diskriminierung bei Übersetzungen oder beim Mapping zwischen Ontologien. Abschliessend diskutieren sie über Zielgruppen solcher Handbücher und Leitfäden und erwägen mögliche Synergien bei deren Erarbeitung.
+Anhand konkreter Beispiele gehen sie auf Herausforderungen im Umgang mit Metadaten ein, die auch zu wertvollem Feedback geführt haben. Thematisieren werden sie etwa die Autor:innenschaft von Metadaten, die Relevanz einer Metadaten-Versionierung, den Einsatz von Beispielen sowie das Risiko von Diskriminierung bei Übersetzungen oder beim Mapping zwischen Ontologien. Abschliessend diskutieren sie über Zielgruppen solcher Handbücher und Leitfäden und erwägen mögliche Synergien bei deren Erarbeitung.

@@ -28,6 +28,9 @@ other-links:
   - text: Panel-Programm (Converia)
     icon: calendar4-range
     href: 'https://geschichtstage.ch/frontend/index.php?page_id=40244&v=List&do=15&day=5638&ses=38367#'
+  - text: Panel-Bericht (infoclio.ch)
+    icon: pencil-square
+    href: 'https://doi.org/10.13098/infoclio.ch-tb-0377'
   - text: Slides (Zenodo)
     icon: filetype-pdf
     href: 'https://doi.org/10.5281/zenodo.15861300'
@@ -35,7 +38,7 @@ other-links:
 
 ## Panel
 
-Das Panel **Ausgeleuchtet und dem Vergessen enthoben? Bilder und Daten der Schweizer Geschichte digital** ist Teil der siebten Schweizerischen Geschichtstage (08.–11.07.2025) an der Universität Luzern. Cécile Vilas, Sonja Matter, Werner Bosshard, Béla Kapossy, Moritz Mähr und Tobias Hodel umreissen im Rahmen des [Panelprogramms](https://geschichtstage.ch/frontend/index.php?page_id=40244&v=List&do=15&day=5638&ses=38367#) das Geflecht an Ansätzen, Herausforderungen und Chancen, die sich bei der Digitalisierung von historischem Bildmaterial und audiovisuellen Quellen stellen.
+Das Panel **Ausgeleuchtet und dem Vergessen enthoben? Bilder und Daten der Schweizer Geschichte digital** ist Teil der siebten Schweizerischen Geschichtstage (08.–11.07.2025) an der Universität Luzern. Cécile Vilas, Sonja Matter, Werner Bosshard, Béla Kapossy, Moritz Mähr und Tobias Hodel umreissen im Rahmen des [Panelprogramms](https://geschichtstage.ch/frontend/index.php?page_id=40244&v=List&do=15&day=5638&ses=38367#) das Geflecht an Ansätzen, Herausforderungen und Chancen, die sich bei der Digitalisierung von historischem Bildmaterial und audiovisuellen Quellen stellen. Eine Zusammenfassung der Beiträge ist als Teil der infoclio.ch-Tagungsberichte erschienen [@sorrentinoAusgeleuchtetUndVergessen2025].
 
 ::: {.callout-tip title="Präsentation anzeigen" icon="false" collapse="true"}
 <iframe src="/assets/files/20250711-Moritz_Maehr-SGB_digital.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Daten einer Stadt: Stadt.Geschichte.Basel digital">
