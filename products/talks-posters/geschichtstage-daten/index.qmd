@@ -28,9 +28,9 @@ other-links:
   - text: Panel-Programm (Converia)
     icon: calendar4-range
     href: 'https://geschichtstage.ch/frontend/index.php?page_id=40244&v=List&do=15&day=5638&ses=38367#'
-  - text: infoclio.ch-Panel-Bericht (Zenodo)
+  - text: Panel-Bericht (infoclio.ch)
     icon: pencil-square
-    href: 'https://doi.org/10.13098/infoclio.ch-tb-0377#'
+    href: 'https://doi.org/10.13098/infoclio.ch-tb-0377'
   - text: Slides (Zenodo)
     icon: filetype-pdf
     href: 'https://doi.org/10.5281/zenodo.15861300'
