@@ -99,9 +99,7 @@ Das Panel wird vom [Handbuchprojekt](/products/publications/handbuch/) (Stadt.Ge
 
 ## Projektvorstellungen {#projektvorstellungen}
 
-### NFDI4Memory / Online-Portal Sammlungsgut aus kolonialen Kontexten innerhalb der Deutschen Digitalen Bibliothek
-
-Mit dem Aufbau der Nationalen Forschungsdaten Infrastruktur für die historisch arbeitenden Wissenschaften ([NFDI4Memory](https://4memory.de/)) rücken auch ethische Fragestellungen zum Umgang mit sensiblen Forschungsdaten in den Geschichtswissenschaften in Deutschland in den Fokus. Das Konsortium eruiert ethische Aspekte, die implizit bereits in der Forschungspraxis vorhanden sind, sowie institutionelle Einzellösungen. Es bündelt diese und überführt sie gemeinsam mit der Community in möglichst allgemeingültige datenethische Lösungen. Jenseits davon hat sich bereits in verschiedenen Zusammenhängen ein pragmatischer Umgang mit ethisch sensiblen Forschungsdaten etabliert [@dogtasKritikRassifizierendenUnd2022]. Konkrete technische und organisatorische Maßnahmen wurden an Gedächtnis- und Forschungsinstitutionen entwickelt, die zu spezifischen historischen Kontexten arbeiten. Aus heutiger Sicht brachten diese rassistische, antisemitische, sexistische oder andere individuelle und strukturelle Formen der Diskriminierung hervor. Aus deutscher Perspektive gehören beispielsweise der europäische Kolonialismus, der Nationalsozialismus (insbesondere die Erforschung des Holocausts) oder die Aufarbeitung der SED-Diktatur dazu.
+### NFDI4Memory
 
 ::: {.callout-tip title="Präsentation anzeigen: NFDI4Memory" icon="false" collapse="true"}
 Die Präsentation ist auf Zenodo archiviert und [zum Download verfügbar](https://doi.org/10.5281/zenodo.16721231). <iframe src="/assets/files/250716-Grosse_Kliewer-NFDI4Memory.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="NFDI4Memory">
@@ -111,7 +109,9 @@ This browser does not support PDFs. Please download the PDF <a href="/assets/fil
 </iframe>
 :::
 
-Das mehrsprachige Online-Portal [Sammlungsgut aus kolonialen Kontexten](https://ccc.deutsche-digitale-bibliothek.de/en) der Deutschen Digitalen Bibliothek (DDB) gibt seit Juli 2024 erstmals einen zentralen Zugang zu digitalisiertem Sammlungsgut aus kolonialen Kontexten in deutschen Kultur- und Wissenseinrichtungen. Recherchierbar sind Sammlungsgegenstände aus formalen Kolonialherrschaften sowie aus Gebieten, in denen informelle koloniale Strukturen herrschten oder die unter informellem Einfluss von Kolonialmächten standen. Das Portal wurde in enger Abstimmung mit deutschen Kulturerbeeinrichtungen und Expert\*innen aus Herkunftsländern entwickelt [@quadeBewahrungZurOnlineVeroeffentlichung2024]. Zur Diskussion stehen konkrete institutionelle Lösungen auf Interface- und Metadatenebene, wie Disclaimer für Online-Collections sowie die Entwicklung eines übergreifenden Frameworks für die Geschichtswissenschaften in Deutschland im Spannungsfeld zwischen FAIR und CARE.
+Mit dem Aufbau der Nationalen Forschungsdaten Infrastruktur für die historisch arbeitenden Wissenschaften ([NFDI4Memory](https://4memory.de/)) rücken auch ethische Fragestellungen zum Umgang mit sensiblen Forschungsdaten in den Geschichtswissenschaften in Deutschland in den Fokus. Das Konsortium eruiert ethische Aspekte, die implizit bereits in der Forschungspraxis vorhanden sind, sowie institutionelle Einzellösungen. Es bündelt diese und überführt sie gemeinsam mit der Community in möglichst allgemeingültige datenethische Lösungen. Jenseits davon hat sich bereits in verschiedenen Zusammenhängen ein pragmatischer Umgang mit ethisch sensiblen Forschungsdaten etabliert [@dogtasKritikRassifizierendenUnd2022]. Konkrete technische und organisatorische Maßnahmen wurden an Gedächtnis- und Forschungsinstitutionen entwickelt, die zu spezifischen historischen Kontexten arbeiten. Aus heutiger Sicht brachten diese rassistische, antisemitische, sexistische oder andere individuelle und strukturelle Formen der Diskriminierung hervor. Aus deutscher Perspektive gehören beispielsweise der europäische Kolonialismus, der Nationalsozialismus (insbesondere die Erforschung des Holocausts) oder die Aufarbeitung der SED-Diktatur dazu.
+
+### Online-Portal Sammlungsgut aus kolonialen Kontexten innerhalb der Deutschen Digitalen Bibliothek
 
 ::: {.callout-tip title="Präsentation anzeigen: Sammlungsgut aus kolonialen Kontexten" icon="false" collapse="true"}
 Die Präsentation ist auf Zenodo archiviert und [zum Download verfügbar](https://doi.org/10.5281/zenodo.16751305). <iframe src="/assets/files/20250716-Quade_CCC_german.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Online-Portal Sammlungsgut aus kolonialen Kontexten innerhalb der Deutschen Digitalen Bibliothek">
@@ -121,7 +121,17 @@ This browser does not support PDFs. Please download the PDF <a href="/assets/fil
 </iframe>
 :::
 
+Das mehrsprachige Online-Portal [Sammlungsgut aus kolonialen Kontexten](https://ccc.deutsche-digitale-bibliothek.de/en) der Deutschen Digitalen Bibliothek (DDB) gibt seit Juli 2024 erstmals einen zentralen Zugang zu digitalisiertem Sammlungsgut aus kolonialen Kontexten in deutschen Kultur- und Wissenseinrichtungen. Recherchierbar sind Sammlungsgegenstände aus formalen Kolonialherrschaften sowie aus Gebieten, in denen informelle koloniale Strukturen herrschten oder die unter informellem Einfluss von Kolonialmächten standen. Das Portal wurde in enger Abstimmung mit deutschen Kulturerbeeinrichtungen und Expert\*innen aus Herkunftsländern entwickelt [@quadeBewahrungZurOnlineVeroeffentlichung2024]. Zur Diskussion stehen konkrete institutionelle Lösungen auf Interface- und Metadatenebene, wie Disclaimer für Online-Collections sowie die Entwicklung eines übergreifenden Frameworks für die Geschichtswissenschaften in Deutschland im Spannungsfeld zwischen FAIR und CARE.
+
 ### Museum Rietberg / Africa Art Archive
+
+::: {.callout-tip title="Präsentation anzeigen: Africa Art Archive" icon="false" collapse="true"}
+Die Präsentation ist auf Zenodo archiviert und [zum Download verfügbar](https://doi.org/10.5281/zenodo.16947708). <iframe src="/assets/files/250716-Burla_Lendenmann-AfricaArtArchive.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Africa Art Archive: Hans Himmelheber's Archives and Collections at Museum Rietberg">
+
+This browser does not support PDFs. Please download the PDF <a href="/assets/files/250716-Burla_Lendenmann-AfricaArtArchive.pdf">download the PDF</a> to view it.
+
+</iframe>
+:::
 
 Das Museum Rietberg Zürich ist das einzige Museum der Schweiz mit einem spezifischen Fokus auf aussereuropäische Kunst. Die Sammlungen des Museums umfassen rund 32'600 Objekte sowie 49'000 Fotografien und Postkarten. Darunter befindet sich eine bedeutende Anzahl von Objekten, die in kolonialen Kontexten erworben wurden und deren Präsentation sowie Vermittlung besondere Sensibilität erfordern. Diese Panel-Präsentation bietet einen vertieften Einblick in die Strategien des Museums zur digitalen Veröffentlichung sensibler Inhalte und beleuchtet, wie ethische und verantwortungsvolle Ansätze in der Praxis umgesetzt werden können. Im Jahr 2023 hat das Museum Rietberg die digitale Plattform [Africa Art Archive](https://africa-art-archive.ch/) lanciert, um das Archiv des deutschen Kunstethnologen Hans Himmelheber einer breiteren Öffentlichkeit zugänglich zu machen. Das Archiv umfasst über 900 Objekte, 15'000 Fotografien und zahlreiche Publikationen aus den 1930er- bis 1970er-Jahren. Da ein bedeutender Teil der Dokumente während der Kolonialzeit entstanden ist, erfordert die Veröffentlichung eine besonders sorgfältige Vorgehensweise.
 
