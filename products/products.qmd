@@ -2,7 +2,7 @@
 title: "Forschungsdatenmanagement und Public History"
 lang: de
 listing:
-  - id: talks-posters
+  - id: presentations-listing
     type: table
     categories: false
     contents:
@@ -10,34 +10,86 @@ listing:
     sort: "date desc"
     sort-ui: false
     filter-ui: false
-    fields: [date, title, event, categories]
+    fields: [date, title, event]
     field-display-names: 
-      categories: 'Typ'
       title: 'Titel'
       event: 'Veranstaltung'
-  - id: coding
+    include:
+      categories: "Vortrag"
+  - id: posters-listing
+    type: table
+    categories: false
+    contents:
+      - talks-posters/*/index.qmd
+    sort: "date desc"
+    sort-ui: false
+    filter-ui: false
+    fields: [date, title, event]
+    field-display-names: 
+      title: 'Titel'
+      event: 'Veranstaltung'
+    include:
+      categories: "Poster"
+  - id: workshops-listing
+    type: table
+    categories: false
+    contents:
+      - talks-posters/*/index.qmd
+    sort: "date desc"
+    sort-ui: false
+    filter-ui: false
+    fields: [date, title, event]
+    field-display-names: 
+      title: 'Titel'
+      event: 'Veranstaltung'
+    include:
+      categories: "Workshop"
+  - id: panels-listing
+    type: table
+    categories: false
+    contents:
+      - talks-posters/*/index.qmd
+    sort: "date desc"
+    sort-ui: false
+    filter-ui: false
+    fields: [date, title, event]
+    field-display-names: 
+      title: 'Titel'
+      event: 'Veranstaltung'
+    include:
+      categories: "{Panel,Roundtable}*"
+  - id: coding-listing
     type: grid
     contents: coding/*/index.qmd
-    sort: "title desc"
+    sort: "title"
     fields: [title, subtitle]
     grid-columns: 2
-  - id: digital-history
+  - id: digital-history-listing
     type: grid
     categories: false
     contents: digital-history/*/index.qmd
     fields: [title]
-  - id: interna
+  - id: interna-listing
     type: grid
     grid-columns: 2
     categories: true
     contents: interna/*/index.qmd
     fields: [title]
-  - id: publications
+  - id: publications-listing
     type: grid
     categories: false
     contents: publications/*/index.qmd
     fields: [title, subtitle]
-  - id: research-data
+    include:
+      categories: "Publikation"
+  - id: datastories-listing
+    type: grid
+    categories: false
+    contents: publications/*/index.qmd
+    fields: [title, subtitle]
+    include:
+      categories: "Data Story"
+  - id: research-data-listing
     type: grid
     contents: [research-data/*/index.qmd]
     fields: [title]
@@ -45,37 +97,56 @@ listing:
 date-modified: last-modified
 ---
 
-::: {#frontrow}
-:::
-
 ## Publikationen
 
-::: {#publications}
+::: {#publications-listing}
+:::
+
+### Data Stories
+
+::: {#datastories-listing}
 :::
 
 ## Coding
 
-::: {#coding}
+::: {#coding-listing}
 :::
 
 ## Forschungsdaten
 
-::: {#research-data}
+::: {#research-data-listing}
 :::
 
 ## Vorträge, Poster und Workshops
 
-Wissenschaftliche Veröffentlichungen, die im Zusammenhang mit dem Forschungsprojekt stehen, sind [auf Zenodo archiviert](https://zenodo.org/communities/stadt-geschichte-basel). Die im Rahmen von Konferenzen und Workshops publizierten Beiträge des Teams für Forschungsdatenmanagement und Public History befassen sich mit der Entwicklung der digitalen Angebote von Stadt.Geschichte.Basel und übergreifend mit (digitalem) Forschungsdatenmanagement und Public History in den Geschichtswissenschaften.
+Wissenschaftliche Veröffentlichungen, die im Zusammenhang mit dem Forschungsprojekt stehen, sind [auf Zenodo archiviert](https://zenodo.org/communities/stadt-geschichte-basel). Die im Rahmen von Konferenzen und Workshops publizierten Beiträge des Teams für Forschungsdatenmanagement und Public History befassen sich mit der Entwicklung der digitalen Angebote von Stadt.Geschichte.Basel und übergreifend mit (digitalem) Forschungsdatenmanagement und Public History in den Geschichtswissenschaften. Erfasst sind [Vorträge](#vorträge), die Organisation von bzw. Teilnahme an [Panels/Roundtables](#panels-und-roundtables), veranstaltete [Workshops](#workshops) sowie wissenschaftliche [Posterpräsentationen](#poster).
 
-::: {#talks-posters}
+### Vorträge {#vorträge}
+
+::: {#presentations-listing}
+:::
+
+### Panels und Roundtables {#panels-und-roundtables}
+
+::: {#panels-listing}
+:::
+
+### Workshops {#workshops}
+
+::: {#workshops-listing}
+:::
+
+### Poster {#poster}
+
+::: {#posters-listing}
 :::
 
 ## Community Building
 
-::: {#digital-history}
+::: {#digital-history-listing}
 :::
 
 ## Interna
 
-::: {#interna}
+::: {#interna-listing}
 :::
