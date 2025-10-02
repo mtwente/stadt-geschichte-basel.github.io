@@ -1,23 +1,261 @@
 ---
 title: Diagramme und Statistiken
+subtitle: Datenvisualisierung mit R
+lang: de
+format:
+  html:
+    mermaid:
+      theme: neutral
 author:
-  - name: Nico Görlich
-    orcid: 0000-0003-3860-1488
-    affiliation: Universität Basel
   - name: Moritz Twente
     email: mtwente@protonmail.com
     orcid: 0009-0005-7187-9774
     affiliation: Universität Basel
+  - name: Nico Görlich
+    orcid: 0000-0003-3860-1488
+    affiliation: Universität Basel
 date-modified: last-modified
-lang: de
+bibliography: references.bib
+other-links:
+  - href: 'https://dokumentation.stadtgeschichtebasel.ch/sgb-figures'
+    text: sgb-figures Documentation
+    icon: github
+code-links:
+  - href: 'https://github.com/stadt-geschichte-basel/sgb-figures'
+    text: sgb-figures Repository
+    icon: github
 ---
 
-## Diagramme (Plots) und Statistiken
 
-**Statistiken** sind quantitative Daten, die numerische Informationen über verschiedene Aspekte eines Untersuchungsgegenstandes liefern. Sie ermöglichen es, Muster, Trends und Zusammenhänge zu erkennen und bilden die Grundlage für fundierte Analysen und Entscheidungsfindungen. In der Geschichtsforschung dienen Statistiken dazu, historische Entwicklungen zu quantifizieren und zu interpretieren, beispielsweise demografische Veränderungen, wirtschaftliche Kennzahlen oder soziale Indikatoren.
+::: {.callout-tip title="sgb-figures auf GitHub" icon="false"}
+Diese Dokumentation behandelt die für Stadt.Geschichte.Basel produzierten Visualisierungen tabellarischer Daten bzw. Statistiken. Daten, Metadaten und reproduzierbarer R-Code sind auf GitHub archiviert und dokumentiert. Die auf dieser Seite bereitgestellten Informationen stellen nur einen Ausschnitt der [vollständigen Repository-Dokumentation](https://dokumentation.stadtgeschichtebasel.ch/sgb-figures) (im Original auf Englisch) dar.
+:::
 
-**Plots** sind grafische Darstellungen von Daten, die helfen, komplexe Informationen visuell zugänglich zu machen. Durch die Visualisierung von Statistiken in Form von Diagrammen, Grafiken oder Karten können Zusammenhänge und Trends leichter erkannt und kommuniziert werden. Plots sind daher ein unverzichtbares Werkzeug in der Datenanalyse und -präsentation.
+Das Team für Forschungsdatenmanagement und Public History hat für die [neunbändige Buchreihe](https://stadtgeschichtebasel.ch/baende) eine Reihe von Abbildungen erstellt. Unter Verwendung der von den einzelnen Autoren von Stadt.Geschichte.Basel bereitgestellten Rohdaten konzipierte das RDM-Team Karten, Diagramme und andere Arten von Visualisierungen [@mahr2022d] für die Veröffentlichung in der gedruckten und der [Online-Version (OA)](https://emono.unibas.ch/stadtgeschichtebasel/) der Buchreihe. 
 
-In den Bänden der **Stadt.Geschichte.Basel** spielen Statistiken und deren Visualisierungen eine wesentliche Rolle. Sie ermöglichen es, die historische Entwicklung Basels nicht nur narrativ, sondern auch quantitativ zu erfassen und darzustellen. Beispielsweise können Bevölkerungswachstum, wirtschaftliche Entwicklungen oder infrastrukturelle Veränderungen über die Jahrhunderte hinweg anhand von statistischen Daten analysiert und mittels Plots veranschaulicht werden. Dies bietet den Leser*innen eine tiefere und anschaulichere Einsicht in die komplexen historischen Prozesse der Stadt.
+In den Bänden der Stadt.Geschichte.Basel spielen Statistiken und deren Visualisierungen eine wesentliche Rolle. Sie ermöglichen es, die historische Entwicklung Basels nicht nur narrativ, sondern auch quantitativ zu erfassen und darzustellen. Beispielsweise können Bevölkerungswachstum, wirtschaftliche Entwicklungen oder infrastrukturelle Veränderungen über die Jahrhunderte hinweg anhand von statistischen Daten analysiert und mittels Plots veranschaulicht werden. Dies bietet den Leser\*innen eine tiefere und anschaulichere Einsicht in die komplexen historischen Prozesse der Stadt.
 
-Die Veröffentlichung dieser statistischen Daten und ihrer Visualisierungen ist bis Ende 2025 geplant. Sie werden in geeigneten Repositorien bereitgestellt und mit umfassenden Metadaten versehen, um ihre Auffindbarkeit und Nachnutzung zu erleichtern. Die Daten folgen den FAIR-Prinzipien (Findable, Accessible, Interoperable, Reusable) und werden Open Access verfügbar sein, um einen offenen Zugang zu den historischen Informationen zu gewährleisten. 
+## Datenveröffentlichung
+
+Die Veröffentlichung dieser statistischen Daten und der darauf basierenden Visualisierungen geschieht auf der [Forschungsdatenplattform](/products/coding/plattform/index.qmd). Für die Bereitstellung von Code und R-Environment zur Weiterverwendung und Bearbeitung der Rohdaten wurde zusätzlich das GitHub-Repository [sgb-figures](https://github.com/stadt-geschichte-basel/sgb-figures) eingerichtet, in dem die Daten, umfassende Metadaten (s. [Datenmodell](#datenmodell)) sowie zur Grafikerstellung verwendeter Code aufbereitet werden. Damit wird die Auffindbarkeit und Nachnutzung der Projektinhalte erleichtert. Die Daten folgen den FAIR-Prinzipien (Findable, Accessible, Interoperable, Reusable) und sind unter offenen Lizenzen verfügbar, um den Zugang zu den historischen Forschungsdaten sowie ihre Reproduzierbarkeit zu gewährleisten.
+
+Das sgb-figures-Repository speichert ausschließlich Code und Daten für Tabellen und Diagramme (auch als Plots bezeichnet). Für andere Arten der Datenvisualisierung im Zusammenhang mit Stadt.Geschichte.Basel verweisen wir auf die umfangreiche RDM-Dokumentation.
+
+## Arbeitsschritte zur Erstellung von Visualisierungen
+
+Ausgangspunkt für jede Grafik sind Daten, die die Autor\*innen von Stadt.Geschichte.Basel dem RDM-Team zur Verfügung gestellt haben. Mit Hilfe von R (vgl. [Software](#software)) bereinigen wir die Daten, aggregieren ggfs. mehrere Quellen zu einem Datensatz für die Visualisierung, schreiben diese Daten in eine CSV-Datei und speichern Informationen zum Datensatz in einer begleitenden JSON-Metadatendatei, die gemäss dem W3C-Standard für tabellarische Daten und Metadaten im Web strukturiert ist [@w3cModelTabularData2022].
+
+Die Data Stewards im RDM-Team von Stadt.Geschichte.Basel erstellen auf dieser Datengrundlage Visualisierungen für die Buchreihe, oft in mehreren Iterationen und in enger Zusammenarbeit mit den Forscher\*innen [@twenteNavigatingDisconcertmentMapMaking2025; @muenchKartenAlsBoundary2023]. Es werden eigens entwickelte [Designprinzipien](/products/interna/inklusive-gestaltung/index.qmd) und [Farbkonzepte](/products/interna/farbkonzept/index.qmd) implementiert, um eine möglichst einheitliche Bildsprache für alle Produkte zu gewährleisten. Die fertigen Produkte werden dann für den Druck und die langfristige Archivierung aufbereitet (@fig-workflow).
+
+```{mermaid}
+%%| label: fig-workflow
+%%| fig-cap: Der Workflow zur Erstellung von Visualisierungen umfasst mehrere Iterationen mit einer Reihe unterschiedlicher Akteur\*innen.
+ 
+flowchart LR
+    A("Autor*innen") -->|Anfrage| B(RDM-Team)
+    B -->|Entwürfe| A
+
+    B -->|"Illustration (pdf)"| C(icona<br>Grafikbüro)
+    C ---> D("Gedruckte<br>Buchreihe")
+
+    B --->|"Illustration (pdf)"| E("Forschungsdaten-<br>plattform")
+    B --->|"Datensatz<br>(csv, geojson)"| E
+    B --->|Metadaten| E
+
+    B --->|"Code (R)"| F(sgb-figures)
+    B --->|"Datensatz (csv)"| F
+    B --->|"Metadaten (json)"| F
+
+    F <-.-> E
+
+    style B fill:#3a1e3e,color:#fff,stroke:#3a1e3e
+    style D fill:#86bbd8,stroke:#86bbd8
+    style E fill:#86bbd8,stroke:#86bbd8
+    style F fill:#ffe880
+
+    click B href "/team.html" "Team für Forschungsdatenmanagement"
+    click D href "https://emono.unibas.ch/stadtgeschichtebasel/" "Open Access-Version"
+    click E href "/products/coding/plattform/index.html" "Dokumentation der Forschungsdatenplattform"
+    click F href "https://github.com/stadt-geschichte-basel/sgb-figures/" "sgb-figures auf GitHub"
+```
+
+Während die für jedes Diagramm generierte PDF-Datei, die entsprechende Legende und die CSV-Datensätze auf die Forschungsdatenplattform hochgeladen werden, sind die zur Bereinigung der Daten und zur Erstellung des Diagramms verwendeten R-Skripte auf der Plattform nur über die Metadaten der Medienobjekte mit einem Link zu sgb-figures auf GitHub verknüpft.
+
+## Repository-Struktur
+
+Die Datensätze und R-Skripte zur Erstellung der Diagramme sind im [sgb-figures-Repository](https://dokumentation.stadtgeschichtebasel.ch/sgb-figures) verfügbar und bieten eine reproduzierbare R-Umgebung, um die weitere Arbeit mit dem verfügbaren Code zu ermöglichen. Unter Verwendung des [Open Research Template](https://maehr.github.io/open-research-data-template/) werden die Forschungsdaten unter Anwendung der in [The Turing Way](https://book.the-turing-way.org/) beschriebenen Best Practices aufbereitet und dokumentiert. Dieser strukturierte Ansatz umfasst ein automatisiertes Release-Management, die integrierte Archivierung mit Zenodo, eine strukturierte Dokumentation via Quarto und langfristige Zugänglichkeit über GitHub Pages [@mahrOneTemplateRule2025].
+
+R-Skripte, erstellte Diagramme, verarbeitete Daten und Metadatendateien sind nach der folgenden Ordnerstruktur sortiert:
+
+- `build/` – Hilfsskripte zum Erstellen der Diagramme
+- `data/` – Datensätze
+- `docs/` – Dokumentation zu den Daten und dem Repository
+- `output/` – erzeugte PDF-Dateien
+- `src/` – Quellcode für die Datenverarbeitung und die Erstellung von Diagrammen
+
+Eine genauere Beschreibung des Repositoriums ist [in der englischsprachigen Dokumentation](https://dokumentation.stadtgeschichtebasel.ch/sgb-figures/docs/plots.html) verfügbar.
+
+## Workflow zur Erstellung der Diagramme
+
+Von den Rohdaten als Input bis zur veröffentlichten Abbildung spielen eine Reihe von Objekten eine Rolle im Erstellungsprozess. Das Vorgehen wird hier anhand eines fiktiven Beispiels illustriert -- die Abbildung `abb01313`, veröffentlicht in Stadt.Geschichte.Basel Band `<n>`.
+
+### Software
+
+Alle Diagramme werden mit [R](https://www.r-project.org/) erstellt. Zusätzlich zu [ggplot2](https://ggplot2.tidyverse.org/) [@wickhamGgplot2ElegantGraphics2016] und anderen Teilen des [tidyverse](https://www.tidyverse.org/) verwendet dieses Projekt mehrere Packages für die Datenverarbeitung und -visualisierung, darunter [here](https://here.r-lib.org/index.html) [@mullerHereSimplerWay2020] und [renv](https://rstudio.github.io/renv/index.html) [@usheyRenvProjectEnvironments2025] zur Bereitstellung einer [reproduzierbaren Umgebung](https://book.the-turing-way.org/reproducible-research/renv/) sowie [csvwr](https://robsteranium.github.io/csvwr/) [@gowerCsvwrReadWrite2022] zur Erstellung von Metadatendateien.
+
+Code, Daten und Dokumentation werden zur [Versionsverwaltung](https://book.the-turing-way.org/reproducible-research/vcs/) in git eingecheckt und in einem [GitHub](https://github.com)-Repository gespeichert. Die R-Umgebung einschließlich aller erforderlichen Pakete kann mit der Datei `renv.lock`[^1] wiederhergestellt werden. Die Dokumentation wird mit [Quarto](https://quarto.org) [@allaireQuarto2022] gerendert und auf [GitHub Pages](https://pages.github.com) gehostet.
+
+[^1]: Mit dem npm-Script `npm run setup` wird eine Abkürzung angeboten, um die nötigen R-Pakete und Abhängigkeiten zu installieren.
+
+### Datenverarbeitung
+
+Der erste Schritt des Workflows besteht darin, die Rohdaten zu verarbeiten und einen annotierten Datensatz zu erstellen, der sowohl zur Veröffentlichung als auch zur Verwendung als Input für die Erstellung einer Abbildung bereit ist (@fig-cleaning). Das Skript in `src/01313/01313_clean.R` lädt die Rohdatendatei aus `data/raw/Band<n>/01313/ 01313_Data_raw.xlsx` als `data01313` in die R-Umgebung, verarbeitet den Datensatz (Umformatierung von Spalten, Umwandlung von absoluten in relative Werte usw.) und exportiert die bereinigten Daten nach `data/clean/Band<n>/01313/01313_3_Data.csv`. Zusätzlich wird für die Metadaten ein Listenobjekt `meta01313` in R erstellt und in `data/clean/Band<n>/01313/01313_3_Data.csv-metadata.json` geschrieben (siehe [Datenmodell](#datenmodell)).
+
+```{mermaid fig-cleaning}
+%%| label: fig-cleaning
+%%| fig-cap: Die ersten Schritte umfassen das Verarbeiten der Rohdaten, um einen annotierten Datensatz zu erhalten.
+
+flowchart LR
+        clean_script <--->|Daten laden| rawdata([01313_Data_raw.xlsx])
+        clean_script([01313_clean.R]) -->|Daten aufräumen| data01313(data01313)
+        clean_script -->|Daten<br>annotieren| meta01313(meta01313)
+        data01313 -->|Daten exportieren| csv01313([01313_3_Data.csv])
+        meta01313 -->|Metadaten exportieren| json01313([01313_3_Data.csv-metadata.json])
+
+    style csv01313 fill:#ffe880
+    style json01313 fill:#fff3e0
+    style clean_script fill:#86bbd8,stroke:#86bbd8
+    style data01313 fill:#c0dceb,stroke:#c0dceb
+    style meta01313 fill:#c0dceb,stroke:#c0dceb
+```
+
+### Plot erstellen
+
+Nachdem der Datensatz vorbereitet wurde, kann er zum Erstellen eines Plots (@fig-plotting) verwendet werden. Dazu wird das Skript in `src/01313/01313_plot.R` ausgeführt. Dabei wird zunächst das eben beschriebene Skript zur Datenverarbeitung geladen, um sicherzustellen, dass der Plot anhand aktueller Dateien erstellt wird. Die Daten werden als `data01313` in R geladen. Bei Bedarf werden weitere Transformationen angewendet (z. B. Erstellen benutzerdefinierter Beschriftungen, Aggregieren von Spalten, Bearbeiten von Daten für eine bessere Lesbarkeit usw.). Das Abbildungsobjekt `plot01313` wird mit `ggplot2` erstellt. Aus technischen Gründen müssen Plot und Legende als separate Dateien exportiert werden[^legend]. Daher wird das R-Objekt `separate_legend` mit [ggpubr](https://rpkgs.datanovia.com/ggpubr/) [@kassambaraGgpubrGgplot2Based2025] erstellt. Beide Objekte werden dann als PDF-Dateien `01313_1_Plot.pdf` und `01313_2_Legende.pdf` unter `output/Band<n>/01313` gespeichert.
+
+[^legend]: Aus technischen Gründen werden die eigentliche Abbildung und die dazugehörige Legende während des Buchproduktionsprozesses in der Regel in separaten PDF-Dateien gespeichert. Diese beiden Dateien werden programmatisch als ein Objekt dargestellt (`plot01313`) und daher in diesem Zusammenhang gemeinsam als ein Objekt bezeichnet.
+
+Für die Druckausgabe von Stadt.Geschichte.Basel nahm das RDM-Team vor der Übergabe der Abbildungen an das Grafikbüro zur Erstellung der veröffentlichten Bücher kleinere Nachbearbeitungen vor, um drucktechnischen Anforderungen, kurzfristigen Änderungen durch die Autor\*innen usw. Rechnung zu tragen.
+
+```{mermaid fig-plotting}
+%%| label: fig-plotting
+%%| fig-cap: Die Abbildung wird mit dem verarbeiteten Datensatz als PDF-Dateien gespeichert. Weiterhin wird mit Quarto eine Vorschau-Seite für die Projektdokumentation erzeugt.
+
+flowchart LR
+        plot_script([01313_plot.R]) <--> |Daten<br>laden| clean_script([01313_clean.R])
+        plot_script --> |Daten<br>transformieren| data01313(data01313)
+        data01313 -->|Plot-Objekt<br>erstellen| plot01313(plot01313)
+        plot01313 -->|Legende<br>extrahieren| legend01313(separate_legend)
+        plot01313 --->|Plot<br>exportieren| export01313([01313_1_Plot.pdf])
+        legend01313 -->|Legende<br>exportieren| exportlegend([01313_2_Legende.pdf])
+        plot_script ----->|Vorschau-Website erzeugen| infopage([01313.qmd])
+
+style clean_script fill:#86bbd8,stroke:#86bbd8
+style plot_script fill:#86bbd8,stroke:#86bbd8
+style data01313 fill:#c0dceb,stroke:#c0dceb
+style plot01313 fill:#c0dceb,stroke:#c0dceb
+style legend01313 fill:#c0dceb,stroke:#c0dceb
+style export01313 fill:#ffe880
+style exportlegend fill:#ffe880
+style infopage fill:#fff3e0
+```
+
+Zusätzlich zur Abbildung selbst erstellt das Skript `01313_plot.R` eine separate `qmd`-Datei in `docs/plots/`. Diese Seite wird für die mit GitHub Pages gehostete Dokumentation des sgb-figures-Repositorys gerendert, um eine Vorschau von Diagramm und Daten anzuzeigen. Diese Quarto-Datei enthält eine Vorschau der Abbildung selbst, eine Tabelle mit dem für die Erstellung der Grafik verwendeten Datensatz sowie ausgewählte Metadaten zum Datensatz, die aus der Datei `json` geparst wurden. Metadaten, die die Grafik (das Medienobjekt) selbst beschreiben, sind nur auf der [Forschungsdatenplattform](/products/coding/plattform/index.qmd) verfügbar.
+
+Anwender\*innen können einige [npm-Skripte](https://docs.npmjs.com/cli/v8/using-npm/scripts) nutzen, um die Erstellung der Diagramme direkt über die Kommandozeile zu ermöglichen. Durch Ausführen von `npm run list` wird eine Liste aller verfügbaren Plots mit der entsprechenden Medien-ID ausgegeben. Mit dieser ID können der Plot, die Metadaten und die `qmd`-Dateien mit `npm run plot <ID>` generiert werden. Eine vollständige Liste aller verfügbaren npm-Skripte bietet das [Repository-README](https://github.com/stadt-geschichte-basel/sgb-figures).
+
+## Datenmodell
+
+Metadaten für die auf der Forschungsdatenplattform vorgestellten Elemente werden gemäss einem Datenmodell bereitgestellt, das vom Team für Forschungdatenmanagement der Stadt.Geschichte.Basel entwickelt wurde, um den Anforderungen der vielfältigen im Projekt verwendeten Quellen gerecht zu werden. Das Datenmodell (und der anschliessende Annotationsprozess) folgen dem [Handbuch zur Erstellung diskriminerungsfreier Metadaten für historische Quellen und Forschungsdaten](https://maehr.github.io/diskriminierungsfreie-metadaten) [@maehrHandbuchZurErstellung2024a], das ebenfalls von Stadt.Geschichte.Basel entwickelt wurde.
+
+Für die Datensätze in sgb-figures wurde das Datenmodell von Stadt.Geschichte.Basel geringfügig angepasst, um auf die abweichenden Anforderungen an die Veröffentlichung tabellarischer Daten reagieren zu können. Dazu wurden die Empfehlungen des W3C-Standards für tabellarische Daten und Metadaten im Internet [@w3cModelTabularData2022] konsultiert und mit dem [csvwr](https://robsteranium.github.io/csvwr) package [@gowerCsvwrReadWrite2022] implementiert.
+
+Metadaten für die `csv`-Datensätze, die im Zusammenhang mit der Grafikerstellung Verwendung finden, werden in einer separaten `json`-Datei gespeichert. Mit einem fiktiven Beispiel-Metadatenobjekt `abb01313` wird in im Folgenden die Integration der annotierten Datensätze im sgb-figures-Repository in das Datenmodell von Stadt.Geschichte.Basel illustriert.
+
+@fig-datamodel veranschaulicht das Datenmodell mit Metadatenfeldern für ein Beispiel-Metadatenobjekt `abb01313`, das ein untergeordnetes Medienobjekt `m01313` hat. Wenn ein Metadatenobjekt mehr als ein untergeordnetes Medienobjekt hat, werden die `id`-Werte der untergeordneten Objekte fortlaufend nummeriert: `m01313_1`, `m01313_2` usw. In diesem Fall ist `m01313` ein sgb-figures-Plot, das mit dem Datensatz `m01313_3` als Grundlage erstellt wurde. Dieser Datensatz wiederum wird durch den Metadatensatz `01313_3_Data.csv-metadata.json` beschrieben.
+
+```{mermaid fig-datamodel}
+%%| label: fig-datamodel
+%%| fig-cap: Integration der Metadaten in sgb-figures in das Datenmodell.
+
+classDiagram
+    direction LR
+
+    class metadata["metadata json<br><i>beschreibt csv-Datei</i>"]
+    class metadata2["metadata object<br><i>beschreibt Medienobjekt(e)</i>"]
+    class media["media object"]
+    class csv["csv dataset"]
+
+    metadata "1" --> "1" csv
+    csv "1" --> "*" media
+
+    media "m" <-- "n" metadata2
+
+    class csv {
+        id &lpar;m01313_3&rpar;
+    }
+
+    class metadata {
+        id &lpar;01313_3_Data.csv-metadata&rpar;
+        url &lpar;01313_3_Data.csv&rpar;
+        [columns] &lpar;title, datatype, description&rpar;
+        media_id &lpar;m01313_3&rpar;
+        [isPartOf]
+        title
+        description
+        [creator] &lpar;incl. ORCID&rpar;
+        [contributor] &lpar;incl. ORCID&rpar;
+        publisher
+        date &lpar;EDTF&rpar;
+        coverage
+        type
+        format
+        source
+        language &lpar;ISO 639-2 code&rpar;
+        [relation]
+        rights
+        license
+        modified &lpar;ISO 8601&rpar;
+        bibliographicCitation
+    }
+
+%%| no label for namespaces, see https://github.com/mermaid-js/mermaid-live-editor/issues/1452
+    namespace sgb_datamodel {
+
+        class media {
+            id &lpar;m01313&rpar;
+            title
+            [subject;subject] &lpar;keywords from GenderOpen Index&rpar;
+            description
+            [abstract] &lpar;alt attribute for alternative text&rpar;
+            [creator] &lpar;incl. link to Wikidata&rpar;
+            [publisher] &lpar;incl. link to Wikidata&rpar;
+            date
+            temporal
+            type
+            format
+            extent
+            [source] &lpar;Source and catalogue link&rpar;
+            language &lpar;ISO 639-2 code&rpar;
+            [relation] &lpar;internal links to other items, link to GitHub, further information&rpar;
+            rights
+            license
+        }
+
+    class metadata2 {
+        id &lpar;abb01313&rpar;
+        title
+        [subject;subject]
+        description
+        temporal
+        [isPartOf;isPartOf] &lpar;Data DOIs&rpar;
+    }
+    }
+
+style csv fill:#F7CB45,stroke:#777
+style metadata fill:#fff3e0,stroke:#777
+style media fill:#FFFFFF,stroke:#777,color:#3A1E3E
+
+click media href "https://dokumentation.stadtgeschichtebasel.ch/products/coding/plattform/#datenmodell" "Main Data Model Documentation"
+click metadata2 href "https://dokumentation.stadtgeschichtebasel.ch/products/coding/plattform/#datenmodell" "Main Data Model Documentation"
+```
