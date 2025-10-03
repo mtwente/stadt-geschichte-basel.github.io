@@ -1,0 +1,60 @@
+---
+title: Verbriefte Märkte – Seidene Beziehungen
+subtitle: Basel und das Osmanische Reich im 19. Jahrhundert
+author:
+  - name: Yiğit Topkaya
+    affiliation: Universität Basel
+    orcid: 0000-0002-3208-4881
+date: 2025-03-23
+doi: 10.5281/zenodo.15260738
+categories: "Data Story"
+lang: de
+other-links:
+  - text: Interaktive Data Story
+    icon: house
+    href: 'https://storymaps.arcgis.com/stories/90a309d6d21342608d0ad3ee16fb3f30'
+  - text: Druckansicht (komprimiert)
+    icon: filetype-pdf
+    href: '/assets/files/20250323_Topkaya_SeideneBeziehungen_compressed.pdf'
+---
+
+::: {.callout-note icon="false"}
+Beim folgenden Text handelt es sich um eine Zusammenfassung der Data Story "Verbriefte Märkte – Seidene Beziehungen" (2025). Die vollständige Geschichte ist als [interaktive Online-Geschichte](https://storymaps.arcgis.com/stories/90a309d6d21342608d0ad3ee16fb3f30) oder als [PDF (komprimiert)](/assets/files/20250323_Topkaya_SeideneBeziehungen_compressed.pdf) verfügbar.
+:::
+
+Die Data Story **"Verbriefte Märkte – Seidene Beziehungen"** untersucht die Handels- und Finanzbeziehungen zwischen Basler Kaufleuten und Märkten des Osmanischen Reiches im 19. Jahrhundert. Im Zentrum stehen Warenströme (vor allem Seide), verbriefte Zahlungsinstrumente und die Netzwerke, die Handel, Kredit und Risikoabsicherung ermöglichten.
+
+## Hintergrund der Geschichte
+
+Die Story ordnet den Seidenhandel in grössere ökonomische und politische Kontexte ein: technologische Innovationszyklen, globale Nachfrage nach Textilien und die Rolle transregionaler Handelsnetze. Sie zeigt, wie schriftliche Handelsdokumente (Wechsel, Rechnungen, Versicherungspolicen) als Datenquelle dienen und welche Herausforderungen ihre Erschliessung mit sich bringt.
+
+## Schlüsselmomente der Data Story
+
+1. Quellen und Verbriefung  
+   - Analyse von Wechseln, Rechnungen und Korrespondenzen, die Handels- und Kreditverhältnisse dokumentieren.  
+   - Erläuterung, wie diese Papiere Markttransaktionen standardisieren und Risiken verlagern.
+2. Handelsnetzwerke und Akteursprofile  
+   - Netzwerkanalysen machen zentrale Händler, Kommissionäre und Vermittler sichtbar.  
+   - Untersuchung von Familien- und Firmenbeziehungen sowie deren Rolle bei der Informations- und Kapitalvermittlung.
+3. Geographische Routen und Umschlagplätze  
+   - Kartografien zeigen Transportwege, Häfen und Zwischenstationen zwischen Basel und osmanischen Zentren (z. B. Izmir, Konstantinopel).  
+   - Bedeutung von Knotenpunkten für Preisbildung und Marktintegration wird herausgearbeitet.
+4. Ökonomische Mechanismen und Risiken  
+   - Darstellung, wie Kreditinstrumente, Wechsel und Versicherungen Liquidität bereitstellten, aber auch neue Abhängigkeitsformen schufen.  
+   - Fallbeispiele zu Zahlungsausfällen, Wechselkursen und rechtlichen Auseinandersetzungen.
+
+## Digitale Vermittlung: Umsetzung der Data Story
+
+Die Story kombiniert transkribierte Handelsdokumente, Netzwerkgrafiken, interaktive Karten und Zeitreihen. Nutzer*innen können einzelne Dokumente einsehen, Handelsbeziehungen filtern und Entwicklungen im Handelsvolumen explorativ verfolgen.
+
+## Bedeutung für das Forschungsdatenmanagement
+
+Das Projekt zeigt, wie heterogene Handelsquellen in standardisierte Datensätze überführt werden können. Es betont Anforderungen an Metadaten, Transkriptionsrichtlinien, Provenienz und Nachnutzbarkeit sowie die Bedeutung offener, dokumentierter Workflows für reproduzierbare digitale Forschung.
+
+## Autor & Entwicklung
+
+Die Data Story wurde von Yiğit Topkaya erarbeitet. Sie verbindet archivalische Arbeit, digitale Editionen und netzwerkanalytische Methoden und richtet sich an Wirtschafts- und Sozialhistoriker\*innen, Mediävist\*innen sowie ein interessiertes Publikum.
+
+## Fazit
+
+"Verbriefte Märkte – Seidene Beziehungen" macht deutlich, wie Finanzinstrumente und schriftliche Praktiken den grenzüberschreitenden Handel organisierten. Die Story liefert empirische Einsichten in die Verflechtung von Waren-, Informations- und Kapitalströmen und zeigt, wie digitale Methoden historische Handelsnetze rekonstruierbar machen.
