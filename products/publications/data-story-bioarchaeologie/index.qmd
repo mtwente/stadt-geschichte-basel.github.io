@@ -5,7 +5,8 @@ author:
   - name: Margaux L. C. Depaermentier
     orcid: 0000-0002-1801-3358
     affiliation: Universität Basel
-date: 9 January 2024
+date: 2024-01-09
+doi: 10.5281/zenodo.15241041
 categories: "Data Story"
 lang: de
 appendix-cite-as: display

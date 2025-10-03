@@ -12,7 +12,8 @@ author:
     email: moritz.maehr@gmail.com
     orcid: 0000-0002-1367-1618
     affiliation: Universität Basel
-date: 7 June 2022
+date: 2022-06-07
+doi: 10.5281/zenodo.15240927
 categories: "Data Story"
 lang: de
 appendix-cite-as: display
@@ -26,7 +27,7 @@ other-links:
 ---
 
 ::: {.callout-note icon="false"}
-Beim folgenden Text handelt es sich um eine Zusammenfassung der Data Story "Das Kontrollbüro und die Wundermaschine" (2022). Die vollständige Geschichte ist als [interaktive Online-Geschichte](https://storymaps.arcgis.com/stories/6be823309a7b4254aa27b5486703b68b) verfügbar oder als [PDF](/assets/files/20220607_Das_Kontrollbuero_und_die_Wundermaschine.pdf) verfügbar.
+Beim folgenden Text handelt es sich um eine Zusammenfassung der Data Story "Das Kontrollbüro und die Wundermaschine" (2022). Die vollständige Geschichte ist als [interaktive Online-Geschichte](https://storymaps.arcgis.com/stories/6be823309a7b4254aa27b5486703b68b) oder als [PDF](/assets/files/20220607_Das_Kontrollbuero_und_die_Wundermaschine.pdf) verfügbar.
 :::
 
 Die Data Story **"Das Kontrollbüro und die Wundermaschine"** wurde vom **Forschungsdatenmanagement- und Public-History-Team** von **Stadt.Geschichte.Basel** für Workshops und das Online-Portal entwickelt. Sie thematisiert die Einführung der elektronischen Datenverarbeitung in der Verwaltung des Kantons Basel-Stadt und zeigt deren Auswirkungen auf das Einwohnermeldewesen und die frühe Digitalisierung des Staates.
