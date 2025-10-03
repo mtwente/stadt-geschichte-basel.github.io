@@ -248,6 +248,7 @@ classDiagram
         [subject;subject]
         description
         temporal
+        language &lpar;ISO 639-2 code&rpar;
         [isPartOf;isPartOf] &lpar;Data DOIs&rpar;
     }
     }
