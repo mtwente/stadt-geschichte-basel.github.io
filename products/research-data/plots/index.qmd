@@ -26,12 +26,11 @@ code-links:
     icon: github
 ---
 
-
 ::: {.callout-tip title="sgb-figures auf GitHub" icon="false"}
 Diese Dokumentation behandelt die für Stadt.Geschichte.Basel produzierten Visualisierungen tabellarischer Daten bzw. Statistiken. Daten, Metadaten und reproduzierbarer R-Code sind auf GitHub archiviert und dokumentiert. Die auf dieser Seite bereitgestellten Informationen stellen nur einen Ausschnitt der [vollständigen Repository-Dokumentation](https://dokumentation.stadtgeschichtebasel.ch/sgb-figures) (im Original auf Englisch) dar.
 :::
 
-Das Team für Forschungsdatenmanagement und Public History hat für die [neunbändige Buchreihe](https://stadtgeschichtebasel.ch/baende) eine Reihe von Abbildungen erstellt. Unter Verwendung der von den einzelnen Autoren von Stadt.Geschichte.Basel bereitgestellten Rohdaten konzipierte das RDM-Team Karten, Diagramme und andere Arten von Visualisierungen [@mahr2022d] für die Veröffentlichung in der gedruckten und der [Online-Version (OA)](https://emono.unibas.ch/stadtgeschichtebasel/) der Buchreihe. 
+Das Team für Forschungsdatenmanagement und Public History hat für die [neunbändige Buchreihe](https://stadtgeschichtebasel.ch/baende) eine Reihe von Abbildungen erstellt. Unter Verwendung der von den einzelnen Autoren von Stadt.Geschichte.Basel bereitgestellten Rohdaten konzipierte das RDM-Team Karten, Diagramme und andere Arten von Visualisierungen [@mahr2022d] für die Veröffentlichung in der gedruckten und der [Online-Version (OA)](https://emono.unibas.ch/stadtgeschichtebasel/) der Buchreihe.
 
 In den Bänden der Stadt.Geschichte.Basel spielen Statistiken und deren Visualisierungen eine wesentliche Rolle. Sie ermöglichen es, die historische Entwicklung Basels nicht nur narrativ, sondern auch quantitativ zu erfassen und darzustellen. Beispielsweise können Bevölkerungswachstum, wirtschaftliche Entwicklungen oder infrastrukturelle Veränderungen über die Jahrhunderte hinweg anhand von statistischen Daten analysiert und mittels Plots veranschaulicht werden. Dies bietet den Leser\*innen eine tiefere und anschaulichere Einsicht in die komplexen historischen Prozesse der Stadt.
 
@@ -87,11 +86,11 @@ Die Datensätze und R-Skripte zur Erstellung der Diagramme sind im [sgb-figures-
 
 R-Skripte, erstellte Diagramme, verarbeitete Daten und Metadatendateien sind nach der folgenden Ordnerstruktur sortiert:
 
-- `build/` – Hilfsskripte zum Erstellen der Diagramme
-- `data/` – Datensätze
-- `docs/` – Dokumentation zu den Daten und dem Repository
-- `output/` – erzeugte PDF-Dateien
-- `src/` – Quellcode für die Datenverarbeitung und die Erstellung von Diagrammen
+-   `build/` – Hilfsskripte zum Erstellen der Diagramme
+-   `data/` – Datensätze
+-   `docs/` – Dokumentation zu den Daten und dem Repository
+-   `output/` – erzeugte PDF-Dateien
+-   `src/` – Quellcode für die Datenverarbeitung und die Erstellung von Diagrammen
 
 Eine genauere Beschreibung des Repositoriums ist [in der englischsprachigen Dokumentation](https://dokumentation.stadtgeschichtebasel.ch/sgb-figures/docs/plots.html) verfügbar.
 
@@ -99,11 +98,11 @@ Eine genauere Beschreibung des Repositoriums ist [in der englischsprachigen Doku
 
 Von den Rohdaten als Input bis zur veröffentlichten Abbildung spielen eine Reihe von Objekten eine Rolle im Erstellungsprozess. Das Vorgehen wird hier anhand eines fiktiven Beispiels illustriert -- die Abbildung `abb01313`, veröffentlicht in Stadt.Geschichte.Basel Band `<n>`.
 
-### Software
+### Software {#software}
 
 Alle Diagramme werden mit [R](https://www.r-project.org/) erstellt. Zusätzlich zu [ggplot2](https://ggplot2.tidyverse.org/) [@wickhamGgplot2ElegantGraphics2016] und anderen Teilen des [tidyverse](https://www.tidyverse.org/) verwendet dieses Projekt mehrere Packages für die Datenverarbeitung und -visualisierung, darunter [here](https://here.r-lib.org/index.html) [@mullerHereSimplerWay2020] und [renv](https://rstudio.github.io/renv/index.html) [@usheyRenvProjectEnvironments2025] zur Bereitstellung einer [reproduzierbaren Umgebung](https://book.the-turing-way.org/reproducible-research/renv/) sowie [csvwr](https://robsteranium.github.io/csvwr/) [@gowerCsvwrReadWrite2022] zur Erstellung von Metadatendateien.
 
-Code, Daten und Dokumentation werden zur [Versionsverwaltung](https://book.the-turing-way.org/reproducible-research/vcs/) in git eingecheckt und in einem [GitHub](https://github.com)-Repository gespeichert. Die R-Umgebung einschließlich aller erforderlichen Pakete kann mit der Datei `renv.lock`[^1] wiederhergestellt werden. Die Dokumentation wird mit [Quarto](https://quarto.org) [@allaireQuarto2022] gerendert und auf [GitHub Pages](https://pages.github.com) gehostet.
+Code, Daten und Dokumentation werden zur [Versionsverwaltung](https://book.the-turing-way.org/reproducible-research/vcs/) in git eingecheckt und in einem [GitHub](https://github.com)-Repository gespeichert. Mit [prettier](https://prettier.io/) [@longPrettierOpinionatedCode2025] wird der Programmcode formatiert. Für R-Skripte werden zu diesem Zweck [styler](https://styler.r-lib.org/) [@mullerStylerNonInvasivePretty2024] und [lintr](https://lintr.r-lib.org/) [@hesterLintrLinterCode2025] eingesetzt. Die R-Umgebung einschließlich aller erforderlichen Pakete kann mit der Datei `renv.lock`[^1] wiederhergestellt werden. Die Dokumentation wird mit [Quarto](https://quarto.org) [@allaireQuarto2022] gerendert und auf [GitHub Pages](https://pages.github.com) gehostet.
 
 [^1]: Mit dem npm-Script `npm run setup` wird eine Abkürzung angeboten, um die nötigen R-Pakete und Abhängigkeiten zu installieren.
 
@@ -131,11 +130,11 @@ flowchart LR
 
 ### Plot erstellen
 
-Nachdem der Datensatz vorbereitet wurde, kann er zum Erstellen eines Plots (@fig-plotting) verwendet werden. Dazu wird das Skript in `src/01313/01313_plot.R` ausgeführt. Dabei wird zunächst das eben beschriebene Skript zur Datenverarbeitung geladen, um sicherzustellen, dass der Plot anhand aktueller Dateien erstellt wird. Die Daten werden als `data01313` in R geladen. Bei Bedarf werden weitere Transformationen angewendet (z. B. Erstellen benutzerdefinierter Beschriftungen, Aggregieren von Spalten, Bearbeiten von Daten für eine bessere Lesbarkeit usw.). Das Abbildungsobjekt `plot01313` wird mit `ggplot2` erstellt. Aus technischen Gründen müssen Plot und Legende als separate Dateien exportiert werden[^legend]. Daher wird das R-Objekt `separate_legend` mit [ggpubr](https://rpkgs.datanovia.com/ggpubr/) [@kassambaraGgpubrGgplot2Based2025] erstellt. Beide Objekte werden dann als PDF-Dateien `01313_1_Plot.pdf` und `01313_2_Legende.pdf` unter `output/Band<n>/01313` gespeichert.
+Nachdem der Datensatz vorbereitet wurde, kann er zum Erstellen eines Plots (@fig-plotting) verwendet werden. Dazu wird das Skript in `src/01313/01313_plot.R` ausgeführt. Dabei wird zunächst das eben beschriebene Skript zur Datenverarbeitung geladen, um sicherzustellen, dass der Plot anhand aktueller Dateien erstellt wird. Die Daten werden als `data01313` in R geladen. Bei Bedarf werden weitere Transformationen angewendet (z. B. Erstellen benutzerdefinierter Beschriftungen, Aggregieren von Spalten, Bearbeiten von Daten für eine bessere Lesbarkeit usw.). Das Abbildungsobjekt `plot01313` wird mit `ggplot2` erstellt. Aus technischen Gründen müssen Plot und Legende als separate Dateien exportiert werden[^2]. Daher wird das R-Objekt `separate_legend` mit [ggpubr](https://rpkgs.datanovia.com/ggpubr/) [@kassambaraGgpubrGgplot2Based2025] erstellt. Beide Objekte werden dann als PDF-Dateien `01313_1_Plot.pdf` und `01313_2_Legende.pdf` unter `output/Band<n>/01313` gespeichert. Beim Erstellen der Abbildungen mithilfe der Daten im Repository sgb-figures werden die Plots nicht mit der [Hausschrift](/products/interna/corporate-identity/index.qmd#schriftarten) von Stadt.Geschichte.Basel exportiert, sondern mit einer System-Standardschrift.
 
-[^legend]: Aus technischen Gründen werden die eigentliche Abbildung und die dazugehörige Legende während des Buchproduktionsprozesses in der Regel in separaten PDF-Dateien gespeichert. Diese beiden Dateien werden programmatisch als ein Objekt dargestellt (`plot01313`) und daher in diesem Zusammenhang gemeinsam als ein Objekt bezeichnet.
+[^2]: Aus technischen Gründen werden die eigentliche Abbildung und die dazugehörige Legende während des Buchproduktionsprozesses in der Regel in separaten PDF-Dateien gespeichert. Diese beiden Dateien werden programmatisch als ein Objekt dargestellt (`plot01313`) und daher in diesem Zusammenhang gemeinsam als ein Objekt bezeichnet.
 
-Für die Druckausgabe von Stadt.Geschichte.Basel nahm das RDM-Team vor der Übergabe der Abbildungen an das Grafikbüro zur Erstellung der veröffentlichten Bücher kleinere Nachbearbeitungen vor, um drucktechnischen Anforderungen, kurzfristigen Änderungen durch die Autor\*innen usw. Rechnung zu tragen.
+Für die Druckausgabe von Stadt.Geschichte.Basel nahm das RDM-Team vor der Übergabe der Abbildungen an das Grafikbüro zur Erstellung der veröffentlichten Bücher kleinere Nachbearbeitungen mit Adobe Illustrator vor, um drucktechnischen Anforderungen, kurzfristigen Änderungen durch die Autor\*innen usw. Rechnung zu tragen.
 
 ```{mermaid fig-plotting}
 %%| label: fig-plotting
@@ -164,15 +163,15 @@ Zusätzlich zur Abbildung selbst erstellt das Skript `01313_plot.R` eine separat
 
 Anwender\*innen können einige [npm-Skripte](https://docs.npmjs.com/cli/v8/using-npm/scripts) nutzen, um die Erstellung der Diagramme direkt über die Kommandozeile zu ermöglichen. Durch Ausführen von `npm run list` wird eine Liste aller verfügbaren Plots mit der entsprechenden Medien-ID ausgegeben. Mit dieser ID können der Plot, die Metadaten und die `qmd`-Dateien mit `npm run plot <ID>` generiert werden. Eine vollständige Liste aller verfügbaren npm-Skripte bietet das [Repository-README](https://github.com/stadt-geschichte-basel/sgb-figures).
 
-## Datenmodell
+## Datenmodell {#datenmodell}
 
 Metadaten für die auf der Forschungsdatenplattform vorgestellten Elemente werden gemäss einem Datenmodell bereitgestellt, das vom Team für Forschungdatenmanagement der Stadt.Geschichte.Basel entwickelt wurde, um den Anforderungen der vielfältigen im Projekt verwendeten Quellen gerecht zu werden. Das Datenmodell (und der anschliessende Annotationsprozess) folgen dem [Handbuch zur Erstellung diskriminerungsfreier Metadaten für historische Quellen und Forschungsdaten](https://maehr.github.io/diskriminierungsfreie-metadaten) [@maehrHandbuchZurErstellung2024a], das ebenfalls von Stadt.Geschichte.Basel entwickelt wurde.
 
 Für die Datensätze in sgb-figures wurde das Datenmodell von Stadt.Geschichte.Basel geringfügig angepasst, um auf die abweichenden Anforderungen an die Veröffentlichung tabellarischer Daten reagieren zu können. Dazu wurden die Empfehlungen des W3C-Standards für tabellarische Daten und Metadaten im Internet [@w3cModelTabularData2022] konsultiert und mit dem [csvwr](https://robsteranium.github.io/csvwr) package [@gowerCsvwrReadWrite2022] implementiert.
 
-Metadaten für die `csv`-Datensätze, die im Zusammenhang mit der Grafikerstellung Verwendung finden, werden in einer separaten `json`-Datei gespeichert. Mit einem fiktiven Beispiel-Metadatenobjekt `abb01313` wird in im Folgenden die Integration der annotierten Datensätze im sgb-figures-Repository in das Datenmodell von Stadt.Geschichte.Basel illustriert.
+Metadaten für die `csv`-Datensätze, die im Zusammenhang mit der Grafikerstellung Verwendung finden, werden in einer separaten `json`-Datei gespeichert. Im Folgenden wird die Integration der annotierten Datensätze im sgb-figures-Repository in das Datenmodell von Stadt.Geschichte.Basel wieder mit dem fiktiven Beispiel-Metadatenobjekt `abb01313` illustriert.
 
-@fig-datamodel veranschaulicht das Datenmodell mit Metadatenfeldern für ein Beispiel-Metadatenobjekt `abb01313`, das ein untergeordnetes Medienobjekt `m01313` hat. Wenn ein Metadatenobjekt mehr als ein untergeordnetes Medienobjekt hat, werden die `id`-Werte der untergeordneten Objekte fortlaufend nummeriert: `m01313_1`, `m01313_2` usw. In diesem Fall ist `m01313` ein sgb-figures-Plot, das mit dem Datensatz `m01313_3` als Grundlage erstellt wurde. Dieser Datensatz wiederum wird durch den Metadatensatz `01313_3_Data.csv-metadata.json` beschrieben.
+@fig-datamodel veranschaulicht das Datenmodell mit Metadatenfeldern für ein Beispiel-Metadatenobjekt `abb01313`, das ein untergeordnetes Medienobjekt `m01313` hat. Wenn ein Metadatenobjekt mehr als ein untergeordnetes Medienobjekt hat, werden die `id`-Werte der untergeordneten Objekte fortlaufend nummeriert: `m01313_1`, `m01313_2` usw. (genauso wird mit ggfs. mehreren `csv`-Datensätzen verfahren). In diesem Fall ist `m01313` ein sgb-figures-Plot, das mit dem Datensatz `m01313_3` als Grundlage erstellt wurde. Dieser Datensatz wiederum wird durch den Metadatensatz `01313_3_Data.csv-metadata.json` beschrieben.
 
 ```{mermaid fig-datamodel}
 %%| label: fig-datamodel
