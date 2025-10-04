@@ -19,7 +19,7 @@ Diese Webseite zeigt die Arbeit des Teams für Forschungsdatenmanagement und Pub
 
 ## Produkte
 
-Von unserem Team erarbeitete Lösungen bieten wir als Good-Practice-Beispiele zur Weiterverwendung an, darunter ein Handbuch zur Erstellung diskriminierungsfreier Metadaten für historische Quellen und Forschungsdaten, Workflows für kollaboratives Projektmanagement und [weitere Produkte](products/products.qmd), zum Beispiel:
+Von unserem Team erarbeitete Lösungen bieten wir als Good-Practice-Beispiele zur Weiterverwendung an, darunter ein Handbuch zur Erstellung diskriminierungsfreier Metadaten für historische Quellen und Forschungsdaten, Workflows für kollaboratives Projektmanagement und [weitere Produkte](/products/products.qmd), zum Beispiel:
 
 ::: {#showcase-reel}
 :::

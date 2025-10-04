@@ -119,7 +119,7 @@ date-modified: last-modified
 ::: {#research-data-listing}
 :::
 
-## Vorträge, Poster und Workshops
+## Vorträge, Poster und Workshops {#conferences}
 
 Wissenschaftliche Veröffentlichungen, die im Zusammenhang mit dem Forschungsprojekt stehen, sind [auf Zenodo archiviert](https://zenodo.org/communities/stadt-geschichte-basel). Die im Rahmen von Konferenzen und Workshops publizierten Beiträge des Teams für Forschungsdatenmanagement und Public History befassen sich mit der Entwicklung der digitalen Angebote von Stadt.Geschichte.Basel und übergreifend mit (digitalem) Forschungsdatenmanagement und Public History in den Geschichtswissenschaften. Erfasst sind [Vorträge](#vorträge), die Organisation von bzw. Teilnahme an [Panels/Roundtables](#panels-und-roundtables), veranstaltete [Workshops](#workshops) sowie wissenschaftliche [Posterpräsentationen](#poster).
 

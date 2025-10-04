@@ -48,7 +48,7 @@ website:
             text: Coding
           - href: products/products.qmd#forschungsdaten
             text: Forschungsdaten
-          - href: products/products.qmd#vorträge-poster-und-workshops
+          - href: products/products.qmd#conferences
             text: Vorträge, Poster und Workshops
           - href: products/products.qmd#community-building
             text: Community Building
