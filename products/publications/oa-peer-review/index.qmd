@@ -34,9 +34,9 @@ other-links:
 ---
 
 ::: {.callout-tip title="Artikel anzeigen" icon="false" collapse="true"}
-<iframe src="/assets/files/20250805-Mähr_Twente-Open_Access_and_Open_Peer_Review_in_the_Digital_Humanities.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Open Access and Open Peer Review in the Digital Humanities">
+<iframe src="/assets/files/20250805-Maehr_Twente-Open_Access_and_Open_Peer_Review_in_the_Digital_Humanities.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Open Access and Open Peer Review in the Digital Humanities">
 
-This browser does not support PDFs. Please download the PDF <a href="/assets/files/20250805-Mähr_Twente-Open_Access_and_Open_Peer_Review_in_the_Digital_Humanities.pdf">download the PDF</a> to view it.
+This browser does not support PDFs. Please download the PDF <a href="/assets/files/20250805-Maehr_Twente-Open_Access_and_Open_Peer_Review_in_the_Digital_Humanities.pdf">download the PDF</a> to view it.
 
 </iframe>
 :::
