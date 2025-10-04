@@ -32,7 +32,7 @@ other-links:
     href: 'https://www.openscience.uzh.ch/de/news/2025/workshop-oa-digital-humanities.html'
   - text: Digital History Network Switzerland
     icon: diagram-3
-    href: '/products/digital-history/digital-history-network/'
+    href: '/products/digital-history/digital-history-network/index.html'
   - text: infoclio.ch Report
     icon: card-text
     href: 'https://www.infoclio.ch/en/open-access-and-open-peer-review-digital-humanities'

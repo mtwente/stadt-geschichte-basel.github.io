@@ -30,7 +30,7 @@ other-links:
     href: 'https://www.infoclio.ch/en/node/190093'
   - text: Workshop-Beschreibung
     icon: house
-    href: '/products/talks-posters/workshop-peer-review'
+    href: '/products/talks-posters/workshop-peer-review/index.html'
 ---
 
 ::: {.callout-tip title="Artikel anzeigen" icon="false" collapse="true"}
