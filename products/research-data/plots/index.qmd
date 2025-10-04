@@ -144,8 +144,8 @@ flowchart LR
         plot_script([01313_plot.R]) <--> |Daten<br>laden| clean_script([01313_clean.R])
         plot_script --> |Daten<br>transformieren| data01313(data01313)
         data01313 -->|Plot-Objekt<br>erstellen| plot01313(plot01313)
-        plot01313 -->|Legende<br>extrahieren| legend01313(separate_legend)
         plot01313 --->|Plot<br>exportieren| export01313([01313_1_Plot.pdf])
+        plot01313 -->|Legende<br>extrahieren| legend01313(separate_legend)
         legend01313 -->|Legende<br>exportieren| exportlegend([01313_2_Legende.pdf])
         plot_script ----->|Vorschau-Website erzeugen| infopage([01313.qmd])
 
