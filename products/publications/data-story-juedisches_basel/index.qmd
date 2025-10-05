@@ -2,21 +2,31 @@
 title: Das jüdische Basel 1850–1914
 author:
   - name: Beni Pfister
-date: September 2022
+  - name: Jonas Schneider
+    affiliation: KleioLab GmbH
+  - name: David Knecht
+    orcid: 0000-0001-5237-8337
+    affiliation: KleioLab GmbH
+date: 2024-02-29
+doi: 10.5281/zenodo.15681537
 categories: "Data Story"
 lang: de
 appendix-cite-as: display
 other-links:
   - text: Interaktive Data Story
     icon: house
-    href: 'https://stadtgeschichtebasel-jb.geovistory.org/intro'
+    href: 'https://das-juedische-basel.stadtgeschichtebasel.ch/'
+code-links:
+  - href: 'https://github.com/Stadt-Geschichte-Basel/juedisches-milieu-basel'
+    text: juedisches-milieu-basel
+    icon: github
 ---
 
 ::: {.callout-note icon="false"}
-Beim folgenden Text handelt es sich um eine Zusammenfassung der Data Story "Das jüdische Basel 1850–1914" (2022). Die vollständige Geschichte ist als [interaktive Online-Geschichte](https://stadtgeschichtebasel-jb.geovistory.org/intro) verfügbar.
+Beim folgenden Text handelt es sich um eine Zusammenfassung der Data Story "Das jüdische Basel 1850–1914" (2024). Die vollständige Geschichte ist als [interaktive Online-Geschichte](https://das-juedische-basel.stadtgeschichtebasel.ch/) verfügbar.
 :::
 
-Die digitale Data Story **"Das jüdische Basel 1850–1914"** wurde als interaktive Anwendung entwickelt, um die Geschichte der jüdischen Gemeinschaft in Basel zwischen **1850 und 1914** zu vermitteln. Sie ist ein Teil des digitalen Angebots von **Stadt.Geschichte.Basel** und wurde von **KleioLab GmbH** in Zusammenarbeit mit **Beni Pfister** (Historiker und Mitautor von Band 6 der Stadtgeschichte) umgesetzt.
+Die digitale Data Story **"Das jüdische Basel 1850–1914"** wurde als interaktive Anwendung entwickelt, um die Geschichte der jüdischen Gemeinschaft in Basel zwischen **1850 und 1914** zu vermitteln. Sie ist ein Teil des digitalen Angebots von **Stadt.Geschichte.Basel** und wurde von **KleioLab GmbH** in Zusammenarbeit mit **Beni Pfister** (Historiker und Mitautor von Band 6 von Stadt.Geschichte.Basel) umgesetzt.
 
 ### Konzept und Zielsetzung
 

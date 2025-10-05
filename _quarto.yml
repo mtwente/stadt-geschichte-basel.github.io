@@ -39,7 +39,21 @@ website:
         href: index.qmd
       - section: Produkte
         href: products/products.qmd
-        contents: products/*/*/index.qmd
+        contents:
+          - href: products/products.html#publikationen
+            text: Publikationen
+          - href: products/products.html#data-stories
+            text: Data Stories
+          - href: products/products.html#coding
+            text: Coding
+          - href: products/products.html#forschungsdaten
+            text: Forschungsdaten
+          - href: products/products.html#conferences
+            text: Vorträge, Poster und Workshops
+          - href: products/products.html#community-building
+            text: Community Building
+          - href: products/products.html#interna
+            text: Interna
 
 format:
   html:

@@ -1,0 +1,43 @@
+---
+title: Von Basler Fumoirs & Schnupftabakdosen
+subtitle: Produktion, Handel und Konsum von Tabak in Basel
+author:
+  - name: Ariane Engler
+    orcid: 0009-0008-6918-0835
+    affiliation: Universität Basel
+  - name: Margherita De Fregias
+    affiliation: Universität Basel
+doi: 10.5281/zenodo.15252990
+date: 2025-04-20
+categories: "Data Story"
+lang: de
+appendix-cite-as: display
+other-links:
+  - text: Interaktive Data Story
+    icon: house
+    href: 'https://storymaps.arcgis.com/stories/e2096bc80f714932b8eba10ee7e23b4b'
+  - text: Druckansicht
+    icon: filetype-pdf
+    href: '/assets/files/20250420_Engler-DeFregias_Schnupftabak-preview_compressed.pdf'
+---
+
+::: {.callout-note icon="false"}
+Beim folgenden Text handelt es sich um eine Zusammenfassung der Data Story "Von Basler Fumoirs & Schnupftabakdosen" (2025). Die vollständige Geschichte ist als [interaktive Online-Geschichte](https://storymaps.arcgis.com/stories/e2096bc80f714932b8eba10ee7e23b4b) oder als [PDF](/assets/files/20250420_Engler-DeFregias_Schnupftabak-preview_compressed.pdf) verfügbar.
+:::
+
+## Kurzfassung
+Diese Seite fasst die Data Story "Von Basler Fumoirs & Schnupftabakdosen: Produktion, Handel und Konsum von Tabak in Basel" von Ariane Engler und Margherita De Fregias zusammen. Die Arbeit beleuchtet die lokale Tabakindustrie, Handelsnetzwerke und Konsummuster in Basel anhand historischer Karten, Objektkatalogen und Handelsdaten.
+
+## Bestandteile der Studie
+Die Autorinnen kombinieren historische Quellen (Inventare, Handelsregister, Sammlungsobjekte) mit digitalen Karten und Objektfotografien. Kernmaterial sind Fumoirs‑Modelle, Schnupftabakdosen und Einträge aus Handelsverzeichnissen, ergänzt durch räumliche Visualisierungen, die Produktions- und Vertriebsorte in Basel zeigen.
+
+## Methodik
+Die Story verbindet Quellenkritik mit cartografischer Darstellung: Erhebung und Normalisierung von Objektdaten, Geokodierung historischer Adressen und Integration in interaktive Karten. Visualisierungen machen zeitliche Veränderungen und räumliche Ballungen sichtbar und verknüpfen Materialkultur mit wirtschaftlichen Kontexten.
+
+## Zentrale Erkenntnisse
+- Basel entwickelte sich zu einem regional bedeutenden Zentrum für die Fertigung von Fumoirs und verzierter Schnupftabakdosen.  
+- Produktion, Handel und Konsum sind eng mit lokalen Handwerksnetzwerken und Handelswegen verknüpft.  
+- Verbreitungsmuster und Objektdesign spiegeln soziale Differenzierung und Konsumgewohnheiten der jeweiligen Epochen wider.
+
+## Nutzung und Relevanz
+Die Zusammenstellung ist nützlich für Forschende zur Materialkultur, für Museen (Provenienz, Ausstellungskontexte) und für Stadtgeschichte-Projekte, die wirtschaftliche und soziale Netzwerke kartografisch untersuchen möchten.

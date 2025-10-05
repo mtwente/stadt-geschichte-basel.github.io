@@ -1,0 +1,62 @@
+---
+title: Bleibt die Kirche in der Stadt?
+author:
+  - name: Benjamin Hitz
+    affiliation: Universität Basel
+    orcid: 0000-0002-3208-4881
+  - name: Jonas Aeby
+    affiliation: Universität Basel
+    orcid: 0009-0008-9865-8949
+date: 2025-04-02
+doi: 10.5281/zenodo.17192857
+categories: "Data Story"
+lang: de
+other-links:
+  - text: Interaktive Data Story
+    icon: house
+    href: 'https://storymaps.arcgis.com/stories/34ef391bd4fa419cb82d488906608154'
+  - text: Druckansicht
+    icon: filetype-pdf
+    href: '/assets/files/20250402_HitzAeby_KircheStadt.pdf'
+---
+
+::: {.callout-note icon="false"}
+Beim folgenden Text handelt es sich um eine Zusammenfassung der Data Story "Bleibt die Kirche in der Stadt?" (2025). Die vollständige Geschichte ist als [interaktive Online-Geschichte](https://storymaps.arcgis.com/stories/34ef391bd4fa419cb82d488906608154) oder als [PDF](/assets/files/20250402_HitzAeby_KircheStadt.pdf) verfügbar.
+:::
+
+Die Data Story **"Bleibt die Kirche in der Stadt?"** untersucht die Transformation kirchlicher Gebäude und Gemeinwesenzentren in Basel. Sie fragt, wie sich die Rolle von Kirchenräumen in Stadträumen verändert hat, welche Nutzungswandel stattfinden und welche Konflikte, Entscheidungen und planerischen Lösungen damit verbunden sind.
+
+## Hintergrund der Geschichte
+
+Die Story kontextualisiert die Debatten um Kirchenstandorte vor dem Hintergrund von Säkularisierung, Demografie, städtischer Verdichtung und veränderten Nutzungsbedürfnissen. Kirchengebäude stehen häufig im Spannungsfeld zwischen Denkmalpflege, Gemeindeaufgaben und neuen städtischen Nutzungen (z. B. Kultur, Soziales, Wohnen). Die Autor\*innen analysieren, wie diese Spannungen lokale Planungsprozesse, zivilgesellschaftliche Aushandlungen und politische Entscheidungen prägen.
+
+## Schlüsselmomente der Data Story
+
+1.  Öffentliche Debatten und Entscheidungsprozesse
+    -   Die Geschichte zeigt exemplarische Fälle, in denen Umnutzungen oder Schliessungen von Kirchen heftige öffentliche Diskussionen auslösten.\
+    -   Konflikte drehen sich um Identität, Denkmalschutz und soziale Nutzungen.
+2.  Statistische und räumliche Analysen
+    -   Kartierungen und Zeitreihen visualisieren, wo Kirchenstandorte besonders von Nutzungsdruck betroffen sind.\
+    -   Daten zu Gemeindemitgliedschaften, Leerstand und Stadtdichte werden zur Einordnung genutzt.
+3.  Beispiele für Umnutzung und Erhalt
+    -   Die Story präsentiert konkrete Projekte – von kulturellen Nachnutzungen bis zu integrierten Gemeindezentren – und vergleicht ihre Wirkungen auf Nachbarschaften.\
+    -   Erfolgsfaktoren und Hindernisse für nachhaltige Umnutzungen werden herausgearbeitet.
+4.  Planungsinstrumente und Akteursnetzwerke
+    -   Stadtplanung, Kirchgemeinden, Denkmalpflege und Initiativen der Zivilgesellschaft treten als zentrale Akteure auf.\
+    -   Die Geschichte zeigt, wie Kooperationen, Finanzierungsmodelle und rechtliche Rahmenbedingungen Lösungsräume eröffnen oder einschränken.
+
+## Digitale Vermittlung: Umsetzung der Data Story
+
+Die Data Story nutzt interaktive Karten, Fotografien, Fallstudien und datenbasierte Visualisierungen, um komplexe räumliche und soziale Zusammenhänge anschaulich zu machen. Nutzer\*innen können Fälle erkunden, Vergleichsdiagramme einsehen und durch narrative Kapitel geführt werden.
+
+## Bedeutung für das Forschungsdatenmanagement
+
+Das Projekt demonstriert, wie historische, räumliche und soziale Daten kombiniert werden können, um stadtgeschichtliche Fragestellungen narrativ zu vermitteln. Es dient als Beispiel für die Integration von Geodaten, Bildarchiven und qualitativen Fallstudien in eine öffentlich zugängliche, interaktive Erzählform.
+
+## Autor\*innen & Entwicklung
+
+Die Data Story wurde erarbeitet von Benjamin Hitz und Jonas Aeby. Sie verbindet empirische Recherche, kartografische Aufbereitung und öffentlichkeitsorientiertes Storytelling und richtet sich an Stadtplanende, Denkmalpfleger\*innen, Kirchenvertreter\*innen und ein interessiertes Publikum.
+
+## Fazit
+
+"Bleibt die Kirche in der Stadt?" macht sichtbar, wie Kirchenräume Teil laufender städtischer Aushandlungen sind. Die Story zeigt Chancen und Spannungen zwischen Erhalt, Umnutzung und gesellschaftlicher Funktion auf und liefert Grundlage für informierte Planungs- und Diskussionsprozesse.

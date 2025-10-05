@@ -1,0 +1,59 @@
+---
+title: Schulden in der Stadt
+subtitle: Schuldbeziehungen und Schuldennetzwerke in der Stadt Basel im 15. Jahrhundert
+author:
+  - name: Benjamin Hitz
+    affiliation: Universität Basel
+    orcid: 0000-0002-3208-4881
+date: 2025-03-22
+doi: 10.5281/zenodo.17192327
+categories: "Data Story"
+lang: de
+other-links:
+  - text: Interaktive Data Story
+    icon: house
+    href: 'https://storymaps.arcgis.com/stories/1955ccada8d74ff6919e9e1397cb168a'
+  - text: Druckansicht
+    icon: filetype-pdf
+    href: '/assets/files/250322_Hitz_SchuldenInDerStadt.pdf'
+---
+
+::: {.callout-note icon="false"}
+Beim folgenden Text handelt es sich um eine Zusammenfassung der Data Story "Schulden in der Stadt?" (2025). Die vollständige Geschichte ist als [interaktive Data Story](https://storymaps.arcgis.com/stories/1955ccada8d74ff6919e9e1397cb168a) oder als [PDF](/assets/files/250322_Hitz_SchuldenInDerStadt.pdf) verfügbar.
+:::
+
+Die Data Story **"Schulden in der Stadt"** untersucht Kreditpraktiken, Schuldverhältnisse und die daraus entstehenden Netzwerke im Basel des 15. Jahrhunderts. Im Zentrum stehen Akteur\*innen, Verträge und räumliche sowie soziale Verflechtungen, die ökonomische Beziehungen sichtbar machen.
+
+## Hintergrund der Geschichte
+
+Die Untersuchung setzt an bei der Bedeutung von Kredit und Schuld für städtische Ökonomie und Alltag im Spätmittelalter. Stadtbürger, Kaufleute, Handwerker und Institutionen nutzten Kredite zur Finanzierung von Handel, Immobilien und Lebensunterhalt. Die Story erklärt, wie Urkunden, Schuldbriefe und Gerichtsakten als Datenquellen dienen und welche methodischen Schritte nötig sind, um daraus Netzwerke und räumliche Muster zu rekonstruieren.
+
+## Schlüsselmomente der Data Story
+
+1.  Quellen und Datengrundlage
+    -   Nutzung von Urkunden, Notariats- und Gerichtsakten zur Identifikation von Gläubiger‑Schuldner‑Beziehungen.\
+    -   Methoden zur Standardisierung von Namen, Rollen und Orten werden erläutert.
+2.  Netzwerk- und Sozialanalyse
+    -   Visualisierungen zeigen, wie Schuldenbeziehungen soziale Cluster, Zentralpersonen und Vermittler\*innen hervorbringen.\
+    -   Analysen weisen auf Schlüsselakteure und strukturelle Abhängigkeiten hin.
+3.  Räumliche Verteilung und Immobilieneffekte
+    -   Kartografische Darstellungen machen deutlich, wie sich Schuldverhältnisse auf Stadtviertel und Eigentumsverhältnisse auswirken.\
+    -   Besondere Aufmerksamkeit gilt Hypotheken, Pfandrechten und Immobilientransaktionen.
+4.  Ökonomische und soziale Folgen
+    -   Die Story diskutiert Folgen von Überschuldung, Umstrukturierungen von Vermögen und die Rolle städtischer Institutionen bei der Schlichtung und Verwaltung von Schulden.
+
+## Digitale Vermittlung: Umsetzung der Data Story
+
+Die Data Story kombiniert transkribierte Quellen, Netzwerkgrafiken, interaktive Karten und Fallstudien. Nutzer\*innen können einzelne Fälle nachvollziehen, Beziehungsnetzwerke filtern und zeitliche Entwicklungen explorativ untersuchen.
+
+## Bedeutung für das Forschungsdatenmanagement
+
+Das Projekt demonstriert die Aufbereitung historischer, heterogener Quellen zu standardisierten, forschungsfähigen Datensätzen. Es zeigt Anforderungen an Metadaten, Provenienz und Nachnutzbarkeit sowie Chancen, historische Netzwerkanalysen reproduzierbar zu machen.
+
+## Autor & Entwicklung
+
+Die Data Story wurde von Benjamin Hitz erarbeitet. Sie verbindet Editionsarbeit, digitale Kartographie und netzwerkanalytische Methoden und richtet sich an Historiker\*innen, Mediävist\*innen, Stadtforscher\*innen und interessierte Öffentlichkeit.
+
+## Fazit
+
+"Schulden in der Stadt" macht sichtbar, wie Kredit- und Schuldpraktiken städtische Gesellschaften strukturierten. Die Story liefert empirisch fundierte Einsichten in ökonomische Verflechtungen und zeigt, wie digitale Methoden historische Macht‑ und Abhängigkeitsverhältnisse rekonstruierbar machen.

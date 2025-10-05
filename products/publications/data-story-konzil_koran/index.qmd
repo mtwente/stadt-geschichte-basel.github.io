@@ -1,0 +1,56 @@
+---
+title: Konzil und Koran
+author:
+  - name: Lucas Burkart
+    affiliation: Universität Basel
+    orcid: 0000-0002-9011-5113
+date: 2025-03-10
+doi: 10.5281/zenodo.15242726
+categories: "Data Story"
+lang: de
+appendix-cite-as: display
+other-links:
+  - text: Interaktive Data Story
+    icon: house
+    href: 'https://storymaps.arcgis.com/stories/0cac069fdac24f13a06377a1c7294a33'
+  - text: PDF-Ansicht (Zenodo)
+    icon: filetype-pdf
+    href: 'https://doi.org/10.5281/zenodo.15242726'
+---
+
+::: {.callout-note icon="false"}
+Diese Seite fasst die Data Story "Konzil und Koran" von Lucas Burkart zusammen. Die vollständige Geschichte ist als [interaktive Online‑Version](https://storymaps.arcgis.com/stories/0cac069fdac24f13a06377a1c7294a33) oder als [PDF](https://doi.org/10.5281/zenodo.15242726) verfügbar
+:::
+
+Die Data Story **"Konzil und Koran"** beleuchtet historische Schnittstellen zwischen dem städtischen und kirchlichen Leben in Basel und der Präsenz sowie Wahrnehmung islamischer Schriften und Wissensformen. Sie verbindet materialkulturelle Befunde, archivalische Quellen und räumliche Visualisierungen, um die Bedeutung von Objekten, Büchern und Begegnungen für lokale Wissensräume sichtbar zu machen.
+
+## Hintergrund der Geschichte
+
+Die Erzählung verortet Basel als Schauplatz von kulturellen und religiösen Begegnungen, in denen Texte und Objekte — hier exemplarisch der Koran und verwandte Schriftstücke — eine Rolle bei Wissensvermittlung, Sammlungspolitiken und Debatten über Fremdes spielten. Die Story fragt danach, wie Sammlungspraktiken, theologische Diskurse und städtische Institutionen mit diesen Materialien umgingen und welche Bedeutungen ihnen zugeschrieben wurden.
+
+## Schlüsselmomente der Data Story
+
+-   Identifikation relevanter Objekte und Sammlungsstücke in Basler Archiv‑ und Museumsbeständen sowie deren Provenienz.
+-   Analyse von Quellen, die Begegnungen, Austausch und Reaktionen auf islamische Texte und Personen dokumentieren.
+-   Kartografische Darstellung von Orten (Sammelstellen, Bibliotheken, kirchliche Versammlungsorte), die in den Austauschprozessen eine Rolle spielten.
+-   Reflexion über die historische Einordnung: wie Objekte in Sammel‑ und Ordnungspraktiken eingebunden wurden und welche Narrationen dadurch entstanden.
+
+## Digitale Vermittlung: Umsetzung der Data Story
+
+Die Story nutzt interaktive Elemente, um historische Prozesse zu veranschaulichen:
+
+- Objektfotografien und Metadaten, die Provenienz und Materialität zeigen.
+- Zeitliche und räumliche Visualisierungen zur Nachzeichnung von Netzwerken und Sammelwegen.
+- Kontextualisierende Texte, die archivalische Befunde mit kultur‑ und religionsgeschichtlichen Deutungen verknüpfen.
+
+## Bedeutung für Forschung und Öffentlichkeit
+
+Die Zusammenstellung ist relevant für:
+
+- Forscherinnen und Forscher der Religions‑ und Wissensgeschichte, Provenienzforschung und Materialkultur.
+- Museen und Archive bei Fragen zu Erschliessung, Präsentation und historischen Kontextualisierungen.
+- Stadtgeschichte‑Projekte, die transkulturelle Vernetzungen und die Rolle von Büchern/Objekten im öffentlichen Raum untersuchen.
+
+## Fazit
+
+"Konzil und Koran" macht sichtbar, wie materielle Zeugnisse und Texte in Basel Bedeutungsräume formten und welche Rolle Sammlungs‑ und institutionelle Praktiken bei der Konstruktion von Wissen über Fremdes spielten.
