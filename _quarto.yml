@@ -40,19 +40,19 @@ website:
       - section: Produkte
         href: products/products.qmd
         contents:
-          - href: products/products.qmd#publikationen
+          - href: products/products.html#publikationen
             text: Publikationen
-          - href: products/products.qmd#data-stories
+          - href: products/products.html#data-stories
             text: Data Stories
-          - href: products/products.qmd#coding
+          - href: products/products.html#coding
             text: Coding
-          - href: products/products.qmd#forschungsdaten
+          - href: products/products.html#forschungsdaten
             text: Forschungsdaten
-          - href: products/products.qmd#conferences
+          - href: products/products.html#conferences
             text: Vorträge, Poster und Workshops
-          - href: products/products.qmd#community-building
+          - href: products/products.html#community-building
             text: Community Building
-          - href: products/products.qmd#interna
+          - href: products/products.html#interna
             text: Interna
 
 format:
