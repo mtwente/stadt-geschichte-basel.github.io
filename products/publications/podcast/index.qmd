@@ -1,0 +1,49 @@
+---
+title: "Stadt.Geschichte.Basel auf Radio X"
+subtitle: "50’000 Jahre Stadtgeschichte in 21 kurzen Episoden"
+categories: Publikation
+author:
+- name: Lea Kamber
+  affiliation: Radio X
+  email: office@radiox.ch
+- name: Ben Haab
+  affiliation: Radio X
+  email: office@radiox.ch
+- name: Luzius Bauer
+  affiliation: Radio X
+  email: office@radiox.ch
+- name: Thomas Jenny
+  affiliation: Radio X
+  email: office@radiox.ch
+date: 2025-09-24
+lang: de-CH
+doi: 10.5281/zenodo.17196118
+other-links:
+  - text: Radio X
+    href: https://radiox.ch/hoeren/themen/Stadt.Geschichte.Basel.html
+    icon: globe
+  - text: Spotify
+    href: https://open.spotify.com/show/5u1pwKQT2jZ1hru3mrRpHP
+    icon: spotify
+  - text: YouTube
+    href: https://www.youtube.com/watch?v=bn9SVfjM4Fs&list=PLv-uzKpdu-sjnZtVvVbRN0OMevxnTjhMx
+    icon: youtube
+---
+
+::: {.callout-tip title="Podcast hören" icon="false" collapse="true"}
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/show/5u1pwKQT2jZ1hru3mrRpHP?utm_source=generator&amp;theme=0&amp;t=0" width="100%" height="352" frameBorder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+
+Falls dieses Browser keine iframes unterstützt, hören Sie den Podcast bitte <a href="https://open.spotify.com/show/5u1pwKQT2jZ1hru3mrRpHP">auf Spotify</a>.
+
+</iframe>
+:::
+
+Die Reihe *Stadt.Geschichte.Basel* führt mit knappen Episoden durch 50’000 Jahre Basler Vergangenheit: von geologischen Anfängen und dem Rheinknie über keltische Siedlungen und die römische Stadt bis zu Reformation, Zünften, Migration, Religion und der prägenden Chemie- und Pharmabranche. Produziert von Radio X (Basel) und getragen von der gleichnamigen Buchreihe, verbindet die Serie wissenschaftliche Fundierung mit einem zugänglichen Erzählrhythmus: wöchentlich, sonntags, in fünf bis acht Minuten verdichtete Themen—abgeschlossen von einem längeren, reflektierenden Interview.
+
+Im Zentrum steht eine doppelte Bewegung: Einerseits die präzise Verortung „vor Ort“—Basel als Bischofssitz, Konzilsstadt, Grenz- und Handelsplatz—andererseits die konsequente Einbettung in europäische und globale Verflechtungen. So zeigen Episoden nicht nur ikonische Ereignisse wie das Erdbeben von 1356 oder den Bildersturm von 1529, sondern auch weniger bekannte Umlagerungen von Arbeit, Wissen und Recht: von der Rolle der Papierproduktion im 15. Jahrhundert über die Matriarchatsdebatte des 19. Jahrhunderts bis zu Grenzgänger:innen, Kirchenbau und Einbürgerungspolitik in der Moderne.
+
+Die Redaktion (Lea Kamber, Ben Haab) und das Produktionsteam (Luzius Bauer; Konzept: Thomas Jenny) setzen auf ein „Audio-Essay“-Format: dichte Montage aus Sprecher:innentext, O-Ton und Atmosphären, die jeweils eine These verfolgt und mit konkreten Orten, Personen und Artefakten erdet. Diese Form eignet sich für Lehre und Vermittlung gleichermassen: als Einstiege in Seminare, als impulsgebende Hörfenster in Ausstellungen oder als begleitende Miniaturen für Stadtspaziergänge.
+
+Didaktisch lebt die Serie von Kontrasten: Naturraum und Urbanisierung; kirchliche Ordnung und städtische Selbstbehauptung; Zunftregeln und kapitalistische Handelsnetze; Exklusion (z.B. von Jüd:innen, Katholik:innen und Frauen) und sukzessive rechtliche Öffnungen. Immer wieder wird sichtbar, wie Konflikte um Bilder, Bücher, Löhne, Migration oder Umwelt die Stadt veränderten—und wie Behörden, Wirtschaft und Zivilgesellschaft darauf reagierten, vom Basler Konzil bis zum Chemie-Brand bei Schweizerhalle.
+
+Die Abschlussfolge (Interview mit Alexandra Binnenkade) rückt schliesslich die Gegenwartsbedeutung von Geschichte in den Fokus: Was heisst historisches Bewusstsein im Zeitalter digitaler Desinformation? Wo liegen die Grenzen des „aus der Geschichte Lernens“? Und wie lässt sich kritische Quellenarbeit heute vermitteln—zwischen Archivalien, Radiobeiträgen und Social-Media-Formaten?

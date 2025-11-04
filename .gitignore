@@ -2,6 +2,7 @@
 /.quarto/
 _site/
 _freeze/
+**/*.quarto_ipynb
 
 # Exclude example.env
 !example.env

@@ -1,0 +1,60 @@
+---
+title: Managing Large-Scale Public History Projects
+subtitle: The Case of Stadt.Geschichte.Basel
+author:
+  - name: Moritz Mähr
+    email: moritz.maehr@gmail.com
+    orcid: 0000-0002-1367-1618
+    affiliations:
+        - Universität Basel
+        - Universität Bern
+date: 2025-10-29
+doi: 10.5281/zenodo.17468745
+categories: Vortrag
+event: University of Luxembourg, C2DH Public History Talk
+lang: de
+bibliography: references.bib
+nocite: |
+  @*
+citation:
+  type: standard
+  title: 'Managing Large-Scale Public History Projects: The Case of Stadt.Geschichte.Basel'
+  container-title: 'C2DH Public History Talks. Luxembourg Centre for Contemporary and Digital History, University of Luxembourg'
+appendix-cite-as: display
+other-links:
+  - text: Veranstaltungswebseite
+    icon: house
+    href: 'https://www.uni.lu/c2dh-en/events/managing-large-scale-public-history-projects/'
+  - text: Slides (Zenodo)
+    icon: file-pdf
+    href: 'https://doi.org/10.5281/zenodo.17468745'
+---
+
+## Vortrag
+
+Der Vortrag von Moritz Mähr ist im Rahmen der Public History Talks am [Luxembourg Centre for Contemporary and Digital History (C<sup>2</sup>DH)](https://www.c2dh.uni.lu/) der Université du Luxembourg veranstaltet worden.
+
+::: {.callout-tip title="Präsentation anzeigen (Vorschau)" icon="false" collapse="true"}
+Diese Ansicht zeigt eine komprimierte Vorschau der Präsentation. Die hochaufgelösten Original-Slides sind [auf Zenodo verfügbar](https://doi.org/10.5281/zenodo.17468745).
+
+<iframe src="/assets/files/20251029-Moritz_Maehr-SGB_public_history_compressed.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Managing Large-Scale Public History Projects (Vorschau)">
+
+This browser does not support PDFs. Please <a href="/assets/files/20251029-Moritz_Maehr-SGB_public_history_compressed.pdf">download the PDF</a> to view it.
+
+</iframe>
+:::
+
+## Abstract
+
+How can regional history be researched, published, and shared with the public in the digital age? How do scholars balance accessibility, rigor, and sustainability when building long-term digital infrastructures?
+
+In this lecture, Dr. Moritz Mähr will present Stadt.Geschichte.Basel (2017–2026), one of the largest public history projects in Switzerland. With ten volumes in print and a digital portal designed to serve both the public and researchers, the project exemplifies the challenges and opportunities of large-scale historical collaboration.
+
+Topics will include:
+
+* Strategies for combining offline and online public history
+* Designing digital portals for multiple audiences
+* Metadata sensitivity and the ethics of historical sources
+* Long-term governance and sustainability of digital infrastructures
+
+Students and faculty interested in public history, digital history, archival studies, or interdisciplinary collaboration are especially encouraged to attend.

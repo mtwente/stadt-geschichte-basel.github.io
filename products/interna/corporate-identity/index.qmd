@@ -65,7 +65,7 @@ Das Logo ist eine überarbeitete Version des Schriftzugs mit leichten typografis
 :::
 
 ::: {.g-col-6 .col-centered}
-<img src="/assets/img/logo.svg" style="filter: invert(1);" width="50%" alt="Logo">
+<img src="/_extensions/Stadt-Geschichte-Basel/sgb-theme/assets/img/logo.svg" alt="Logo" style="filter: invert(1);" width="50%"/>
 :::
 
 :::

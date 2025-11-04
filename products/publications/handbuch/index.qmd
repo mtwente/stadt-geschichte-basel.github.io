@@ -1,5 +1,5 @@
 ---
-title: Handbuch für diskriminierungsfreie Metadaten
+title: Handbuch zur Erstellung diskriminierungsfreier Metadaten für historische Quellen und Forschungsdaten
 subtitle: Erfahrungen aus dem geschichtswissenschaftlichen Forschungsprojekt Stadt.Geschichte.Basel
 categories: Publikation
 author: 
@@ -34,6 +34,10 @@ code-links:
     href: https://github.com/maehr/diskriminierungsfreie-metadaten
 ---
 
+::: {.callout-note title="Überarbeitung in Arbeit"}
+Eine aktualisierte Fassung des Handbuchs ist unter dem Titel [Diskriminierungssensible Metadatenpraxis](https://moritz-maehr.quarto.pub/diskriminierungssensible-metadatenpraxis/) in Vorbereitung.
+:::
+
 ## Handbuch
 
 Dieses Handbuch ist ein Leitfaden zur Erstellung von diskriminierungsfreien Metadaten für historische Quellen und Forschungsdaten, der im Rahmen des Forschungsprojekts Stadt.Geschichte.Basel entwickelt wurde. Es richtet sich an professionelle Historiker\*innen, Archivar\*innen, Bibliothekar\*innen und alle, die sich mit Open Research Data in den Geschichtswissenschaften beschäftigen. Die Autor\*innen Moritz Mähr und Noëlle Schnegg führen durch die praktischen Aspekte der Erstellung von Metadaten, basierend auf den FAIR-Prinzipien, um Forschungsdaten auffindbar, zugänglich, interoperabel und nachnutzbar zu machen. Durch praktische Anleitungen und illustrierte Fallbeispiele zeigt das Handbuch, wie maschinenlesbare Metadaten Forschung und Lehre bereichern und die Interpretation historischer Quellen beeinflussen können. Als öffentlich zugängliches “Living Document” ist es auf eine kontinuierliche Weiterentwicklung durch die Community ausgelegt und verpflichtet sich zu einer inklusiven und diskriminierungsfreien Darstellung historischer Inhalte. Das Handbuch ist eine grundlegende Ressource für alle, die sich mit moderner digitaler Geschichtswissenschaft und Open Research Data beschäftigen wollen.
@@ -45,3 +49,19 @@ This browser does not support PDFs. Please download the PDF <a href="/assets/fil
 
 </iframe>
 :::
+
+## Rezeption und Erwähnungen
+
+Die [Koordinierungsstelle wissenschaftliche Sammlungen](https://wissenschaftliche-sammlungen.de/de/service-material/materialien/handbuch-zur-erstellung-diskriminierungsfreier-metadaten-fuer-historische-quellen-und-forschungsdaten) listet das Handbuch als offizielles Service-Material und betont seine Bedeutung für die Entwicklung diskriminierungsfreier Metadaten in Sammlungen. Die Beschreibung verweist auf die FAIR-Prinzipien und den praktischen Nutzen für die Arbeit mit Forschungsdaten in Museen und Archiven.
+
+[infoclio.ch](https://www.infoclio.ch/de/handbuch-zur-erstellung-diskriminierungsfreier-metadaten-f%C3%BCr-historische-quellen-und) publiziert eine Ankündigung des Handbuchs mit Fokus auf die Geschichtswissenschaften und die Schweizer Forschungslandschaft. Der Beitrag hebt den Open-Access-Charakter, die Verbindung zum Projekt *Stadt.Geschichte.Basel* sowie den Beitrag zur digitalen Quellenkritik hervor.
+
+Auf [frida.at](https://frida.at/moritz-maehr-und-noelle-schnegg-handbuch-zur-erstellung-diskriminierungsfreier-metadaten) erscheint eine Rezension und ein „Klicktipp“ zum Handbuch. Der Beitrag beschreibt es als praxisorientierten Leitfaden, der Fallbeispiele und Checklisten bietet, und verweist auf die aktive Weiterentwicklung via GitHub.
+
+[Proveana](https://www.proveana.de/de/literatur/maehr-schnegg-handbuch-zur-erstellung-diskriminierungsfreier-metadaten-fuer-historische) führt das Handbuch in seiner Literaturdatenbank als zitierfähige Ressource, inklusive DOI und Link zu Zenodo. Diese Aufnahme zeigt die Relevanz des Handbuchs für Provenienzforschung und Sammlungserschliessung.
+
+Im Abstractverzeichnis des [Bibliothekskongress Österreich (2024/2025)](https://www.bibliothekskongress.at/abstracts/) wird ein Beitrag zur diskriminierungssensiblen Metadatenpraxis vorgestellt, der auf dem Handbuch basiert. Thematisch wird die Integration inklusiver Metadatenstandards in GLAM-Institutionen diskutiert.
+
+In der Präsentation der [Berlin-Brandenburgischen Akademie der Wissenschaften (BBAW)](https://forschungsdatenmanagement.bbaw.de/fileadmin/Webdateien/Dateien/Metadaten_-_Workshop_zur_Einfuehrung.pdf) wird das Handbuch als Referenzdokument genannt. Es dient dort als Grundlage für eine siebenstufige Metadaten-Checkliste mit ethischen Leitlinien.
+
+Der Blogbeitrag *„[Grosse Anforderungen an kleine Textfelder](https://www.herder-institut.de/blog/2024/12/12/grosse-anforderungen-an-kleine-textfelder/)”* des Herder-Instituts (Dezember 2024) verweist auf das Handbuch als Hintergrunddokument zur Problematik normativer Begrifflichkeiten und zur Notwendigkeit diskriminierungssensibler Datenpraxis in Kulturerbeinstitutionen.

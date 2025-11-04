@@ -2,8 +2,9 @@ project:
   type: website
 
 website:
-  title: stadt-geschichte-basel.github.io
-  favicon: favicon.png
+  title: Dokumentationsplattform Stadt.Geschichte.Basel
+  description: 'Dokumentationsplattform des Teams Forschungsdatenmanagement (RDM) und Public History des Projekts Stadt.Geschichte.Basel. Fokus auf Forschungsdaten, digitale Präsentation und Vermittlung.'
+  favicon: _extensions/Stadt-Geschichte-Basel/sgb-theme/favicon.png
   open-graph: true
   twitter-card: true
   site-url: https://dokumentation.stadtgeschichtebasel.ch/
@@ -17,9 +18,9 @@ website:
     show-item-context: true
     type: overlay
   navbar:
-    logo: assets/img/logo.svg
+    logo: _extensions/Stadt-Geschichte-Basel/sgb-theme/assets/img/logo.svg
     logo-alt: ''
-    title: Forschungsdatenmanagement
+    title: Forschungsdatenmanagement & Public History
     tools-collapse: true
     tools:
       - icon: github
@@ -56,18 +57,8 @@ website:
             text: Interna
 
 format:
-  html:
-    toc: true
-    theme: cosmo
-    link-external-newwindow: true
-    code-copy: true
-    code-overflow: wrap
-    title-block-categories: false
+  sgb-theme-html:
     css: styles.css
-    mainfont: Euclid Circular B
-    include-in-header:
-      text: |
-        <script defer data-domain="dokumentation.stadtgeschichtebasel.ch" src="https://plausible.io/js/script.outbound-links.js"></script>
 
 freeze: true
 

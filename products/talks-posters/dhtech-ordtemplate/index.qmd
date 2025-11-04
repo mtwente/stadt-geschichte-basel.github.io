@@ -41,6 +41,9 @@ other-links:
   - text: 'Slides (PDF)'
     icon: filetype-pdf
     href: '/assets/files/20250714-DHTech_ORDTemplate.pdf'
+  - text: 'Proceedings Paper'
+    icon: 'file-earmark-richtext'
+    href: 'https://doi.org/10.63744/X90VnKkYV5Hb'
 
 code-links:
   - href: 'https://github.com/maehr/open-research-data-template/'

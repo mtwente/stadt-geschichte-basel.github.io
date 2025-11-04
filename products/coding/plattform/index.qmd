@@ -15,6 +15,10 @@ author:
     affiliation: Universität Basel
 date-modified: last-modified
 lang: de
+format:
+  sgb-theme-html:
+    mermaid:
+      theme: neutral
 other-links:
   - text: Website
     icon: house
@@ -36,46 +40,7 @@ Insgesamt dient die Forschungsdatenplattform als wertvolles Werkzeug, um die rei
 
 ## Datenmodell
 
-Metadaten für die auf der Forschungsdatenplattform vorgestellten Elemente werden gemäss einem Datenmodell bereitgestellt, das vom Team für Forschungdatenmanagement der Stadt.Geschichte.Basel entwickelt wurde, um den Anforderungen der vielfältigen im Projekt verwendeten Quellen gerecht zu werden. Das Datenmodell (und der anschliessende Annotationsprozess) folgen dem Handbuch zur Erstellung diskriminerungsfreier Metadaten für historische Quellen und Forschungsdaten, das ebenfalls von Stadt.Geschichte.Basel entwickelt wurde.
-
-Die folgende Grafik veranschaulicht das Datenmodell mit Metadatenfeldern für ein Beispiel-Metadatenobjekt `abb01313`, das ein untergeordnetes Medienobjekt `m01313` hat. Wenn ein Metadatenobjekt mehr als ein untergeordnetes Medienobjekt hat, werden die id-Nummern der untergeordneten Objekte fortlaufend nummeriert: `m01313_1`, `m01313_2` usw.
-
-```{mermaid}
-classDiagram
-direction LR
-    class metadata {
-        id &lpar;abb01313&rpar;
-        title
-        [subject;subject]
-        description
-        temporal
-        language &lpar;ISO 639-2 code&rpar;
-        [isPartOf;isPartOf] &lpar;Data DOIs&rpar;
-    }
-    class media {
-        id &lpar;m01313&rpar;
-        title
-        [subject;subject] &lpar;keywords from GenderOpen Index&rpar;
-        description
-        [abstract] &lpar;alt attribute for alternative text&rpar;
-        [creator] &lpar;incl. link to Wikidata&rpar;
-        [publisher] &lpar;incl. link to Wikidata&rpar;
-        date
-        temporal
-        type
-        format
-        extent
-        [source] &lpar;Source and catalogue link&rpar;
-        language &lpar;ISO 639-2 code&rpar;
-        [relation] &lpar;internal links to other items, link to GitHub, further information&rpar;
-        rights
-        license
-    }
-    metadata "n" --> "m" media
-
-    style metadata fill:#ffe880,color:#000
-    style media fill:#fff3e0,color:#000
-```
+Metadaten für die auf der Forschungsdatenplattform vorgestellten Elemente werden gemäss einem [Datenmodell](/products/research-data/datamodel/index.qmd) bereitgestellt, das vom Team für Forschungdatenmanagement der Stadt.Geschichte.Basel entwickelt wurde, um den Anforderungen der vielfältigen im Projekt verwendeten Quellen gerecht zu werden.
 
 ## Barrierefreiheit
 

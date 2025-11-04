@@ -95,7 +95,7 @@ listing:
     type: grid
     contents: [research-data/*/index.qmd]
     fields: [title]
-    grid-columns: 3
+    grid-columns: 2
 date-modified: last-modified
 ---
 

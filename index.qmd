@@ -1,6 +1,19 @@
 ---
-title: "Stadt.Geschichte.Basel RDM"
-subtitle: "Forschungsdatenmanagement und Public History"
+title: "Forschungsdatenmanagement & Public History der Stadt.Geschichte.Basel"
+subtitle: "Willkommen auf der Dokumentationsplattform von Stadt.Geschichte.Basel"
+description: "Startseite der Dokumentationsplattform des Teams Forschungsdatenmanagement (RDM) und Public History von Stadt.Geschichte.Basel. Wir dokumentieren unsere Arbeit mit Forschungsdaten, digitaler Präsentation und Vermittlung."
+keywords:
+  - Stadt.Geschichte.Basel
+  - RDM
+  - Forschungsdatenmanagement
+  - Public History
+  - Digital History
+  - Basel
+  - Stadtgeschichte
+  - Dokumentation
+  - Metadaten
+  - Data Stories
+  - Digitale Vermittlung
 lang: de
 listing:
   - id: showcase-reel
